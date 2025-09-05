@@ -4,8 +4,8 @@
 
 ![](../_assets/01.사용자DIO_보드_스위치_위치.png)<br>
 그림 1 사용자DIO 보드 스위치 위치
-
 <br>
+
 {% hint style="warning" %}
 보드를 분리할때는 반드시 제어기 전원을 <strong>OFF</strong> 하고 보드 전원이 <strong>OFF</strong> 되었는지 확인 후 분리하시기 바랍니다.
 {% endhint %}
