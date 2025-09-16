@@ -379,7 +379,7 @@ BD682의 컨베이어 엔코더 인터페이스는 시스템 입출력에 연동
 <그림 5. 펄스 카운터 타입 ON 적용><br>
 
 세부적인 내용은 "[로봇제어기 기능설명서 - 센서 동기](https://hrbook-hrc.web.app/#/view/doc-sensor-sync/korean/README)"의 컨베이어 관련 부분을 참고하시기 바랍니다.
-# 3. 사용자 DIO 사용 방법# 3.1. DIO 사용 방법
+# 3. 사용자 DIO, 확장 DIO 사용 방법# 3.1. DIO 사용 방법
 
 BD681, BD682의 DIO를 사용하기 위해서는 우선 "[제어기 보수 설명서 - (하드웨어 정보)](https://hrbook-hrc.web.app/#/view/doc-hi6a-n-maintenance/korean/5-optional-components/5-UserDIO/2-HW-Inform)" 매뉴얼을 참고하여 BD681, BD682의 커넥터에 올바르게 입출력 배선을 연결합니다.
 <br>그리고 입출력을 제어하기 위한 방법은 아래 내용들을 참고하시기 바랍니다.

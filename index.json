@@ -46,12 +46,12 @@
 	},
 	{
 		"link": "3-Usage/1-DIO-Usage.md",
-		"char_ofs": 9905,
-		"byte_ofs": 15238
+		"char_ofs": 9913,
+		"byte_ofs": 15250
 	},
 	{
 		"link": "3-Usage/2-Conveyor-Usage.md",
-		"char_ofs": 12338,
-		"byte_ofs": 18798
+		"char_ofs": 12346,
+		"byte_ofs": 18810
 	}
 ]
