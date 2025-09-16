@@ -3,7 +3,7 @@
 보드 스위치 위치는 아래 사진과 같습니다.<br>
 
 ![](../_assets/01.사용자DIO_보드_스위치_위치.png)<br>
-그림 1 사용자DIO 보드 스위치 위치
+<그림 1. 사용자DIO 보드 스위치 위치>
 <br>
 
 {% hint style="warning" %}
@@ -21,12 +21,14 @@
 [사용자DIO 보드 설정]에서 정상적으로 확인하려면, BD681의 EtherCAT 연결이 정상적으로 되어야 합니다.
 {% endhint %}
 
+EtherCAT 연결에 대한 세부 내용은 "[2.2. EtherCAT 설정](./2-EtherCAT-Configuration.md)" 매뉴얼을 참고하시기 바랍니다.
+
 ![](../_assets/02.사용자DIO_보드_설정_TP.png)<br>
-그림 2 사용자DIO 보드 설정 TP UI<br>
+<그림 2. 사용자DIO 보드 설정 TP UI><br>
 
 <br>
 
-**표 2 사용자DIO 모드 항목**
+<표 1. 사용자DIO 모드 항목>
 
 <table>
 <thead>
@@ -69,4 +71,12 @@
 <br><br>
 
 ![](../_assets/03.사용자DIO_보드_스위치_ON_OFF.png)<br>
-그림 3 사용자DIO 보드 스위치 ON/OFF
+<그림 3. 사용자DIO 보드 스위치 ON/OFF>
+
+사용자 DIO 보드를 2개 사용할 때, 2번째 사용자 DIO 보드 스위치가 OFF 되어있으면 <strong>"E55005 2번째 사용자 DIO 보드 스위치 설정 오류 감지"</strong> 에러를 출력합니다.
+해당 에러를 해결하기 위해서는 2번째 사용자 DIO 보드 스위치를 ON으로 변경하여야 합니다.
+
+{% hint style="warning" %}
+"E55005 2번째 사용자 DIO 보드 스위치 설정 오류 감지" 에러가 발생하였을 경우, 사용자 DIO 보드와 확장 DIO 보드를 정상적으로 사용할 수 없습니다. 보드의 스위치 설정을 올바르게 변경한 후에 사용해야 합니다.
+{% endhint %}
+
