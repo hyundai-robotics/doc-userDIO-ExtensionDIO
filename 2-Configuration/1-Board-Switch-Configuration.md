@@ -1,19 +1,19 @@
-﻿# 2.1. 보드 스위치 확인
+﻿# 2.1. Board Switch Configuration
 
-보드 스위치 위치는 아래 사진과 같습니다.<br>
+The board switch positions are as shown in the figure below.<br>
 
 ![](../_assets/01.사용자DIO_보드_스위치_위치.png)<br>
-<그림 1. 사용자DIO 보드 스위치 위치>
+< Figure 1. User DIO Board switch positions>
 <br>
 
 {% hint style="warning" %}
-보드를 분리할때는 반드시 제어기 전원을 <strong>OFF</strong> 하고 보드 전원이 <strong>OFF</strong> 되었는지 확인 후 분리하시기 바랍니다.
+Always turn off the controller power and verify that the board power is off before removing the board.
 {% endhint %}
 
 <br>
-아래와 같은 TP화면에서도 내부 스위치 상태를 확인할 수 있습니다.<br><br>
+You can also check the board switch status on the TP screen as shown below.<br><br>
 
-**- 메뉴 위치 : [시스템] - [옵션장치] - [사용자DIO 보드 설정]**
+**- TP Menu : [System] - [옵션장치] - [사용자DIO 보드 설정]**
 
 '사용자DIO 목록' 에서 '사용자DIO 모드' 항목으로 확인할 수 있습니다.
 

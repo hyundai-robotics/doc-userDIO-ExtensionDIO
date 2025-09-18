@@ -1,16 +1,16 @@
 ﻿# 1. Overview
 
-Hi6a 제어기에서 '사용자 DIO 보드(BD681)'와 '확장 DIO 보드(BD682)'를 활용하여 디지털 입출력 신호와 컨베이어 인터페이스를 진행할 수 있습니다.
+In the Hi6a controller, the "User DIO Board (BD681)" and the "Extension DIO Board (BD682)" to process digital I/O signals and interface with conveyor signals.
 
 {% hint style="info" %}
-매뉴얼에서 DIO는 디지털 입출력(Digital Input and Output)을 의미합니다.
+In this manual, DIO stands for Digital Input and Output.
 {% endhint %}
 
-'확장 DIO 보드(BD682)'는 단독으로는 사용할 수 없으며 '사용자 DIO 보드(BD681)'와 같이 사용해야 합니다.
+The "Extension DIO Board (BD682)" cannot be used independently, and it must be used together with the "User DIO Board (BD681)."
 
 <br>
 
-<표 1. 보드 사양>
+< Table 1. Board Specification>
 
 <table>
 <thead>
@@ -18,12 +18,12 @@ Hi6a 제어기에서 '사용자 DIO 보드(BD681)'와 '확장 DIO 보드(BD682)'
         <th style="width: 50px; text-align: center;">
             No.
         </th>
-        <th style="width: 110px; text-align: center;">
-            보드명<br>
-            (보드 식별자)
+        <th style="width: 200px; text-align: center;">
+            Board Name<br>
+            (Board Identifier)
         </th>
-        <th style="width: 300px; text-align: center;">
-            보드 기능 정보
+        <th style="width: 350px; text-align: center;">
+            Board Features
         </th>
     </tr>
 </thead>
@@ -33,12 +33,12 @@ Hi6a 제어기에서 '사용자 DIO 보드(BD681)'와 '확장 DIO 보드(BD682)'
             <strong>1</strong>
         </td>
         <td style="text-align: center;">
-            사용자 DIO 보드<br>
+            User DIO Board<br>
             ( BD681 )
         </td>
         <td> 
-             - 디지털 입력 16 채널 <br>
-             - 디지털 출력 16 채널
+             - Digital Input 16 ch <br>
+             - Digital Ouput 16 ch
         </td>
     </tr>
     <tr>
@@ -46,28 +46,28 @@ Hi6a 제어기에서 '사용자 DIO 보드(BD681)'와 '확장 DIO 보드(BD682)'
             <strong>2</strong>
         </td>
         <td style="text-align: center;">
-            확장 DIO 보드<br>
+            Extension DIO Board<br>
             ( BD682 )
         </td>
         <td> 
-             - 디지털 입력 16 채널 <br>
-             - 디지털 출력 16 채널 (릴레이 출력 8 채널 포함)<br> 
-             - 컨베이어 인터페이스 2채널 <br> 
-             - 단독 사용 불가 (BD681과 같이 사용 필요)
+             - Digital Input 16 ch <br>
+             - Digital Ouput 16 ch (Relay Output (8 ch) Included)<br> 
+             - Conveyor Interface 2 ch <br> 
+             - Not for standalone use (requires BD681)
         </td>
     </tr>
 </tbody>
 </table>
 
 <br>
-BD681 2개와 BD682 1개를 이용하여 최대 48 채널의 입출력을 제어할 수 있습니다.
+A maximum of 48 I/O channels can be controlled using two BD681 boards and one BD682 board.
 <br><br>
 
-사용자 DIO 및 확장 DIO 를 정상적으로 사용하기 위해서는 아래 항목들에 대한 설정 및 확인이 필요합니다.<br>
+For proper use of the User DIO and Extension DIO, the following items must be configured and verified.<br>
 
-1. 보드 스위치 확인<br>
-2. 이더캣 통신 연결<br>
-3. FB 블록 설정<br>
-4. 내장 PLC 사용 여부 확인<br>
-5. 센서 동기 설정<br>
+1. Board Switch Configuration<br>
+2. EtherCAT Configuration<br>
+3. FB block Configuration<br>
+4. Embedded PLC Configuration<br>
+5. Sensor Sync Configuration<br>
 

@@ -1,10 +1,10 @@
 ﻿# Table of contents
 
-* [Hi6a 로봇제어기 기능설명서 - 사용자DIO, 확장DIO](README.md)
+* [Hi6a Robot Controller Function Manual - User DIO, Extension DIO](README.md)
 
-* [1. 개요](1-overview.md)
+* [1. Overview](1-overview.md)
 
-* [2. 사용자 DIO, 확장 DIO 설정 방법](2-Configuration/README.md)
+* [2. How to Configure User DIO and Extension DIO](2-Configuration/README.md)
   * [2.1. 보드 스위치 확인](2-Configuration/1-Board-Switch-Configuration.md)
   * [2.2. EtherCAT 설정](2-Configuration/2-EtherCAT-Configuration.md)
   * [2.3. FB 블럭 설정](2-Configuration/3-FB-Block-Configuration.md)
