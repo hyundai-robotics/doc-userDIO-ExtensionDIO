@@ -94,26 +94,23 @@ BD681 2개와 BD682 1개를 이용하여 최대 48 채널의 입출력을 제어
 또한 확장 DIO (BD682)를 통해 디지털 입출력 포트 추가 및 컨베이어 시스템과의 동기화를 할 수 있습니다.<br>
 기본적인 보드의 하드웨어 구성은 아래와 같습니다.<br>
 
-![](../_assets/25.사용자DIO_보드.png)<br>
+![](../../_assets/25.사용자DIO_보드.png)<br>
 <그림 1. 사용자 DIO (BD681)>
 
 <br>
 
-![](../_assets/26.사용자DIO_보드_커넥터.png)<br>
+![](../../_assets/26.사용자DIO_보드_커넥터.png)<br>
 <그림 2. 사용자 DIO (BD681) 커넥터>
 
 <br>
 
-![](../_assets/29.확장DIO_보드.png)<br>
+![](../../_assets/29.확장DIO_보드.png)<br>
 <그림 3. 확장 DIO (BD682)>
 
 <br>
 
-![](../_assets/30.확장DIO_보드_커넥터.png)<br>
+![](../../_assets/30.확장DIO_보드_커넥터.png)<br>
 <그림 4. 확장 DIO (BD682) 커넥터>
-
-<br>
-
 # 2.1.1. 디지털 입력
 
 다음의 그림과 표는 디지털 입력용 터미널 블록의 핀 구성을 나타낸 것입니다.<br>
@@ -121,7 +118,7 @@ BD681 2개와 BD682 1개를 이용하여 최대 48 채널의 입출력을 제어
 BD682를 추가 장착을 하게 되면, 디지털 입력 16pt가 추가 됩니다. <br>
 
 ![](../_assets/27.사용자DIO_보드_커넥터_DIN.png)<br>
-<그림 5. 사용자 DIO (BD681) 디지털 입력 커넥터>
+<그림 1. 사용자 DIO (BD681) 디지털 입력 커넥터>
 
 {% hint style="info" %}
 1번 핀과 10번 핀, 11번 핀과 20번 핀은 보드 내부에서 연결되어 있습니다.
@@ -147,16 +144,14 @@ BD682를 추가 장착을 하게 되면, 디지털 입력 16pt가 추가 됩니�
             <font style="color:rgb(0, 230, 0);"><strong> COM_IN_A </strong></font>
         </td>
         <td style="text-align: center;">
-            COM 신호<br>
-            (1 ~ 8)
+            COM 신호 (1 ~ 8)
         </td>
         <td style="text-align: center;">11</td>
         <td style="text-align: center;">
             <font style="color:rgb(112, 48, 160);"><strong> COM_IN_B </strong></font>
         </td>
         <td style="text-align: center;">
-            COM 신호<br>
-            (9~16)
+            COM 신호 (9~16)
         </td>
     </tr>
     <tr>
@@ -233,16 +228,14 @@ BD682를 추가 장착을 하게 되면, 디지털 입력 16pt가 추가 됩니�
             <font style="color:rgb(0, 230, 0);"><strong> COM_IN_A </strong></font>
         </td>
         <td style="text-align: center;">
-            COM 신호<br>
-            (1~8)
+            COM 신호 (1~8)
         </td>
         <td style="text-align: center;">20</td>
         <td style="text-align: center;">
             <font style="color:rgb(112, 48, 160);"><strong> COM_IN_B </strong></font>
         </td>
         <td style="text-align: center;">
-            COM 신호<br>
-            (9~16)
+            COM 신호 (9~16)
         </td>
     </tr>
 </tbody>
@@ -252,7 +245,7 @@ BD682를 추가 장착을 하게 되면, 디지털 입력 16pt가 추가 됩니�
 확장 DIO (BD682) 추가 장착 시 핀맵 은 아래와 같습니다.<br>
 
 ![](../_assets/31.확장DIO_보드_커넥터_DIN.png)<br>
-<그림 6. 확장 DIO (BD682) 디지털 입력 커넥터>
+<그림 2. 확장 DIO (BD682) 디지털 입력 커넥터>
 
 {% hint style="info" %}
 1번 핀과 10번 핀, 11번 핀과 20번 핀은 보드 내부에서 연결되어 있습니다.
@@ -278,16 +271,14 @@ BD682를 추가 장착을 하게 되면, 디지털 입력 16pt가 추가 됩니�
             <font style="color:rgb(0, 230, 0);"><strong> COM_IN_A </strong></font>
         </td>
         <td style="text-align: center;">
-            COM 신호<br>
-            (1~8)
+            COM 신호 (1~8)
         </td>
         <td style="text-align: center;">11</td>
         <td style="text-align: center;">
             <font style="color:rgb(112, 48, 160);"><strong> COM_IN_B </strong></font>
         </td>
         <td style="text-align: center;">
-            COM 신호<br>
-            (9~16)
+            COM 신호 (9~16)
         </td>
     </tr>
     <tr>
@@ -364,16 +355,14 @@ BD682를 추가 장착을 하게 되면, 디지털 입력 16pt가 추가 됩니�
             <font style="color:rgb(0, 230, 0);"><strong> COM_IN_A </strong></font>
         </td>
         <td style="text-align: center;">
-            COM 신호<br>
-            (1~8)
+            COM 신호 (1~8)
         </td>
         <td style="text-align: center;">20</td>
         <td style="text-align: center;">
             <font style="color:rgb(112, 48, 160);"><strong> COM_IN_B </strong></font>
         </td>
         <td style="text-align: center;">
-            COM 신호<br>
-            (9~16)
+            COM 신호 (9~16)
         </td>
     </tr>
 </tbody>
@@ -411,8 +400,7 @@ BD682를 추가 장착을 하게 되면, 디지털 입력 16pt가 추가 됩니�
 </tbody>
 </table>
 
-<br>
-           
+
 # 2.1.2. 디지털 출력
 
 다음의 그림과 표는 디지털 출력용 터미널 블록의 핀 구성을 나타낸 것입니다.<br>
@@ -421,13 +409,13 @@ BD682를 추가 장착을 하게 되면, 디지털 출력 16pt가 추가 됩니�
 
 
 ![](../_assets/28.사용자DIO_보드_커넥터_DOUT.png)<br>
-<그림 7. 사용자 DIO (BD681) 디지털 출력 커넥터>
+<그림 1. 사용자 DIO (BD681) 디지털 출력 커넥터>
 
 {% hint style="info" %}
 1번 핀과 10번 핀, 11번 핀과 20번 핀은 보드 내부에서 연결되어 있습니다.
 {% endhint %}
 
-<표 4. 사용자 DIO (BD681) 디지털 출력 커넥터>
+<표 1. 사용자 DIO (BD681) 디지털 출력 커넥터>
 
 <table>
 <thead>
@@ -447,16 +435,14 @@ BD682를 추가 장착을 하게 되면, 디지털 출력 16pt가 추가 됩니�
             <font style="color:rgb(0, 230, 0);"><strong> COM_OUT_A </strong></font>
         </td>
         <td style="text-align: center;">
-            COM 신호<br>
-            (1 ~ 8)
+            COM 신호 (1 ~ 8)
         </td>
         <td style="text-align: center;">11</td>
         <td style="text-align: center;">
             <font style="color:rgb(112, 48, 160);"><strong> COM_OUT_B </strong></font>
         </td>
         <td style="text-align: center;">
-            COM 신호<br>
-            (9~16)
+            COM 신호 (9~16)
         </td>
     </tr>
     <tr>
@@ -533,16 +519,14 @@ BD682를 추가 장착을 하게 되면, 디지털 출력 16pt가 추가 됩니�
             <font style="color:rgb(0, 230, 0);"><strong> COM_OUT_A </strong></font>
         </td>
         <td style="text-align: center;">
-            COM 신호<br>
-            (1~8)
+            COM 신호 (1~8)
         </td>
         <td style="text-align: center;">20</td>
         <td style="text-align: center;">
             <font style="color:rgb(112, 48, 160);"><strong> COM_OUT_B </strong></font>
         </td>
         <td style="text-align: center;">
-            COM 신호<br>
-            (9~16)
+            COM 신호 (9~16)
         </td>
     </tr>
 </tbody>
@@ -552,7 +536,7 @@ BD682를 추가 장착을 하게 되면, 디지털 출력 16pt가 추가 됩니�
 확장 DIO (BD682) 추가 장착 시 핀맵 은 아래와 같습니다.<br>
 
 ![](../_assets/32.확장DIO_보드_커넥터_DOUT.png)<br>
-<그림 8. 확장 DIO (BD682) 디지털 출력 커넥터>
+<그림 2. 확장 DIO (BD682) 디지털 출력 커넥터>
 
 {% hint style="info" %}
 1번 핀과 10번 핀, 11번 핀과 20번 핀은 보드 내부에서 연결되어 있습니다.
@@ -562,7 +546,7 @@ BD682를 추가 장착을 하게 되면, 디지털 출력 16pt가 추가 됩니�
 BD682 의 디지털 출력 중, 12번 핀 ~ 19번 핀(디지털 출력 9 ~ 16)은 릴레이 출력 입니다.
 {% endhint %}
 
-<표 5. 확장 DIO (BD682) 디지털 출력 커넥터>
+<표 2. 확장 DIO (BD682) 디지털 출력 커넥터>
 
 <table>
 <thead>
@@ -582,16 +566,14 @@ BD682 의 디지털 출력 중, 12번 핀 ~ 19번 핀(디지털 출력 9 ~ 16)�
             <font style="color:rgb(0, 230, 0);"><strong> COM_OUT_A </strong></font>
         </td>
         <td style="text-align: center;">
-            COM 신호<br>
-            (1~8)
+            COM 신호 (1~8)
         </td>
         <td style="text-align: center;">11</td>
         <td style="text-align: center;">
             <font style="color:rgb(112, 48, 160);"><strong> COM_OUT_B </strong></font>
         </td>
         <td style="text-align: center;">
-            COM 신호<br>
-            (9~16)
+            COM 신호 (9~16)
         </td>
     </tr>
     <tr>
@@ -668,16 +650,14 @@ BD682 의 디지털 출력 중, 12번 핀 ~ 19번 핀(디지털 출력 9 ~ 16)�
             <font style="color:rgb(0, 230, 0);"><strong> COM_OUT_A </strong></font>
         </td>
         <td style="text-align: center;">
-            COM 신호<br>
-            (1~8)
+            COM 신호 (1~8)
         </td>
         <td style="text-align: center;">20</td>
         <td style="text-align: center;">
             <font style="color:rgb(112, 48, 160);"><strong> COM_OUT_B </strong></font>
         </td>
         <td style="text-align: center;">
-            COM 신호<br>
-            (9~16)
+            COM 신호 (9~16)
         </td>
     </tr>
 </tbody>
@@ -688,7 +668,7 @@ BD682 의 디지털 출력 중, 12번 핀 ~ 19번 핀(디지털 출력 9 ~ 16)�
 디지털 출력의 NPN, PNP는 다음 표와 같이 COM 핀에 연결하는 전압을 통하여 설정할 수 있습니다.
 {% endhint %}
 
-<표 6. 디지털 출력 NPN, PNP 연결 정보>
+<표 3. 디지털 출력 NPN, PNP 연결 정보>
 
 <table>
 <thead>
@@ -715,18 +695,17 @@ BD682 의 디지털 출력 중, 12번 핀 ~ 19번 핀(디지털 출력 9 ~ 16)�
 </tbody>
 </table>
 
-<br>
-
 
 # 2.1.3. 컨베이어 동기화 구성
+
 다음의 그림은 컨베이어 동기화를 위한 엔코더 입력 및 리밋 스위치로 구성 되어 있습니다.<br>
 총 2개의 입력 채널로 구성되어 있으며, 입력 채널의 구성은 다음과 같습니다.
 각 채널 당, 2종류의 엔코더 타입(오픈컬렉터/라인드라이버)으로 설정 되어 있습니다.<br>
 
 ![](../_assets/33.확장DIO_보드_커넥터_Conveyor.png)<br>
-<그림 9. 확장 DIO (BD682) 컨베이어 인터페이스 커넥터>
+<그림 1. 확장 DIO (BD682) 컨베이어 인터페이스 커넥터>
 
-<표 7. 확장 DIO (BD682) 컨베이어 인터페이스 커넥터>
+<표 1. 확장 DIO (BD682) 컨베이어 인터페이스 커넥터>
 
 <table>
 <thead>
@@ -877,7 +856,7 @@ BD682 의 디지털 출력 중, 12번 핀 ~ 19번 핀(디지털 출력 9 ~ 16)�
 <br>
 <br>
 
-<표 8. 확장 DIO (BD682) 컨베이어 인터페이스 입력 신호 전기적 사양>
+<표 2. 확장 DIO (BD682) 컨베이어 인터페이스 입력 신호 전기적 사양>
 
 <table>
 <thead>

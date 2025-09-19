@@ -5,7 +5,10 @@
 * [1. 개요](1-overview.md)
 
 * [2. 하드웨어](2-HW/README.md)
-  * [2.1. 하드웨어 정보](2-HW/1-HW-Inform.md)
+  * [2.1. 하드웨어 정보](2-HW/1-HW-Inform/README.md)
+    * [2.1.1. 디지털 입력](2-HW/1-HW-Inform/1-Digital-Input.md)
+    * [2.1.2. 디지털 출력](2-HW/1-HW-Inform/2-Digital-Output.md)
+    * [2.1.3. 컨베이어 동기화 구성](2-HW/1-HW-Inform/3-Conveyor-Interface.md)
   * [2.2. 보드 스위치](2-HW/2-Board-Switch.md)
 
 * [3. 사용자 DIO, 확장 DIO 설정 방법](3-Configuration/README.md)
