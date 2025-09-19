@@ -964,8 +964,8 @@ BD681 보드 스위치 위치는 아래 사진과 같습니다.<br>
 <thead>
     <tr>
         <th style="width: 20px; text-align: center;">No.</th>
-        <th style="width: 30px; text-align: center;">
-            스위치 <br>
+        <th style="width: 100px; text-align: center;">
+            BD681 스위치 <br>
             ON/OFF
         </th>
         <th style="width: 250px; text-align: center;">비고</th>
@@ -1186,8 +1186,8 @@ BD681 보드의 상태표시 LED는 정상적으로 연결 될 경우, 'BD681 1�
 <thead>
     <tr>
         <th style="width: 20px; text-align: center;">No.</th>
-        <th style="width: 30px; text-align: center;">
-            스위치 <br>
+        <th style="width: 100px; text-align: center;">
+            BD681 스위치 <br>
             ON/OFF
         </th>
         <th style="width: 110px; text-align: center;">
