@@ -1,81 +1,6 @@
-﻿# 3.1. DIO 사용 방법
+﻿# 4.1. DIO 사용 방법
 
-BD681, BD682의 DIO를 사용하기 위해서는 우선 "[제어기 보수 설명서 - (하드웨어 정보)](https://hrbook-hrc.web.app/#/view/doc-hi6a-n-maintenance/korean/5-optional-components/5-UserDIO/2-HW-Inform)" 매뉴얼을 참고하여 BD681, BD682의 커넥터에 올바르게 입출력 배선을 연결합니다.
-<br><br>
-
-<mark style="color:green;">**- NPN, PNP 연결 구분**</mark>
-
-디지털 입출력 터미널 블록의 COM 핀에 연결하는 전압을 통해 NPN, PNP를 구분할 수 있습니다.
-
-
-<표 1. NPN, PNP 연결 정보>
-
-<table>
-<thead>
-    <tr>
-        <th style="width: 20px; text-align: center;">
-            No.
-        </th>
-        <th style="width: 110px; text-align: center;">
-            디지털 입출력
-        </th>
-        <th style="width: 100px; text-align: center;">
-            COM 핀 전압
-        </th>
-        <th style="width: 250px; text-align: center;">
-            비고
-        </th>
-    </tr>
-</thead>
-<tbody>
-    <tr>
-        <td rowspan="2" style="text-align: center;">
-            <strong>1</strong>
-        </td>
-        <td rowspan="2" style="text-align: center;">
-            디지털 입력
-        </td>
-        <td style="text-align: center;">
-            24 V
-        </td>
-        <td> 
-            NPN 입력 (Signal Active Low) 전압 사용
-        </td>
-    </tr>        
-        <td style="text-align: center;">
-            0 V
-        </td>
-        <td> 
-            PNP 입력 (Signal Active High) 전압 사용
-        </td>
-    </tr>
-        <tr>
-        <td rowspan="2" style="text-align: center;">
-            <strong>2</strong>
-        </td>
-        <td rowspan="2" style="text-align: center;">
-            디지털 출력
-        </td>
-        <td style="text-align: center;">
-            24 V
-        </td>
-        <td> 
-            PNP 출력 (Signal Active High) 전압 사용
-        </td>
-    </tr>        
-        <td style="text-align: center;">
-            0 V
-        </td>
-        <td> 
-            NPN 출력 (Signal Active Low) 전압 사용
-        </td>
-    </tr>
-</tbody>
-</table>
-
-
-<br>디지털 입출력을 제어하기 위한 방법은 아래 내용들을 참고하시기 바랍니다.
-
+BD681, BD682 의 커넥터에 올바르게 케이블을 연결하였다면, 디지털 입출력을 제어하기 위한 방법은 아래 내용들을 참고하시기 바랍니다.
 <br>
 
 <mark style="color:green;">**- 제어기의 입출력 신호와 연동**</mark>
@@ -104,7 +29,7 @@ Job에서 보드 입력, 출력을 연동하는 부분은 "[로봇제어기 기�
 
 <br>
 
-<표 2. 연결 오류시 디지털 출력 설정 정보>
+<표 1. 연결 오류시 디지털 출력 설정 정보>
 
 <table>
 <thead>
