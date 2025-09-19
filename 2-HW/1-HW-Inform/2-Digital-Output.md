@@ -5,7 +5,7 @@
 BD682를 추가 장착을 하게 되면, 디지털 출력 16pt가 추가 됩니다.<br>
 
 
-![](../_assets/28.사용자DIO_보드_커넥터_DOUT.png)<br>
+![](../../_assets/28.사용자DIO_보드_커넥터_DOUT.png)<br>
 <그림 1. 사용자 DIO (BD681) 디지털 출력 커넥터>
 
 {% hint style="info" %}
@@ -132,7 +132,7 @@ BD682를 추가 장착을 하게 되면, 디지털 출력 16pt가 추가 됩니�
 
 확장 DIO (BD682) 추가 장착 시 핀맵 은 아래와 같습니다.<br>
 
-![](../_assets/32.확장DIO_보드_커넥터_DOUT.png)<br>
+![](../../_assets/32.확장DIO_보드_커넥터_DOUT.png)<br>
 <그림 2. 확장 DIO (BD682) 디지털 출력 커넥터>
 
 {% hint style="info" %}
