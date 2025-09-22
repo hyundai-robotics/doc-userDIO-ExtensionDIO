@@ -1,28 +1,28 @@
-﻿# 3.1. EtherCAT 설정
+﻿# 3.1. EtherCAT Configuration
 
-EtherCAT 설정은 다음과 같이 진행합니다.
+EtherCAT configuration is performed as follows.
 
-제어기를 OFF 한 상태에서 LAN 케이블을 올바르게 연결해야 합니다.
+Make sure to connect the LAN cable correctly while the controller is turned off.
 
-<mark style="color:green;">**- BD681 1개 구성 ( BD681 + BD682 )**</mark>
+<mark style="color:green;">**- Single BD681 Configuration ( BD681 + BD682 )**</mark>
 
 ![](../_assets/05.BD681_1개_케이블_연결.png)<br>
-<그림 1. BD681 1개 케이블 연결>
+< Figure 1. Single BD681 Cable Connection>
 
-위의 그림과 같이 BD642의 아래쪽 랜커넥터와 BD681 위쪽 랜커넥터를 연결한 후 제어기 전원을 ON 합니다. 정상적으로 EtherCAT이 연결되면 아래와 같이 TP에서 '사용자DIO 목록'으로 확인 가능합니다.
+As shown in the figure above, connect the lower LAN connector of BD642 to the upper LAN connector of BD681, and then turn on the controller power. If EtherCAT is connected normally, it can be verified on the TP under “UserDIO List,” as shown below.
 
-**- 메뉴 위치: [시스템] - [옵션 장치] - [사용자 DIO 보드 설정]**
+**- The location of the menu: [system] - [12: Option System] - [UserDIO Board Setting]**
 
-![](../_assets/07.BD681_1개_사용자DIO_보드_설정.png)<br>
-<그림 2. BD681 1개 사용자DIO 보드 설정><br>
+![](../_assets/07.BD681_1개_사용자DIO_보드_설정_en.png)<br>
+< Figure 2. Single BD681 Configuration><br>
 
 ![](../_assets/08.BD681_상태표시_LED.png)<br>
-<그림 3. BD681 상태표시 LED><br>
+< Figure 3. BD681 status LED><br>
 
-BD681 보드의 상태표시 LED는 정상적으로 연결이 완료 될 경우, 아래와 같이 동작합니다.  
+When the connection is successfully completed, the status indicator LED on the BD681 board operates as follows.
 
-- BD681 보드 상태표시 LED 동작
-1. 2초 점등 (EtherCAT 연결 대기중)
+- BD681 status LED operation
+1. Flashing at 2-second intervals (waiting for EtherCAT connection)
 2. 0.25초 점등 (EtherCAT 연결 Ok, 초기 설정값 대기중)
 3. 0.75초 점등 (EtherCAT 연결 Ok, 초기 설정 Ok)
 <br><br>
@@ -30,7 +30,7 @@ BD681 보드의 상태표시 LED는 정상적으로 연결이 완료 될 경우,
 <mark style="color:green;">**- BD681 2개 구성 ( #1_BD681 + BD682 + #2_BD681 )**</mark>
 
 ![](../_assets/09.BD681_2개_케이블_연결.png)<br>
-<그림 4. BD681 2개 케이블 연결>
+< Figure 4. BD681 2개 케이블 연결>
 
 위의 그림과 같이 #1 BD681 자리 옆에 #2 BD681을 꽂아 넣습니다.
 
@@ -43,7 +43,7 @@ BD681 보드의 상태표시 LED는 정상적으로 연결이 완료 될 경우,
 BD642의 아래쪽 랜커넥터와 #1 BD681 위쪽 랜커넥터를 연결한 후, #1 BD681 아래쪽 랜커넥터와 #2 BD681 위쪽 랜커넥터를 연결합니다. 그리고 제어기 전원을 ON 합니다. 정상적으로 EtherCAT이 연결되면 아래와 같이 TP에서 확인 가능합니다.
 
 ![](../_assets/11.BD681_2개_사용자DIO_보드_설정.png)<br>
-<그림 5. BD681 2개 사용자DIO 보드 설정><br>
+< Figure 5. BD681 2개 사용자DIO 보드 설정><br>
 
 BD681 보드의 상태표시 LED는 정상적으로 연결 될 경우, 'BD681 1개 구성'의 'BD681 보드 상태표시 LED 동작' 과 동일하게 동작합니다.
 

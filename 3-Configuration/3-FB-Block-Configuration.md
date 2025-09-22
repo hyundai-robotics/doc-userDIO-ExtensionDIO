@@ -2,7 +2,7 @@
 
 FB 블럭 설정은 다음 메뉴에서 진행할 수 있습니다.
 
-**- 메뉴 위치: [시스템] - [2:제어 파라미터] - [2:입출력 신호 설정] - [6:fb블럭 할당]**
+**- 메뉴 위치: [system] - [2:Control parameter] - [2:Input/Output signal setting] - [6:fb block allocation]**
 
 ![](../_assets/12.FB블럭할당.png)<br>
 <그림 1. FB 블럭 할당 메뉴><br><br>

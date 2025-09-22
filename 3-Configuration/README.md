@@ -1,1 +1,1 @@
-﻿# 3. 사용자 DIO, 확장 DIO 설정 방법
+﻿# 3. How to Configure User DIO and Extension DIO

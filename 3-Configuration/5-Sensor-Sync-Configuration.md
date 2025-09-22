@@ -6,7 +6,7 @@
 
 BD682의 컨베이어 엔코더 인터페이스 사용할 경우 "센서 동기" 설정이 필요합니다. 
 
-**- 메뉴 위치: [시스템] - [4: 응용 파라미터] - [4: 센서 동기]**
+**- 메뉴 위치: [system] - [4: Application parameter] - [4: Sensor synchronization]**
 
 ![](../_assets/18.센서동기_설정_UI.png)<br>
 <그림 1. 센서 동기 설정 UI><br><br>

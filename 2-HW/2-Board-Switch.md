@@ -1,44 +1,44 @@
-﻿# 2.2. 보드 스위치
+﻿# 2.2. Board Switch
 
-BD681 보드 스위치 위치는 아래 사진과 같습니다.<br>
+The switch positions of the BD681 board are shown in the figure below.<br>
 
 ![](../_assets/01.사용자DIO_보드_스위치_위치.png)<br>
-<그림 1. 사용자DIO 보드 스위치 위치>
+< Figure 1. User DIO Board switch positions>
 <br>
 
 ![](../_assets/03.사용자DIO_보드_스위치_ON_OFF.png)<br>
-<그림 2. 사용자DIO 보드 스위치 ON/OFF>
+< Figure 2. User DIO Board switch ON/OFF>
 
 <br>
 
-<표 1. 보드 스위치 설정 정보>
+< Table 1. Board Switch Settings>
 
 <table>
 <thead>
     <tr>
         <th style="width: 20px; text-align: center;">No.</th>
         <th style="width: 100px; text-align: center;">
-            BD681 스위치 <br>
+            BD681 Switch <br>
             ON/OFF
         </th>
-        <th style="width: 250px; text-align: center;">비고</th>
+        <th style="width: 400px; text-align: center;">Note</th>
     </tr>
 </thead>
 <tbody>
     <tr>
         <td style="text-align: center;"><strong>1</strong></td>
         <td style="text-align: center;">OFF</td>
-        <td> - 확장DIO (BD682) 연동 모드<br>
-             - 기본 구성시 (BD681 + BD682) 사용<br>
+        <td> - Extension DIO (BD682) Interface Mode<br>
+             - Use in Basic Option Configuration (BD681 + BD682)<br>
         </td>
     </tr>
     <tr>
         <td style="text-align: center;"><strong>2</strong></td>
         <td style="text-align: center;">ON</td>
-        <td> - 사용자DIO (BD681) 단독 모드 <br>
-             - 확장DIO (BD682) 연동 불가<br>
-             - 기본 구성에 BD681 추가시 사용<br> 
-             - 추가된 2번째 BD681에 적용 필요 <br>
+        <td> - User DIO (BD681) Standalone Mode <br>
+             - Extension DIO (BD682) Integration Not Supported<br>
+             - Used When Adding BD681 to the Basic Option Configuration<br> 
+             - Required for the Second Added BD681 <br>
         </td>
     </tr>
 </tbody>
@@ -46,25 +46,24 @@ BD681 보드 스위치 위치는 아래 사진과 같습니다.<br>
 
 
 {% hint style="warning" %}
-만약 스위치 확인을 위해 제어기에서 보드를 분리할때는 반드시 제어기 전원을 OFF 하고 보드 전원이 OFF 되었는지 확인 후 분리하시기 바랍니다.
+When removing the board from the controller to check the switches, always turn off the controller power and make sure the board power is off before removal.
 {% endhint %}
 
-<표 2. 사용자 DIO 모드 조합 사용 가능 여부>
+< Table 2. Supported User DIO Mode Combinations>
 
 <table>
 <thead>
     <tr>
         <th style="width: 20px; text-align: center;">No.</th>
-        <th style="width: 150px; text-align: center;">
-            사용자 DIO (BD681),<br> 
-            확장 DIO (BD682) 수량
+        <th style="width: 250px; text-align: center;">
+            User DIO (BD681) /<br> Extension DIO (BD682) Quantity
         </th>
         <th style="width: 150px; text-align: center;">
-            BD681 스위치<br>
+            BD681 Switch<br>
             ON/OFF
         </th>
         <th style="width: 110px; text-align: center;">
-            사용 가능 여부
+            Availability
         </th>
     </tr>
 </thead>
@@ -77,7 +76,7 @@ BD681 보드 스위치 위치는 아래 사진과 같습니다.<br>
         <td style="text-align: center;">
             ON
         </td>
-        <td style="text-align: center;">O (사용 가능)</td>
+        <td style="text-align: center;">O (Available)</td>
     </tr>
     <tr>
         <td style="text-align: center;"><strong>2</strong></td>
@@ -87,7 +86,7 @@ BD681 보드 스위치 위치는 아래 사진과 같습니다.<br>
         <td style="text-align: center;">
             OFF
         </td>
-        <td style="text-align: center;">X (사용 불가)</td>
+        <td style="text-align: center;">X (Unavailable)</td>
     </tr>
     <tr>
         <td style="text-align: center;"><strong>3</strong></td>
@@ -98,7 +97,7 @@ BD681 보드 스위치 위치는 아래 사진과 같습니다.<br>
         <td style="text-align: center;">
             OFF
         </td>
-        <td style="text-align: center;">O (사용 가능)</td>
+        <td style="text-align: center;">O (Available)</td>
     </tr>
     <tr>
         <td style="text-align: center;"><strong>4</strong></td>
@@ -109,7 +108,7 @@ BD681 보드 스위치 위치는 아래 사진과 같습니다.<br>
         <td style="text-align: center;">
             ON
         </td>
-        <td style="text-align: center;">X (사용 불가)</td>
+        <td style="text-align: center;">X (Unavailable)</td>
     </tr>
     <tr>
         <td style="text-align: center;"><strong>5</strong></td>
@@ -118,10 +117,10 @@ BD681 보드 스위치 위치는 아래 사진과 같습니다.<br>
             BD682 : 1 EA
         </td>
         <td style="text-align: center;">
-            #1 BD681 스위치 OFF<br>
-            #2 BD681 스위치 ON
+            #1 BD681 Switch OFF<br>
+            #2 BD681 Switch ON
         </td>
-        <td style="text-align: center;">O (사용 가능)</td>
+        <td style="text-align: center;">O (Available)</td>
     </tr>
     <tr>
         <td style="text-align: center;"><strong>6</strong></td>
@@ -130,10 +129,10 @@ BD681 보드 스위치 위치는 아래 사진과 같습니다.<br>
             BD682 : 1 EA
         </td>
         <td style="text-align: center;">
-            #1 BD681 스위치 OFF<br>
-            #2 BD681 스위치 OFF
+            #1 BD681 Switch OFF<br>
+            #2 BD681 Switch OFF
         </td>
-        <td style="text-align: center;">X (사용 불가)</td>
+        <td style="text-align: center;">X (Unavailable)</td>
     </tr>
     <tr>
         <td style="text-align: center;"><strong>7</strong></td>
@@ -142,10 +141,10 @@ BD681 보드 스위치 위치는 아래 사진과 같습니다.<br>
             BD682 : 1 EA
         </td>
         <td style="text-align: center;">
-            #1 BD681 스위치 ON<br>
-            #2 BD681 스위치 OFF
+            #1 BD681 Switch ON<br>
+            #2 BD681 Switch OFF
         </td>
-        <td style="text-align: center;">X (사용 불가)</td>
+        <td style="text-align: center;">X (Unavailable)</td>
     </tr>
     <tr>
         <td style="text-align: center;"><strong>8</strong></td>
@@ -154,10 +153,10 @@ BD681 보드 스위치 위치는 아래 사진과 같습니다.<br>
             BD682 : 1 EA
         </td>
         <td style="text-align: center;">
-            #1 BD681 스위치 ON<br>
-            #2 BD681 스위치 ON
+            #1 BD681 Switch ON<br>
+            #2 BD681 Switch ON
         </td>
-        <td style="text-align: center;">X (사용 불가)</td>
+        <td style="text-align: center;">X (Unavailable)</td>
     </tr>
 </tbody>
 </table>
