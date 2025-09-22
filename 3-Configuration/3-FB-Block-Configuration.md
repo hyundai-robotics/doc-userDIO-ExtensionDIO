@@ -1,32 +1,32 @@
-﻿# 3.3. FB 블럭 설정
+﻿# 3.3. FB block Configuration
 
-FB 블럭 설정은 다음 메뉴에서 진행할 수 있습니다.
+FB block settings can be configured in the following menu.
 
-**- 메뉴 위치: [system] - [2:Control parameter] - [2:Input/Output signal setting] - [6:fb block allocation]**
+**- The location of the menu: [system] - [2:Control parameter] - [2:Input/Output signal setting] - [6:fb block allocation]**
 
-![](../_assets/12.FB블럭할당.png)<br>
-<그림 1. FB 블럭 할당 메뉴><br><br>
+![](../_assets/12.FB블럭할당_en.png)<br>
+< Figure 1. FB block allocation menu><br><br>
 
-할당하고 싶은 fb 블럭을 선택하여 '사용자 DIO'로 설정을 진행하면 됩니다.
+Select the FB block you want to assign and configure it as “User DIO”.
 
-![](../_assets/13.fb1_사용자DIO할당.png)<br>
-<그림 2. fb1에 사용자DIO 할당 예시><br><br>
+![](../_assets/13.fb1_사용자DIO할당_en.png)<br>
+< Figure 2. Example of User DIO Assigned to FB1><br><br>
 
-자세한 사항은 "[로봇제어기 조작설명서 - (FB 블록 할당)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/korean-tp630/7-system/3-control-parameter/2-io-signal-setting/9-dio-block-assign)" 을 참고하시기 바랍니다.
+For more details, refer to "[Robot Controller Operation Manual - (FB Block Allocation)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/english-tp630/7-system/3-control-parameter/2-io-signal-setting/9-dio-block-assign)".
 
-사용자 DIO에 대한 FB블럭이 할당 되었는지는 [6:fb블럭 할당] 및 [사용자DIO 보드 설정] 메뉴에서 확인 가능합니다.
+Whether an FB block has been assigned to the User DIO can be checked in the [6: FB block allocation] and [UserDIO Board Setting] menus.
 
-![](../_assets/14.사용자DIO_FB_미할당.png)<br>
-<그림 3. 사용자DIO FB블록 미할당><br><br>
+![](../_assets/14.사용자DIO_FB_미할당_en.png)<br>
+< Figure 3. User DIO FB Block Not Assigned><br><br>
 
-![](../_assets/15.사용자DIO_FB3_할당.png)<br>
-<그림 4. 사용자DIO fb3 할당><br>
+![](../_assets/15.사용자DIO_FB3_할당_en.png)<br>
+< Figure 4. User DIO Assigned to FB3><br>
 
 {% hint style="warning" %}
-사용자DIO를 여러 FB블럭에 할당하여도 <strong>가장 번호가 낮은 FB블럭에서 사용 가능하며, 나머지 할당된 FB블럭은 제어가 무시</strong> 됩니다.
+Even if the User DIO is assigned to multiple FB blocks, it is only available in the FB block with the lowest number, and the control signals from the other assigned FB blocks will be ignored.
 {% endhint %}
 
-아래 그림과 같이 FB블럭이 할당 되었을 경우, fb2에서 사용자 DIO 제어가 가능하며, fb5에 입력된 값은 무시됩니다.
+As shown in the figure below, when the FB blocks are assigned, User DIO control is available from FB2, while the parameter values entered in FB5 are ignored.
 
-![](../_assets/16.사용자DIO_FB_다중할당.png)<br>
-<그림 5. 사용자DIO fb 다중 할당 예시><br>
+![](../_assets/16.사용자DIO_FB_다중할당_en.png)<br>
+< Figure 5. Example of Multiple FB Assignments for User DIO><br>

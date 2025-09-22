@@ -6,52 +6,82 @@
 	},
 	{
 		"link": "1-overview.md",
-		"char_ofs": 271,
-		"byte_ofs": 527
+		"char_ofs": 478,
+		"byte_ofs": 496
 	},
 	{
-		"link": "2-Configuration/README.md",
-		"char_ofs": 1831,
-		"byte_ofs": 2731
+		"link": "2-HW/README.md",
+		"char_ofs": 2436,
+		"byte_ofs": 2530
 	},
 	{
-		"link": "2-Configuration/1-Board-Switch-Configuration.md",
-		"char_ofs": 1858,
-		"byte_ofs": 2780
+		"link": "2-HW/1-HW-Inform/README.md",
+		"char_ofs": 2450,
+		"byte_ofs": 2548
 	},
 	{
-		"link": "2-Configuration/2-EtherCAT-Configuration.md",
-		"char_ofs": 4091,
-		"byte_ofs": 6040
+		"link": "2-HW/1-HW-Inform/1-Digital-Input.md",
+		"char_ofs": 3106,
+		"byte_ofs": 3278
 	},
 	{
-		"link": "2-Configuration/3-FB-Block-Configuration.md",
-		"char_ofs": 5547,
-		"byte_ofs": 8455
+		"link": "2-HW/1-HW-Inform/2-Digital-Output.md",
+		"char_ofs": 13951,
+		"byte_ofs": 14448
 	},
 	{
-		"link": "2-Configuration/4-Internal-PLC-Configuration.md",
-		"char_ofs": 6521,
-		"byte_ofs": 10072
+		"link": "2-HW/1-HW-Inform/3-Conveyor-Interface.md",
+		"char_ofs": 24965,
+		"byte_ofs": 25794
 	},
 	{
-		"link": "2-Configuration/5-Sensor-Sync-Configuration.md",
-		"char_ofs": 7128,
-		"byte_ofs": 11118
+		"link": "2-HW/2-Board-Switch.md",
+		"char_ofs": 33446,
+		"byte_ofs": 34560
 	},
 	{
-		"link": "3-Usage/README.md",
-		"char_ofs": 9880,
-		"byte_ofs": 15215
+		"link": "3-Configuration/README.md",
+		"char_ofs": 38218,
+		"byte_ofs": 39535
 	},
 	{
-		"link": "3-Usage/1-DIO-Usage.md",
-		"char_ofs": 9906,
-		"byte_ofs": 15262
+		"link": "3-Configuration/1-EtherCAT-Configuration.md",
+		"char_ofs": 38267,
+		"byte_ofs": 39588
 	},
 	{
-		"link": "3-Usage/2-Conveyor-Usage.md",
-		"char_ofs": 13932,
-		"byte_ofs": 20660
+		"link": "3-Configuration/2-Board-Switch-check.md",
+		"char_ofs": 40646,
+		"byte_ofs": 42094
+	},
+	{
+		"link": "3-Configuration/3-FB-Block-Configuration.md",
+		"char_ofs": 46265,
+		"byte_ofs": 47935
+	},
+	{
+		"link": "3-Configuration/4-Internal-PLC-Configuration.md",
+		"char_ofs": 47789,
+		"byte_ofs": 49552
+	},
+	{
+		"link": "3-Configuration/5-Sensor-Sync-Configuration.md",
+		"char_ofs": 48762,
+		"byte_ofs": 50572
+	},
+	{
+		"link": "4-Usage/README.md",
+		"char_ofs": 52472,
+		"byte_ofs": 54478
+	},
+	{
+		"link": "4-Usage/1-DIO-Usage.md",
+		"char_ofs": 52514,
+		"byte_ofs": 54523
+	},
+	{
+		"link": "4-Usage/2-Conveyor-Usage.md",
+		"char_ofs": 55519,
+		"byte_ofs": 57665
 	}
 ]

@@ -1,39 +1,38 @@
-﻿# 3.5. 센서 동기 설정
+﻿# 3.5. Sensor Synchronization Configuration
 
 {% hint style="info" %}
-컨베이어 엔코더 인터페이스를 사용하지 않을 경우는 "센서 동기" 설정을 진행하지 않아도 됩니다.
+If the conveyor encoder interface is not used, the "Sensor Synchronization" setting does not need to be configured.
 {% endhint %}
 
-BD682의 컨베이어 엔코더 인터페이스 사용할 경우 "센서 동기" 설정이 필요합니다. 
+When using the conveyor encoder interface of BD682, the "Sensor Synchronization" setting is required.
 
-**- 메뉴 위치: [system] - [4: Application parameter] - [4: Sensor synchronization]**
+**- The location of the menu: [system] - [4: Application parameter] - [4: Sensor synchronization]**
 
-![](../_assets/18.센서동기_설정_UI.png)<br>
-<그림 1. 센서 동기 설정 UI><br><br>
+![](../_assets/18.센서동기_설정_UI_en.png)<br>
+< Figure 1. Sensor Synchronization Configuration UI><br><br>
 
-'파라미터 설정'의 '동기 상태' 항목을 '컨베이어'로 설정하고 '입력 신호 할당', '출력 신호 할당'을 정상적으로 설정해야 컨베이어 엔코더 인터페이스를 사용할 수 있습니다.
+To use the conveyor encoder interface, set the "Synchronization" item in "Parameter Setting" to "Conveyor" and configure both "Input Signal Assign" and "Output Signal Assign" properly.
 
+![](../_assets/19.동기_상태_컨베이어_설정_en.png)<br>
+< Figure 2. Set to Conveyor><br>
 
-![](../_assets/19.동기_상태_컨베이어_설정.png)<br>
-<그림 2. 동기 상태를 컨베이어로 설정><br>
-
-'파라미터 설정'에 대한 세부 정보는 "[로봇제어기 기능설명서 - 센서 동기 (센서 동기 파라미터)](https://hrbook-hrc.web.app/#/view/doc-sensor-sync/korean/3-user-interface/3-3-sensor-sync-parameter)"를 참고하시기 바랍니다.
+For more details on the "parameter setting", refer to "[Robot Controller Function Manual - Sensor Synchronization (parameter setting)](https://hrbook-hrc.web.app/#/view/doc-sensor-sync/korean/3-user-interface/3-3-sensor-sync-parameter)".
 
 <br>
-BD682의 컨베이어 엔코더 인터페이스는 시스템 입출력에 연동되므로 입출력 신호 할당이 필요합니다. 
+Since the conveyor interface of BD682 is linked to the system I/O, input and output signal assignment is required.
 
-아래 그림과 같이 UI 밑에 위치한 **[BD640T BD68X] 버튼**을 누르면 지정된 입출력 번호를 입력해 줍니다. 그리고 최종적으로 **[v확인] 버튼**을 누르면 설정을 적용할 수 있습니다.
+As shown in the figure below, press the **[BD640T BD68X] button** located under the UI to enter the specified I/O number. Finally, press the **[v OK] button** to apply the settings.
 
-![](../_assets/20.채널1_시스템_입출력_설정.png)<br>
-<그림 3. 채널1 시스템 입출력 설정><br><br>
+![](../_assets/20.채널1_시스템_입출력_설정_en.png)<br>
+< Figure 3. Channel 1 System I/O Configuration><br><br>
 
-![](../_assets/21.채널2_시스템_입출력_설정.png)<br>
-<그림 4. 채널2 시스템 입출력 설정><br><br>
+![](../_assets/21.채널2_시스템_입출력_설정_en.png)<br>
+< Figure 4. Channel 2 System I/O Configuration><br><br>
 
-추가적으로 펄스 카운터 타입, 펄스 통신 방식(엔코더 종류)을 선택할 수 있습니다. 아래의 표 내용을 참고하시기 바랍니다.
+Additionally, you can select the "Pulse count type" and the "Pulse communication type" (encoder type). Please refer to the table below for details.
 <br>
 
-<표 1. 펄스 카운터 타입, 펄스 통신 방식(엔코더 종류) 정보>
+< Table 1. Pulse Count Type and Pulse Communication Type (Encoder Type) Information>
 
 <table>
 <thead>
@@ -41,14 +40,14 @@ BD682의 컨베이어 엔코더 인터페이스는 시스템 입출력에 연동
         <th style="width: 20px; text-align: center;">
             No.
         </th>
-        <th style="width: 110px; text-align: center;">
-            출력 신호 할당
+        <th style="width: 200px; text-align: center;">
+            Output Signal Assignment
         </th>
         <th style="width: 30px; text-align: center;">
             ON/OFF
         </th>
         <th style="width: 250px; text-align: center;">
-            비고
+            Note
         </th>
     </tr>
 </thead>
@@ -58,20 +57,20 @@ BD682의 컨베이어 엔코더 인터페이스는 시스템 입출력에 연동
             <strong>1</strong>
         </td>
         <td rowspan="2" style="text-align: center;">
-            펄스 카운터 타입
+            Pulse Count Type
         </td>
         <td style="text-align: center;">
             ON<br>(1)
         </td>
         <td> 
-            Up / Down 카운터 방식
+            Up / Down Count method
         </td>
     </tr>        
         <td style="text-align: center;">
             OFF<br>(0)
         </td>
         <td> 
-            Up 카운터 방식 (초기값)
+            Up Count method (Default)
         </td>
     </tr>
         <tr>
@@ -79,21 +78,21 @@ BD682의 컨베이어 엔코더 인터페이스는 시스템 입출력에 연동
             <strong>2</strong>
         </td>
         <td rowspan="2" style="text-align: center;">
-            펄스 통신 방식<br>
-            (엔코더 종류)
+            Pulse Communication Type<br>
+            (Encoder Type)
         </td>
         <td style="text-align: center;">
             ON<br>(1)
         </td>
         <td> 
-            오픈 콜렉터 엔코더
+            Open Collector Type Encoder
         </td>
     </tr>        
         <td style="text-align: center;">
             OFF<br>(0)
         </td>
         <td> 
-            라인드라이브 엔코더 (초기값)
+            Line Driver Type Encoder (Default)
         </td>
     </tr>
 </tbody>
@@ -101,10 +100,10 @@ BD682의 컨베이어 엔코더 인터페이스는 시스템 입출력에 연동
 
 <br>
 
-아래 그림처럼 체크박스를 클릭하면 ON으로 입력할 수 있습니다.<br>
-적용을 위해서는 반드시 **[v확인] 버튼**을 눌러야 합니다.
+As shown in the figure below, you can set it to ON by clicking the checkbox.<br>
+To apply the setting, be sure to press the **[v OK] button**.
 
-![](../_assets/22.출력신호할당_ON.png)<br>
-<그림 5. 펄스 카운터 타입 ON 적용><br>
+![](../_assets/22.출력신호할당_ON_en.png)<br>
+< Figure 5. Pulse Count Type ON Applied><br>
 
-세부적인 내용은 "[로봇제어기 기능설명서 - 센서 동기](https://hrbook-hrc.web.app/#/view/doc-sensor-sync/korean/README)"의 컨베이어 관련 부분을 참고하시기 바랍니다.
+For detailed information, refer to the conveyor-related section of "[Robot Controller Function Manual - Sensor Synchronization](https://hrbook-hrc.web.app/#/view/doc-sensor-sync/korean/README)".

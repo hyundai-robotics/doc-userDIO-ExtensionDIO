@@ -1,34 +1,34 @@
 ﻿# 3.2. Board Switch Check
 
 
-이미 보드가 제어기에 조립되었을 경우, 아래와 같은 TP화면에서 내부 스위치 상태를 확인할 수 있습니다.<br>
+If the board has already been assembled in the controller, the internal switch status can be checked on the TP screen as shown below.<br>
 
 **- The location of the menu: [system] - [12: Option System] - [UserDIO Board Setting]**
 
-'사용자DIO 목록' 에서 '사용자DIO 모드' 항목으로 확인할 수 있습니다.
+You can check it in the “UserDIO List,” under the “UserDIO Mode” entry.
 
 {% hint style="info" %}
-[사용자DIO 보드 설정]에서 정상적으로 확인하려면, BD681의 EtherCAT 연결이 정상적으로 되어야 합니다.
+In order to check correctly in [User DIO Board Setting], BD681 must be connected to EtherCAT successfully.
 {% endhint %}
 
 
-![](../_assets/02.사용자DIO_보드_설정_TP.png)<br>
-< Figure 1. 사용자DIO 보드 설정 TP UI><br>
+![](../_assets/02.사용자DIO_보드_설정_TP_en.png)<br>
+< Figure 1. UserDIO Board Setting TP UI><br>
 
 <br>
 
-<표 2. 사용자DIO 모드 항목>
+< Table 1. User DIO Mode Item>
 
 <table>
 <thead>
     <tr>
         <th style="width: 20px; text-align: center;">No.</th>
         <th style="width: 100px; text-align: center;">
-            BD681 스위치 <br>
+            BD681 Switch <br>
             ON/OFF
         </th>
         <th style="width: 110px; text-align: center;">
-            사용자DIO 모드
+            UserDIO Mode
         </th>
     </tr>
 </thead>
@@ -54,31 +54,30 @@
 <br>
 
 
-사용자 DIO 보드를 2개 사용할 때, 2번째 사용자 DIO 보드 스위치가 OFF 되어있으면 <strong>"E55005 2번째 사용자 DIO 보드 스위치 설정 오류 감지"</strong> 에러를 출력합니다.
-해당 에러를 해결하기 위해서는 2번째 사용자 DIO 보드 스위치를 ON으로 변경하여야 합니다.
+When using two User DIO boards, if the switch of the second User DIO board is set to OFF, error <strong>“E55005 : The 2nd User DIO Board switch setting error detected.”</strong> will be generated.<br>
+To resolve this error, set the switch of the second User DIO board to ON.
 
 {% hint style="warning" %}
-"E55005 2번째 사용자 DIO 보드 스위치 설정 오류 감지" 에러가 발생하였을 경우, 사용자 DIO 보드와 확장 DIO 보드를 정상적으로 사용할 수 없습니다. 보드의 스위치 설정을 올바르게 변경한 후에 사용해야 합니다.
+If error “E55005 : The 2nd User DIO Board switch setting error detected.” occurs, the User DIO board and Extension DIO board cannot be used properly. You must correct the board switch settings before using them.
 {% endhint %}
 
 <br>
 
-<표 3. 사용자 DIO 모드 조합 사용 가능 여부>
+< Table 2. Supported User DIO Mode Combinations>
 
 <table>
 <thead>
     <tr>
         <th style="width: 20px; text-align: center;">No.</th>
-        <th style="width: 150px; text-align: center;">
-            사용자 DIO (BD681),<br> 
-            확장 DIO (BD682) 수량
+        <th style="width: 250px; text-align: center;">
+            User DIO (BD681) /<br> Extension DIO (BD682) Quantity
         </th>
         <th style="width: 150px; text-align: center;">
-            BD681 스위치<br>
+            BD681 Switch<br>
             ON/OFF
         </th>
         <th style="width: 110px; text-align: center;">
-            사용 가능 여부
+            Availability
         </th>
     </tr>
 </thead>
@@ -92,7 +91,7 @@
             ON<br>
             (Only UserDIO)
         </td>
-        <td style="text-align: center;">O (사용 가능)</td>
+        <td style="text-align: center;">O (Available)</td>
     </tr>
     <tr>
         <td style="text-align: center;"><strong>2</strong></td>
@@ -103,7 +102,7 @@
             OFF<br>
             (Use Ext_DIO)
         </td>
-        <td style="text-align: center;">X (사용 불가)</td>
+        <td style="text-align: center;">X (Unavailable)</td>
     </tr>
     <tr>
         <td style="text-align: center;"><strong>3</strong></td>
@@ -115,7 +114,7 @@
             OFF<br>
             (Use Ext_DIO)
         </td>
-        <td style="text-align: center;">O (사용 가능)</td>
+        <td style="text-align: center;">O (Available)</td>
     </tr>
     <tr>
         <td style="text-align: center;"><strong>4</strong></td>
@@ -127,7 +126,7 @@
             ON<br>
             (Only UserDIO)
         </td>
-        <td style="text-align: center;">X (사용 불가)</td>
+        <td style="text-align: center;">X (Unavailable)</td>
     </tr>
     <tr>
         <td style="text-align: center;"><strong>5</strong></td>
@@ -136,12 +135,12 @@
             BD682 : 1 EA
         </td>
         <td style="text-align: center;">
-            #1 BD681 스위치 OFF<br>
+            #1 BD681 Switch OFF<br>
             (Use Ext_DIO)<br><br>
-            #2 BD681 스위치 ON<br>
+            #2 BD681 Switch ON<br>
             (Only UserDIO)
         </td>
-        <td style="text-align: center;">O (사용 가능)</td>
+        <td style="text-align: center;">O (Available)</td>
     </tr>
     <tr>
         <td style="text-align: center;"><strong>6</strong></td>
@@ -150,12 +149,12 @@
             BD682 : 1 EA
         </td>
         <td style="text-align: center;">
-            #1 BD681 스위치 OFF<br>
+            #1 BD681 Switch OFF<br>
             (Use Ext_DIO)<br><br>
-            #2 BD681 스위치 OFF<br>
+            #2 BD681 Switch OFF<br>
             (Use Ext_DIO)
         </td>
-        <td style="text-align: center;">X (사용 불가)</td>
+        <td style="text-align: center;">X (Unavailable)</td>
     </tr>
     <tr>
         <td style="text-align: center;"><strong>7</strong></td>
@@ -164,12 +163,12 @@
             BD682 : 1 EA
         </td>
         <td style="text-align: center;">
-            #1 BD681 스위치 ON<br>
+            #1 BD681 Switch ON<br>
             (Only UserDIO)<br><br>
-            #2 BD681 스위치 OFF<br>
+            #2 BD681 Switch OFF<br>
             (Use Ext_DIO)
         </td>
-        <td style="text-align: center;">X (사용 불가)</td>
+        <td style="text-align: center;">X (Unavailable)</td>
     </tr>
     <tr>
         <td style="text-align: center;"><strong>8</strong></td>
@@ -178,12 +177,12 @@
             BD682 : 1 EA
         </td>
         <td style="text-align: center;">
-            #1 BD681 스위치 ON<br>
+            #1 BD681 Switch ON<br>
             (Only UserDIO)<br><br>
-            #2 BD681 스위치 ON<br>
+            #2 BD681 Switch ON<br>
             (Only UserDIO)
         </td>
-        <td style="text-align: center;">X (사용 불가)</td>
+        <td style="text-align: center;">X (Unavailable)</td>
     </tr>
 </tbody>
 </table>

@@ -1,8 +1,9 @@
-﻿# 4.2. 컨베이어 인터페이스 사용 방법
+﻿# 4.2. How to Use Conveyor Interface
 
-BD682 의 커넥터에 올바르게 케이블을 연결하였다면, 컨베이어 인터페이스를 연동하기 위한 방법은 아래 내용들을 참고하시기 바랍니다.
+If the cables are properly connected to the connectors of BD682, refer to the following instructions for controlling conveyor interface.
 <br>
 
-<mark style="color:green;">**- 제어기와 컨베이어 인터페이스 연동**</mark>
+<mark style="color:green;">**- Integration of Controller and Conveyor Interface**</mark>
 
-보드를 이용한 제어기와 컨베이어 인터페이스 연동에 대한 세부 내용은 "[로봇제어기 기능설명서 - 센서 동기](https://hrbook-hrc.web.app/#/view/doc-sensor-sync/korean/README)" 매뉴얼의 컨베이어 관련 부분을 참고하시기 바랍니다.
+For detailed information on the integration of the controller and conveyor interface using the board, refer to the conveyor-related section of the "[Robot Controller Function Manual - Sensor Synchronization](https://hrbook-hrc.web.app/#/view/doc-sensor-sync/korean/README)".
+
