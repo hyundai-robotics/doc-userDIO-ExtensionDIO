@@ -65,8 +65,8 @@ A maximum of 48 I/O channels can be controlled using two BD681 boards and one BD
 
 For proper use of the User DIO and Extension DIO, the following items must be configured and verified.<br>
 
-1. Board Switch Configuration<br>
-2. EtherCAT Configuration<br>
+1. EtherCAT Configuration<br>
+2. Board Switch Check<br>
 3. FB block Configuration<br>
 4. Embedded PLC Configuration<br>
 5. Sensor Sync Configuration<br>
