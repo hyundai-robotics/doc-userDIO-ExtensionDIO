@@ -1135,9 +1135,9 @@ EtherCAT 설정은 다음과 같이 진행합니다.
 BD681 보드의 상태표시 LED는 정상적으로 연결이 완료 될 경우, 아래와 같이 동작합니다.  
 
 - BD681 보드 상태표시 LED 동작
-1. 2초 점등 (EtherCAT 연결 대기중)
-2. 0.25초 점등 (EtherCAT 연결 Ok, 초기 설정값 대기중)
-3. 0.75초 점등 (EtherCAT 연결 Ok, 초기 설정 Ok)
+1. 2초 간격으로 점멸 (EtherCAT 연결 대기중)
+2. 0.25초 간격으로 점멸 (EtherCAT 연결 Ok, 초기 설정값 대기중)
+3. 0.75초 간격으로 점멸 (EtherCAT 연결 Ok, 초기 설정 Ok)
 <br><br>
 
 <mark style="color:green;">**- BD681 2개 구성 ( #1_BD681 + BD682 + #2_BD681 )**</mark>
