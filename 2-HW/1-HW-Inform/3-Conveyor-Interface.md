@@ -1,7 +1,7 @@
 ﻿# 2.1.3. Conveyor Synchronization Configuration
 
 The figure and table below illustrate the pin configuration of the terminal block for the encoder input and limit switch used in conveyor synchronization.<br>
-The system consists of two input channels in total, and each channel can be connected to two types of encoders (open collector or line driver).<br>
+The system consists of two input channels in total, and each channel can be connected by selecting one of two encoder types (open collector or line driver).<br>
 
 ![](../../_assets/33.확장DIO_보드_커넥터_Conveyor.png)<br>
 < Figure 1. Extension DIO (BD682) Conveyor Interface Connector>
