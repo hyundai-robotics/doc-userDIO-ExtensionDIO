@@ -1,9 +1,9 @@
-﻿# 3.2. 보드 스위치 확인
+﻿# 3.2. Board Switch Check
 
 
 이미 보드가 제어기에 조립되었을 경우, 아래와 같은 TP화면에서 내부 스위치 상태를 확인할 수 있습니다.<br>
 
-**- 메뉴 위치 : [시스템] - [옵션장치] - [사용자DIO 보드 설정]**
+**- The location of the menu: [system] - [12: Option System] - [UserDIO Board Setting]**
 
 '사용자DIO 목록' 에서 '사용자DIO 모드' 항목으로 확인할 수 있습니다.
 
@@ -13,7 +13,7 @@
 
 
 ![](../_assets/02.사용자DIO_보드_설정_TP.png)<br>
-<그림 1. 사용자DIO 보드 설정 TP UI><br>
+< Figure 1. 사용자DIO 보드 설정 TP UI><br>
 
 <br>
 
