@@ -10,6 +10,7 @@
     * [2.1.2. Digital Output](2-HW/1-HW-Inform/2-Digital-Output.md)
     * [2.1.3. Conveyor Synchronization Configuration](2-HW/1-HW-Inform/3-Conveyor-Interface.md)
   * [2.2. Board Switch](2-HW/2-Board-Switch.md)
+  * [2.3. Board Status LED](2-HW/3-Board-LED.md)
 
 * [3. How to Configure User DIO and Extension DIO](3-Configuration/README.md)
   * [3.1. EtherCAT Configuration](3-Configuration/1-EtherCAT-Configuration.md)
