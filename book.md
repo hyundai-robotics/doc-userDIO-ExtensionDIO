@@ -1255,7 +1255,7 @@ LED의 동작 상태에 따라서 보드의 정상 동작 유무를 확인할 �
 <br>
 
 {% hint style="info" %}
-IO_LED, MOD_LED가 점멸하지 않고 멈춰있으면 MCU 동작이 정상적이지 않은 상태입니다.
+IO_LED, MOD_LED가 점멸하지 않고 멈춰있으면(꺼져 있거나 계속 켜져 있는 경우) MCU 동작이 정상적이지 않은 상태입니다.
 {% endhint %}
 # 3. 사용자 DIO, 확장 DIO 설정 방법
 # 3.1. EtherCAT 설정
