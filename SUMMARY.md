@@ -1,6 +1,6 @@
 ﻿# Table of contents
 
-* [Hi6a Robot Controller Function Manual - User DIO, Extension DIO](README.md)
+* [Hi7 Robot Controller Function Manual - User DIO, Extension DIO](README.md)
 
 * [1. Overview](1-overview.md)
 

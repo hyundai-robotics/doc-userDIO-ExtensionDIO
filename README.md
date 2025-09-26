@@ -1,4 +1,4 @@
-# Hi6a Robot Controller Function Manual - User DIO, Extension DIO
+# Hi7 Robot Controller Function Manual - User DIO, Extension DIO
 
 {% hint style="warning" %}
 The information provided in this product manual is the property of Hyundai Robotics.

@@ -1,6 +1,6 @@
 ﻿# 1. Overview
 
-In the Hi6a controller, the "User DIO Board (BD681)" and the "Extension DIO Board (BD682)" to process digital I/O signals and interface with conveyor signals.
+In the Hi7 controller, the "User DIO Board (BD681)" and the "Extension DIO Board (BD682)" to process digital I/O signals and interface with conveyor signals.
 
 {% hint style="info" %}
 In this manual, DIO stands for Digital Input and Output.

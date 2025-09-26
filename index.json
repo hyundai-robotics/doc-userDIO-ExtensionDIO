@@ -6,87 +6,87 @@
 	},
 	{
 		"link": "1-overview.md",
-		"char_ofs": 478,
-		"byte_ofs": 496
+		"char_ofs": 477,
+		"byte_ofs": 495
 	},
 	{
 		"link": "2-HW/README.md",
-		"char_ofs": 2436,
-		"byte_ofs": 2530
+		"char_ofs": 2434,
+		"byte_ofs": 2528
 	},
 	{
 		"link": "2-HW/1-HW-Inform/README.md",
-		"char_ofs": 2450,
-		"byte_ofs": 2548
+		"char_ofs": 2448,
+		"byte_ofs": 2546
 	},
 	{
 		"link": "2-HW/1-HW-Inform/1-Digital-Input.md",
-		"char_ofs": 3106,
-		"byte_ofs": 3278
+		"char_ofs": 3104,
+		"byte_ofs": 3276
 	},
 	{
 		"link": "2-HW/1-HW-Inform/2-Digital-Output.md",
-		"char_ofs": 13951,
-		"byte_ofs": 14448
+		"char_ofs": 13949,
+		"byte_ofs": 14446
 	},
 	{
 		"link": "2-HW/1-HW-Inform/3-Conveyor-Interface.md",
-		"char_ofs": 24965,
-		"byte_ofs": 25794
+		"char_ofs": 24963,
+		"byte_ofs": 25792
 	},
 	{
 		"link": "2-HW/2-Board-Switch.md",
-		"char_ofs": 33446,
-		"byte_ofs": 34560
+		"char_ofs": 33444,
+		"byte_ofs": 34558
 	},
 	{
 		"link": "2-HW/3-Board-LED.md",
-		"char_ofs": 38218,
-		"byte_ofs": 39535
+		"char_ofs": 38216,
+		"byte_ofs": 39533
 	},
 	{
 		"link": "3-Configuration/README.md",
-		"char_ofs": 42878,
-		"byte_ofs": 44373
+		"char_ofs": 42876,
+		"byte_ofs": 44371
 	},
 	{
 		"link": "3-Configuration/1-EtherCAT-Configuration.md",
-		"char_ofs": 42927,
-		"byte_ofs": 44426
+		"char_ofs": 42925,
+		"byte_ofs": 44424
 	},
 	{
 		"link": "3-Configuration/2-Board-Switch-check.md",
-		"char_ofs": 45306,
-		"byte_ofs": 46932
+		"char_ofs": 45304,
+		"byte_ofs": 46930
 	},
 	{
 		"link": "3-Configuration/3-FB-Block-Configuration.md",
-		"char_ofs": 50925,
-		"byte_ofs": 52773
+		"char_ofs": 50923,
+		"byte_ofs": 52771
 	},
 	{
 		"link": "3-Configuration/4-Internal-PLC-Configuration.md",
-		"char_ofs": 52449,
-		"byte_ofs": 54390
+		"char_ofs": 52447,
+		"byte_ofs": 54388
 	},
 	{
 		"link": "3-Configuration/5-Sensor-Sync-Configuration.md",
-		"char_ofs": 53422,
-		"byte_ofs": 55410
+		"char_ofs": 53420,
+		"byte_ofs": 55408
 	},
 	{
 		"link": "4-Usage/README.md",
-		"char_ofs": 57132,
-		"byte_ofs": 59316
+		"char_ofs": 57130,
+		"byte_ofs": 59314
 	},
 	{
 		"link": "4-Usage/1-DIO-Usage.md",
-		"char_ofs": 57174,
-		"byte_ofs": 59361
+		"char_ofs": 57172,
+		"byte_ofs": 59359
 	},
 	{
 		"link": "4-Usage/2-Conveyor-Usage.md",
-		"char_ofs": 60179,
-		"byte_ofs": 62503
+		"char_ofs": 60177,
+		"byte_ofs": 62501
 	}
 ]

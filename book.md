@@ -1,4 +1,4 @@
-﻿# Hi6a Robot Controller Function Manual - User DIO, Extension DIO
+﻿# Hi7 Robot Controller Function Manual - User DIO, Extension DIO
 
 {% hint style="warning" %}
 The information provided in this product manual is the property of Hyundai Robotics.
@@ -16,7 +16,7 @@ The manual is subject to change without prior notification.
 
 # 1. Overview
 
-In the Hi6a controller, the "User DIO Board (BD681)" and the "Extension DIO Board (BD682)" to process digital I/O signals and interface with conveyor signals.
+In the Hi7 controller, the "User DIO Board (BD681)" and the "Extension DIO Board (BD682)" to process digital I/O signals and interface with conveyor signals.
 
 {% hint style="info" %}
 In this manual, DIO stands for Digital Input and Output.
