@@ -1,6 +1,6 @@
 ﻿# Table of contents
 
-* [Hi6a 로봇제어기 기능설명서 - 사용자DIO, 확장DIO](README.md)
+* [Hi7 로봇제어기 기능설명서 - 사용자DIO, 확장DIO](README.md)
 
 * [1. 개요](1-overview.md)
 
