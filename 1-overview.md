@@ -1,73 +1,73 @@
-﻿# 1. 개요
+# 1. 概要
 
-Hi7 제어기에서 '사용자 DIO 보드(BD681)'와 '확장 DIO 보드(BD682)'를 활용하여 디지털 입출력 신호와 컨베이어 인터페이스를 진행할 수 있습니다.
+在Hi7控制器中，可通过“用户DIO板（BD681）”和“扩展DIO板（BD682）”进行数字输入/输出信号及输送带接口。
 
 {% hint style="info" %}
-매뉴얼에서 DIO는 디지털 입출력(Digital Input and Output)을 의미합니다.
+在说明书中，DIO表示数字输入与输出（Digital Input and Output）。
 {% endhint %}
 
-'확장 DIO 보드(BD682)'는 단독으로는 사용할 수 없으며 '사용자 DIO 보드(BD681)'와 같이 사용해야 합니다.
+“扩展DIO板（BD682）”不能单独使用，需与“用户DIO板（BD681）”配合使用。
 
 <br>
 
-<표 1. 보드 사양>
+<表1. 电路板规格>
 
 <table>
 <thead>
-    <tr>
-        <th style="width: 50px; text-align: center;">
-            No.
-        </th>
-        <th style="width: 110px; text-align: center;">
-            보드명<br>
-            (보드 식별자)
-        </th>
-        <th style="width: 300px; text-align: center;">
-            보드 기능 정보
-        </th>
-    </tr>
+<tr>
+<th style="width: 50px; text-align: center;">
+No.
+</th>
+<th style="width: 110px; text-align: center;">
+电路板名称<br>
+（电路板标识符）
+</th>
+<th style="width: 300px; text-align: center;">
+电路板功能信息
+</th>
+</tr>
 </thead>
 <tbody>
-    <tr>
-        <td style="text-align: center;">
-            <strong>1</strong>
-        </td>
-        <td style="text-align: center;">
-            사용자 DIO 보드<br>
-            ( BD681 )
-        </td>
-        <td> 
-             - 디지털 입력 16 채널 <br>
-             - 디지털 출력 16 채널
-        </td>
-    </tr>
-    <tr>
-        <td style="text-align: center;">
-            <strong>2</strong>
-        </td>
-        <td style="text-align: center;">
-            확장 DIO 보드<br>
-            ( BD682 )
-        </td>
-        <td> 
-             - 디지털 입력 16 채널 <br>
-             - 디지털 출력 16 채널 (릴레이 출력 8 채널 포함)<br> 
-             - 컨베이어 인터페이스 2채널 <br> 
-             - 단독 사용 불가 (BD681과 같이 사용 필요)
-        </td>
-    </tr>
+<tr>
+<td style="text-align: center;">
+<strong>1</strong>
+</td>
+<td style="text-align: center;">
+用户DIO板<br>
+( BD681 )
+</td>
+<td>
+- 数字输入16通道 <br>
+- 数字输入16通道
+</td>
+</tr>
+<tr>
+<td style="text-align: center;">
+<strong>2</strong>
+</td>
+<td style="text-align: center;">
+扩展DIO板<br>
+( BD682 )
+</td>
+<td>
+- 数字输入16通道 <br>
+- 数字输出16通道（含继电器输出8通道）<br>
+- 输送带接口2通道 <br>
+- 不可单独使用（需与BD681配合使用）
+</td>
+</tr>
 </tbody>
 </table>
 
 <br>
-BD681 2개와 BD682 1개를 이용하여 최대 48 채널의 입출력을 제어할 수 있습니다.
+可通过2个BD681和1个BD682来实现最多48通道的输入/输出控制。
 <br><br>
 
-사용자 DIO 및 확장 DIO 를 정상적으로 사용하기 위해서는 아래 항목들에 대한 설정 및 확인이 필요합니다.<br>
+要正常使用用户DIO及扩展DIO，就需要对以下项目进行设置及确认。<br>
 
-1. 이더캣 통신 연결<br>
-2. 보드 스위치 확인<br>
-3. FB 블록 설정<br>
-4. 내장 PLC 사용 여부 확인<br>
-5. 센서 동기 설정<br>
+1. 以太网通信连接<br>
+2. 电路板开关确认<br>
+3. FB块设置<br>
+4. 内置PLC使用与否确认<br>
+5. 传感器同步设置<br>
 

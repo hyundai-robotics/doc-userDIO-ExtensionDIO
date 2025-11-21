@@ -1,164 +1,164 @@
-﻿# 2.2. 보드 스위치
+# 2.2. 电路板开关
 
-BD681 보드 스위치 위치는 아래 사진과 같습니다.<br>
+BD681板开关位置如下图所示。<br>
 
 ![](../_assets/01.사용자DIO_보드_스위치_위치.png)<br>
-<그림 1. 사용자DIO 보드 스위치 위치>
+<图1. 用户DIO板开关位置>
 <br>
 
 ![](../_assets/03.사용자DIO_보드_스위치_ON_OFF.png)<br>
-<그림 2. 사용자DIO 보드 스위치 ON/OFF>
+<图2. 用户DIO板开关ON/OFF>
 
 <br>
 
-<표 1. 보드 스위치 설정 정보>
+<表1. 电路板开关设置信息>
 
 <table>
 <thead>
-    <tr>
-        <th style="width: 20px; text-align: center;">No.</th>
-        <th style="width: 100px; text-align: center;">
-            BD681 스위치 <br>
-            ON/OFF
-        </th>
-        <th style="width: 250px; text-align: center;">비고</th>
-    </tr>
+<tr>
+<th style="width: 20px; text-align: center;">No.</th>
+<th style="width: 100px; text-align: center;">
+BD681开关 <br>
+ON/OFF
+</th>
+<th style="width: 250px; text-align: center;">备注</th>
+</tr>
 </thead>
 <tbody>
-    <tr>
-        <td style="text-align: center;"><strong>1</strong></td>
-        <td style="text-align: center;">OFF</td>
-        <td> - 확장DIO (BD682) 연동 모드<br>
-             - 기본 구성시 (BD681 + BD682) 사용<br>
-        </td>
-    </tr>
-    <tr>
-        <td style="text-align: center;"><strong>2</strong></td>
-        <td style="text-align: center;">ON</td>
-        <td> - 사용자DIO (BD681) 단독 모드 <br>
-             - 확장DIO (BD682) 연동 불가<br>
-             - 기본 구성에 BD681 추가시 사용<br> 
-             - 추가된 2번째 BD681에 적용 필요 <br>
-        </td>
-    </tr>
+<tr>
+<td style="text-align: center;"><strong>1</strong></td>
+<td style="text-align: center;">OFF</td>
+<td> - 扩展DIO（BD682）联动模式<br>
+- 基本构成时（BD681+BD682）使用<br>
+</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>2</strong></td>
+<td style="text-align: center;">ON</td>
+<td> - 用户DIO（BD681）单独模式<br>
+- 扩展DIO（BD682）无法联动<br>
+- 在基本构成中添加BD681时使用<br>
+- 需应用于添加的第2个BD681<br>
+</td>
+</tr>
 </tbody>
 </table>
 
 
 {% hint style="warning" %}
-만약 스위치 확인을 위해 제어기에서 보드를 분리할때는 반드시 제어기 전원을 OFF 하고 보드 전원이 OFF 되었는지 확인 후 분리하시기 바랍니다.
+为确认开关而从控制器中拆卸电路板时，务必先关闭控制器电源，并确认电路板电源关闭后再进行拆卸。
 {% endhint %}
 
-<표 2. 사용자 DIO 모드 조합 사용 가능 여부>
+<表2. 用户DIO模式组合可否使用>
 
 <table>
 <thead>
-    <tr>
-        <th style="width: 20px; text-align: center;">No.</th>
-        <th style="width: 150px; text-align: center;">
-            사용자 DIO (BD681),<br> 
-            확장 DIO (BD682) 수량
-        </th>
-        <th style="width: 150px; text-align: center;">
-            BD681 스위치<br>
-            ON/OFF
-        </th>
-        <th style="width: 110px; text-align: center;">
-            사용 가능 여부
-        </th>
-    </tr>
+<tr>
+<th style="width: 20px; text-align: center;">No.</th>
+<th style="width: 150px; text-align: center;">
+用户DIO（BD681），<br>
+扩展DIO（BD682）数量
+</th>
+<th style="width: 150px; text-align: center;">
+BD681开关<br>
+ON/OFF
+</th>
+<th style="width: 110px; text-align: center;">
+可否使用
+</th>
+</tr>
 </thead>
 <tbody>
-    <tr>
-        <td style="text-align: center;"><strong>1</strong></td>
-        <td style="text-align: center;">
-            BD681 : 1 EA
-        </td>
-        <td style="text-align: center;">
-            ON
-        </td>
-        <td style="text-align: center;">O (사용 가능)</td>
-    </tr>
-    <tr>
-        <td style="text-align: center;"><strong>2</strong></td>
-        <td style="text-align: center;">
-            BD681 : 1 EA
-        </td>
-        <td style="text-align: center;">
-            OFF
-        </td>
-        <td style="text-align: center;">X (사용 불가)</td>
-    </tr>
-    <tr>
-        <td style="text-align: center;"><strong>3</strong></td>
-        <td style="text-align: center;">
-            BD681 : 1 EA<br>
-            BD682 : 1 EA
-        </td>
-        <td style="text-align: center;">
-            OFF
-        </td>
-        <td style="text-align: center;">O (사용 가능)</td>
-    </tr>
-    <tr>
-        <td style="text-align: center;"><strong>4</strong></td>
-        <td style="text-align: center;">
-            BD681 : 1 EA<br>
-            BD682 : 1 EA
-        </td>
-        <td style="text-align: center;">
-            ON
-        </td>
-        <td style="text-align: center;">X (사용 불가)</td>
-    </tr>
-    <tr>
-        <td style="text-align: center;"><strong>5</strong></td>
-        <td style="text-align: center;">
-            BD681 : 2 EA<br>
-            BD682 : 1 EA
-        </td>
-        <td style="text-align: center;">
-            #1 BD681 스위치 OFF<br>
-            #2 BD681 스위치 ON
-        </td>
-        <td style="text-align: center;">O (사용 가능)</td>
-    </tr>
-    <tr>
-        <td style="text-align: center;"><strong>6</strong></td>
-        <td style="text-align: center;">
-            BD681 : 2 EA<br>
-            BD682 : 1 EA
-        </td>
-        <td style="text-align: center;">
-            #1 BD681 스위치 OFF<br>
-            #2 BD681 스위치 OFF
-        </td>
-        <td style="text-align: center;">X (사용 불가)</td>
-    </tr>
-    <tr>
-        <td style="text-align: center;"><strong>7</strong></td>
-        <td style="text-align: center;">
-            BD681 : 2 EA<br>
-            BD682 : 1 EA
-        </td>
-        <td style="text-align: center;">
-            #1 BD681 스위치 ON<br>
-            #2 BD681 스위치 OFF
-        </td>
-        <td style="text-align: center;">X (사용 불가)</td>
-    </tr>
-    <tr>
-        <td style="text-align: center;"><strong>8</strong></td>
-        <td style="text-align: center;">
-            BD681 : 2 EA<br>
-            BD682 : 1 EA
-        </td>
-        <td style="text-align: center;">
-            #1 BD681 스위치 ON<br>
-            #2 BD681 스위치 ON
-        </td>
-        <td style="text-align: center;">X (사용 불가)</td>
-    </tr>
+<tr>
+<td style="text-align: center;"><strong>1</strong></td>
+<td style="text-align: center;">
+BD681 : 1 EA
+</td>
+<td style="text-align: center;">
+ON
+</td>
+<td style="text-align: center;">O（可使用）</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>2</strong></td>
+<td style="text-align: center;">
+BD681 : 1 EA
+</td>
+<td style="text-align: center;">
+OFF
+</td>
+<td style="text-align: center;">X（不可使用）</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>3</strong></td>
+<td style="text-align: center;">
+BD681 : 1 EA<br>
+BD682 : 1 EA
+</td>
+<td style="text-align: center;">
+OFF
+</td>
+<td style="text-align: center;">O（可使用）</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>4</strong></td>
+<td style="text-align: center;">
+BD681 : 1 EA<br>
+BD682 : 1 EA
+</td>
+<td style="text-align: center;">
+ON
+</td>
+<td style="text-align: center;">X（不可使用）</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>5</strong></td>
+<td style="text-align: center;">
+BD681 : 2 EA<br>
+BD682 : 1 EA
+</td>
+<td style="text-align: center;">
+#1 BD681开关OFF<br>
+#2 BD681开关ON
+</td>
+<td style="text-align: center;">O（可使用）</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>6</strong></td>
+<td style="text-align: center;">
+BD681 : 2 EA<br>
+BD682 : 1 EA
+</td>
+<td style="text-align: center;">
+#1 BD681开关OFF<br>
+#2 BD681开关OFF
+</td>
+<td style="text-align: center;">X（不可使用）</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>7</strong></td>
+<td style="text-align: center;">
+BD681 : 2 EA<br>
+BD682 : 1 EA
+</td>
+<td style="text-align: center;">
+#1 BD681开关ON<br>
+#2 BD681开关OFF
+</td>
+<td style="text-align: center;">X（不可使用）</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>8</strong></td>
+<td style="text-align: center;">
+BD681 : 2 EA<br>
+BD682 : 1 EA
+</td>
+<td style="text-align: center;">
+#1 BD681开关ON<br>
+#2 BD681开关ON
+</td>
+<td style="text-align: center;">X（不可使用）</td>
+</tr>
 </tbody>
 </table>
 <br>

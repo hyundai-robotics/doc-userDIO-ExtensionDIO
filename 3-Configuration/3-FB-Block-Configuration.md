@@ -1,32 +1,32 @@
-﻿# 3.3. FB 블럭 설정
+# 3.3. FB块设置
 
-FB 블럭 설정은 다음 메뉴에서 진행할 수 있습니다.
+FB块设置可在以下菜单中进行。
 
-**- 메뉴 위치: [시스템] - [2:제어 파라미터] - [2:입출력 신호 설정] - [6:fb블럭 할당]**
+*- 菜单位置：[系统]-[2:控制参数]-[2:输入输出信号设置]-[6:fb块分配]**
 
 ![](../_assets/12.FB블럭할당.png)<br>
-<그림 1. FB 블럭 할당 메뉴><br><br>
+<图1. FB块分配菜单><br><br>
 
-할당하고 싶은 fb 블럭을 선택하여 '사용자 DIO'로 설정을 진행하면 됩니다.
+选择所要分配的fb块后，进行"用户DIO"设置即可。
 
 ![](../_assets/13.fb1_사용자DIO할당.png)<br>
-<그림 2. fb1에 사용자DIO 할당 예시><br><br>
+<图2. fb1分配用户DIO示例><br><br>
 
-자세한 사항은 "[로봇제어기 조작설명서 - (FB 블록 할당)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/korean-tp630/7-system/3-control-parameter/2-io-signal-setting/9-dio-block-assign)" 을 참고하시기 바랍니다.
+자세한 사항은 "[详细内容请参考“机器人控制器操作说明书-(FB块分配)”。](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/korean-tp630/7-system/3-control-parameter/2-io-signal-setting/9-dio-block-assign)" 을 참고하시기 바랍니다.
 
-사용자 DIO에 대한 FB블럭이 할당 되었는지는 [6:fb블럭 할당] 및 [사용자DIO 보드 설정] 메뉴에서 확인 가능합니다.
+对于是否为用户DIO分配了FB块，可在[6:fb块分配]及[用户DIO板设置]菜单中进行确认。
 
 ![](../_assets/14.사용자DIO_FB_미할당.png)<br>
-<그림 3. 사용자DIO FB블록 미할당><br><br>
+<图3. 用户DIO FB块未分配><br><br>
 
 ![](../_assets/15.사용자DIO_FB3_할당.png)<br>
-<그림 4. 사용자DIO fb3 할당><br>
+<图4. 用户DIO fb3分配><br>
 
 {% hint style="warning" %}
-사용자DIO를 여러 FB블럭에 할당하여도 <strong>가장 번호가 낮은 FB블럭에서 사용 가능하며, 나머지 할당된 FB블럭은 제어가 무시</strong> 됩니다.
+即使将用户DIO分配给多个FB块，<strong>也只能在编号最低的FB块中使用，其余已分配的FB块将被忽略控制</strong>。
 {% endhint %}
 
-아래 그림과 같이 FB블럭이 할당 되었을 경우, fb2에서 사용자 DIO 제어가 가능하며, fb5에 입력된 값은 무시됩니다.
+按下图所示分配FB块时，可在fb2中控制用户DIO，而fb5中输入的值将被忽略。
 
 ![](../_assets/16.사용자DIO_FB_다중할당.png)<br>
-<그림 5. 사용자DIO fb 다중 할당 예시><br>
+<图5. 用户DIO fb多重分配示例><br>

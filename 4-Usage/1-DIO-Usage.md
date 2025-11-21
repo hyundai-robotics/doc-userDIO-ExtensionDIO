@@ -1,80 +1,80 @@
-﻿# 4.1. DIO 사용 방법
+# 4.1. DIO使用方法
 
-BD681, BD682 의 커넥터에 올바르게 케이블을 연결하였다면, 디지털 입출력을 제어하기 위한 방법은 아래 내용들을 참고하시기 바랍니다.
+若正确连接至BD681、BD682的连接器电缆，关于控制数字输入输出的方法，请参考以下内容。
 <br>
 
-<mark style="color:green;">**- 제어기의 입출력 신호와 연동**</mark>
+<mark style="color:green;">**<mark style="color:green;">- 与控制器的输入输出信号联动</mark>**</mark>
 
-제어기의 입출력 신호와 보드의 입출력 연동에 대한 부분은 "[로봇제어기 조작설명서 - (입출력 신호 설정)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/korean-tp630/7-system/3-control-parameter/2-io-signal-setting/README)" 을 참고하시기 바랍니다.
-
-<br>
-
-<mark style="color:green;">**- TP를 이용한 보드 입력, 출력 제어**</mark>
-
-TP에서 보드 출력을 제어하고 입력을 확인하는 부분은 "[로봇제어기 조작설명서 - (범용 출력)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/korean-tp630/6-monitoring/2-io/4-user-output)", "[로봇제어기 조작설명서 - (범용 입력)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/korean-tp630/6-monitoring/2-io/3-user-input)" 을 참고하시기 바랍니다. 
+제어기의 입출력 신호와 보드의 입출력 연동에 대한 부분은 "[关于控制器的输入输出信号与电路板输入输出联动的内容，请参考“机器人控制器操作说明书-（输入输出信号设置）”。](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/korean-tp630/7-system/3-control-parameter/2-io-signal-setting/README)" 을 참고하시기 바랍니다.
 
 <br>
 
-<mark style="color:green;">**- Job을 이용한 보드 입력, 출력 제어**</mark>
+<mark style="color:green;">**<mark style="color:green;">- 使用TP进行电路板输入、输出控制</mark>**</mark>
 
-Job에서 보드 입력, 출력을 연동하는 부분은 "[로봇제어기 기능설명서 - 로봇언어 HRScript (fb객체 : 디지털 I/O)](https://hrbook-hrc.web.app/#/view/doc-hrscript/korean/6-external-comm/1-fb-io/README)" 을 참고하시기 바랍니다.
+TP에서 보드 출력을 제어하고 입력을 확인하는 부분은 "[关于在TP上控制电路板输出并确认输入的内容，请参考“机器人控制器操作说明书-（通用输出）”、“机器人控制器操作说明书-（通用输入）”。](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/korean-tp630/6-monitoring/2-io/4-user-output)", "[关于在TP上控制电路板输出并确认输入的内容，请参考“机器人控制器操作说明书-（通用输出）”、“机器人控制器操作说明书-（通用输入）”。](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/korean-tp630/6-monitoring/2-io/3-user-input)" 을 참고하시기 바랍니다.
+
+<br>
+
+<mark style="color:green;">**<mark style="color:green;">- 使用Job进行电路板输入、输出控制</mark>**</mark>
+
+Job에서 보드 입력, 출력을 연동하는 부분은 "[关于在Job中联动电路板输入、输出的内容，请参考“机器人控制器功能说明书-机器人语言HRScript（fb对象:数字I/O）”。](https://hrbook-hrc.web.app/#/view/doc-hrscript/korean/6-external-comm/1-fb-io/README)" 을 참고하시기 바랍니다.
 
 <br><br>
-추가적으로 사용자 DIO 에는 EtherCAT 통신 연결이 순간적으로 오류가 발생했을 경우 (예시: EtherCAT 통신 끊어짐 등으로 인한 Pre-OP, Safe-OP 상태) 디지털 출력 상태를 설정하는 기능이 있습니다.
+此外，用户DIO具备在EtherCAT通信连接瞬间发生错误时（示例：因EtherCAT通信断开等原因导致的Pre-OP、Safe-OP状态）设置数字输出状态的功能。
 
-**- 메뉴 위치 : [시스템] - [옵션장치] - [사용자DIO 보드 설정]**
+*- 菜单位置：[系统]-[选配装置]-[用户DIO板设置]**
 
 ![](../_assets/23.연결_오류시_디지털_출력_설정.png)<br>
-<그림 1. 연결 오류시 디지털 출력 설정><br>
+<图1. 连接错误时的数字输出设置><br>
 
 <br>
 
-<표 1. 연결 오류시 디지털 출력 설정 정보>
+<表1. 连接错误时的数字输出设置信息>
 
 <table>
 <thead>
-    <tr>
-        <th style="width: 50px; text-align: center;">
-            No.
-        </th>
-        <th style="width: 110px; text-align: center;">
-            설정값
-        </th>
-        <th style="width: 370px; text-align: center;">
-            비고
-        </th>
-    </tr>
+<tr>
+<th style="width: 50px; text-align: center;">
+No.
+</th>
+<th style="width: 110px; text-align: center;">
+设定值
+</th>
+<th style="width: 370px; text-align: center;">
+备注
+</th>
+</tr>
 </thead>
 <tbody>
-    <tr>
-        <td style="text-align: center;">
-            <strong>1</strong>
-        </td>
-        <td style="text-align: center;">
-            값 초기화<br>
-            (초기 설정값)
-        </td>
-        <td> 
-             - 연결 오류 발생시, 보드 출력값을 전부 OFF 로 변경
-        </td>
-    </tr>
-    <tr>
-        <td style="text-align: center;">
-            <strong>2</strong>
-        </td>
-        <td style="text-align: center;">
-            값 유지
-        </td>
-        <td> 
-             - 연결 오류 발생시, 보드 출력값을 바로 직전 값으로 유지
-        </td>
-    </tr>
+<tr>
+<td style="text-align: center;">
+<strong>1</strong>
+</td>
+<td style="text-align: center;">
+值初始化<br>
+（默认设定值）
+</td>
+<td>
+- 当发生连接错误时，则将电路板输出值全部改为OFF。
+</td>
+</tr>
+<tr>
+<td style="text-align: center;">
+<strong>2</strong>
+</td>
+<td style="text-align: center;">
+保持数值
+</td>
+<td>
+- 当发生连接错误时，则将电路板输出值保持为前一个值。
+</td>
+</tr>
 </tbody>
 </table>
 
 <br>
-설정값을 변경하려면 원하는 설정값을 선택하고 [v확인] 버튼을 누르면 됩니다.<br><br>
+要更改设定值，请选择所需设定值后，按下[v确认]按钮。<br><br>
 
 ![](../_assets/24.연결_오류시_디지털_출력_설정값_변경.png)<br>
-<그림 2. 연결 오류시 디지털 출력 설정값 변경><br>
+<图2. 更改连接错误时的数字输出设定值><br>
 
