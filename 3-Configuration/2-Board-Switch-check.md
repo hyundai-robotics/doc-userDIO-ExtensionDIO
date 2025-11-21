@@ -1,190 +1,190 @@
-﻿# 3.2. 보드 스위치 확인
+# 3.2. Überprüfung des Platinenschalters
 
 
-이미 보드가 제어기에 조립되었을 경우, 아래와 같은 TP화면에서 내부 스위치 상태를 확인할 수 있습니다.<br>
+Wenn die Platine bereits in der Steuerung eingebaut ist, können Sie den Status des internen Schalters auf dem TP-Bildschirm wie unten gezeigt überprüfen.<br>
 
-**- 메뉴 위치 : [시스템] - [옵션장치] - [사용자DIO 보드 설정]**
+- Menüposition: [System] - [Optionales Gerät] - [Einstellungen der Anwender-DIO-Platine]*
 
-'사용자DIO 목록' 에서 '사용자DIO 모드' 항목으로 확인할 수 있습니다.
+Sie können dies in der „Anwender-DIO-Liste” unter dem Punkt „Anwender-DIO-Modus” überprüfen.
 
 {% hint style="info" %}
-[사용자DIO 보드 설정]에서 정상적으로 확인하려면, BD681의 EtherCAT 연결이 정상적으로 되어야 합니다.
+Um die korrekte Überprüfung in [Einstellungen der Anwender-DIO-Platine] durchzuführen, muss die EtherCAT-Verbindung von BD681 normal sein.
 {% endhint %}
 
 
 ![](../_assets/02.사용자DIO_보드_설정_TP.png)<br>
-<그림 1. 사용자DIO 보드 설정 TP UI><br>
+<Abbildung 1. TP-Benutzeroberfläche „Einstellungen der Anwender-DIO-Platine”><br>
 
 <br>
 
-<표 1. 사용자DIO 모드 항목>
+<Tabelle 1. Punkt „Anwender-DIO-Modus”
 
 <table>
 <thead>
-    <tr>
-        <th style="width: 20px; text-align: center;">No.</th>
-        <th style="width: 100px; text-align: center;">
-            BD681 스위치 <br>
-            ON/OFF
-        </th>
-        <th style="width: 110px; text-align: center;">
-            사용자DIO 모드
-        </th>
-    </tr>
+<tr>
+<th style="width: 20px; text-align: center;">No.</th>
+<th style="width: 100px; text-align: center;">
+BD681-Schalter<br>
+ON/OFF
+</th>
+<th style="width: 110px; text-align: center;">
+Anwender-DIO-Modus
+</th>
+</tr>
 </thead>
 <tbody>
-    <tr>
-        <td style="text-align: center;"><strong>1</strong></td>
-        <td style="text-align: center;">OFF</td>
-        <td style="text-align: center;">
-            Use Ext_DIO <br>
-            (BD681 + BD682)
-        </td>
-    </tr>
-    <tr>
-        <td style="text-align: center;"><strong>2</strong></td>
-        <td style="text-align: center;">ON</td>
-        <td style="text-align: center;">
-            Only UserDIO <br>
-            (BD681)
-        </td>
-    </tr>
+<tr>
+<td style="text-align: center;"><strong>1</strong></td>
+<td style="text-align: center;">OFF</td>
+<td style="text-align: center;">
+Use Ext_DIO <br>
+(BD681 + BD682)
+</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>2</strong></td>
+<td style="text-align: center;">ON</td>
+<td style="text-align: center;">
+Only UserDIO <br>
+(BD681)
+</td>
+</tr>
 </tbody>
 </table>
 <br>
 
 
-사용자 DIO 보드를 2개 사용할 때, 2번째 사용자 DIO 보드 스위치가 OFF 되어있으면 <strong>"E55005 2번째 사용자 DIO 보드 스위치 설정 오류 감지"</strong> 에러를 출력합니다.
-해당 에러를 해결하기 위해서는 2번째 사용자 DIO 보드 스위치를 ON으로 변경하여야 합니다.
+Bei Verwendung von zwei Anwender-DIO-Platinen wird der Fehler <strong>„E55005 Fehler bei der Einstellung des Schalters der zweiten Anwender-DIO-Platine erkannt”</strong> ausgegeben, wenn der Schalter der zweiten Anwender-DIO-Platine ausgeschaltet ist.
+Um diesen Fehler zu beheben, müssen Sie den Schalter der zweiten Anwender-DIO-Platine auf EIN stellen.
 
 {% hint style="warning" %}
-"E55005 2번째 사용자 DIO 보드 스위치 설정 오류 감지" 에러가 발생하였을 경우, 사용자 DIO 보드와 확장 DIO 보드를 정상적으로 사용할 수 없습니다. 보드의 스위치 설정을 올바르게 변경한 후에 사용해야 합니다.
+Wenn der Fehler „E55005 Fehler bei der Einstellung des Schalters der zweiten Anwender-DIO-Platine erkannt“ auftritt, können die Anwender-DIO-Platine und die Erweiterungs-DIO-Platine nicht normal verwendet werden. Sie müssen die Einstellung des Platinenschalters vor der Verwendung korrekt ändern.
 {% endhint %}
 
 <br>
 
-<표 2. 사용자 DIO 모드 조합 사용 가능 여부>
+<Tabelle 2. Verwendbarkeit der Anwender-DIO-Modus-Kombination>
 
 <table>
 <thead>
-    <tr>
-        <th style="width: 20px; text-align: center;">No.</th>
-        <th style="width: 150px; text-align: center;">
-            사용자 DIO (BD681),<br> 
-            확장 DIO (BD682) 수량
-        </th>
-        <th style="width: 150px; text-align: center;">
-            BD681 스위치<br>
-            ON/OFF
-        </th>
-        <th style="width: 110px; text-align: center;">
-            사용 가능 여부
-        </th>
-    </tr>
+<tr>
+<th style="width: 20px; text-align: center;">No.</th>
+<th style="width: 150px; text-align: center;">
+Anwender-DIO-(BD681), <br>
+Erweiterungs-DIO (BD682), Anzahl
+</th>
+<th style="width: 150px; text-align: center;">
+BD681-Schalter<br>
+ON/OFF
+</th>
+<th style="width: 110px; text-align: center;">
+Verwendbarkeit
+</th>
+</tr>
 </thead>
 <tbody>
-    <tr>
-        <td style="text-align: center;"><strong>1</strong></td>
-        <td style="text-align: center;">
-            BD681 : 1 EA
-        </td>
-        <td style="text-align: center;">
-            ON<br>
-            (Only UserDIO)
-        </td>
-        <td style="text-align: center;">O (사용 가능)</td>
-    </tr>
-    <tr>
-        <td style="text-align: center;"><strong>2</strong></td>
-        <td style="text-align: center;">
-            BD681 : 1 EA
-        </td>
-        <td style="text-align: center;">
-            OFF<br>
-            (Use Ext_DIO)
-        </td>
-        <td style="text-align: center;">X (사용 불가)</td>
-    </tr>
-    <tr>
-        <td style="text-align: center;"><strong>3</strong></td>
-        <td style="text-align: center;">
-            BD681 : 1 EA<br>
-            BD682 : 1 EA
-        </td>
-        <td style="text-align: center;">
-            OFF<br>
-            (Use Ext_DIO)
-        </td>
-        <td style="text-align: center;">O (사용 가능)</td>
-    </tr>
-    <tr>
-        <td style="text-align: center;"><strong>4</strong></td>
-        <td style="text-align: center;">
-            BD681 : 1 EA<br>
-            BD682 : 1 EA
-        </td>
-        <td style="text-align: center;">
-            ON<br>
-            (Only UserDIO)
-        </td>
-        <td style="text-align: center;">X (사용 불가)</td>
-    </tr>
-    <tr>
-        <td style="text-align: center;"><strong>5</strong></td>
-        <td style="text-align: center;">
-            BD681 : 2 EA<br>
-            BD682 : 1 EA
-        </td>
-        <td style="text-align: center;">
-            #1 BD681 스위치 OFF<br>
-            (Use Ext_DIO)<br><br>
-            #2 BD681 스위치 ON<br>
-            (Only UserDIO)
-        </td>
-        <td style="text-align: center;">O (사용 가능)</td>
-    </tr>
-    <tr>
-        <td style="text-align: center;"><strong>6</strong></td>
-        <td style="text-align: center;">
-            BD681 : 2 EA<br>
-            BD682 : 1 EA
-        </td>
-        <td style="text-align: center;">
-            #1 BD681 스위치 OFF<br>
-            (Use Ext_DIO)<br><br>
-            #2 BD681 스위치 OFF<br>
-            (Use Ext_DIO)
-        </td>
-        <td style="text-align: center;">X (사용 불가)</td>
-    </tr>
-    <tr>
-        <td style="text-align: center;"><strong>7</strong></td>
-        <td style="text-align: center;">
-            BD681 : 2 EA<br>
-            BD682 : 1 EA
-        </td>
-        <td style="text-align: center;">
-            #1 BD681 스위치 ON<br>
-            (Only UserDIO)<br><br>
-            #2 BD681 스위치 OFF<br>
-            (Use Ext_DIO)
-        </td>
-        <td style="text-align: center;">X (사용 불가)</td>
-    </tr>
-    <tr>
-        <td style="text-align: center;"><strong>8</strong></td>
-        <td style="text-align: center;">
-            BD681 : 2 EA<br>
-            BD682 : 1 EA
-        </td>
-        <td style="text-align: center;">
-            #1 BD681 스위치 ON<br>
-            (Only UserDIO)<br><br>
-            #2 BD681 스위치 ON<br>
-            (Only UserDIO)
-        </td>
-        <td style="text-align: center;">X (사용 불가)</td>
-    </tr>
+<tr>
+<td style="text-align: center;"><strong>1</strong></td>
+<td style="text-align: center;">
+BD681 : 1 EA
+</td>
+<td style="text-align: center;">
+ON<br>
+(Only UserDIO)
+</td>
+<td style="text-align: center;">O (verfügbar)</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>2</strong></td>
+<td style="text-align: center;">
+BD681 : 1 EA
+</td>
+<td style="text-align: center;">
+OFF<br>
+(Use Ext_DIO)
+</td>
+<td style="text-align: center;">X (nicht verfügbar)</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>3</strong></td>
+<td style="text-align: center;">
+BD681 : 1 EA<br>
+BD682 : 1 EA
+</td>
+<td style="text-align: center;">
+OFF<br>
+(Use Ext_DIO)
+</td>
+<td style="text-align: center;">O (verfügbar)</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>4</strong></td>
+<td style="text-align: center;">
+BD681 : 1 EA<br>
+BD682 : 1 EA
+</td>
+<td style="text-align: center;">
+ON<br>
+(Only UserDIO)
+</td>
+<td style="text-align: center;">X (nicht verfügbar)</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>5</strong></td>
+<td style="text-align: center;">
+BD681 : 2 EA<br>
+BD682 : 1 EA
+</td>
+<td style="text-align: center;">
+#1 BD681-Schalter AUS<br>
+(Use Ext_DIO)<br><br>
+#2 BD681-Schalter EIN<br>
+(Only UserDIO)
+</td>
+<td style="text-align: center;">O (verfügbar)</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>6</strong></td>
+<td style="text-align: center;">
+BD681 : 2 EA<br>
+BD682 : 1 EA
+</td>
+<td style="text-align: center;">
+#1 BD681-Schalter AUS<br>
+(Use Ext_DIO)<br><br>
+#2 BD681-Schalter AUS<br>
+(Use Ext_DIO)
+</td>
+<td style="text-align: center;">X (nicht verfügbar)</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>7</strong></td>
+<td style="text-align: center;">
+BD681 : 2 EA<br>
+BD682 : 1 EA
+</td>
+<td style="text-align: center;">
+#1 BD681-Schalter EIN<br>
+(Only UserDIO)<br><br>
+#2 BD681-Schalter AUS<br>
+(Use Ext_DIO)
+</td>
+<td style="text-align: center;">X (nicht verfügbar)</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>8</strong></td>
+<td style="text-align: center;">
+BD681 : 2 EA<br>
+BD682 : 1 EA
+</td>
+<td style="text-align: center;">
+#1 BD681-Schalter EIN<br>
+(Only UserDIO)<br><br>
+#2 BD681-Schalter EIN<br>
+(Only UserDIO)
+</td>
+<td style="text-align: center;">X (nicht verfügbar)</td>
+</tr>
 </tbody>
 </table>
 <br>

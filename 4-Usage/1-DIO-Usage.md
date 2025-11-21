@@ -1,80 +1,80 @@
-﻿# 4.1. DIO 사용 방법
+# 4.1. Verwendungsmethode für DIO
 
-BD681, BD682 의 커넥터에 올바르게 케이블을 연결하였다면, 디지털 입출력을 제어하기 위한 방법은 아래 내용들을 참고하시기 바랍니다.
+Wenn das Kabel korrekt an den Anschluss von BD681 und BD682 angeschlossen ist, finden Sie im Folgenden Informationen zu den Methoden zur Steuerung der Digitalein- und -ausgänge.
 <br>
 
-<mark style="color:green;">**- 제어기의 입출력 신호와 연동**</mark>
+<mark style="color:green;">**<mark style="color:green;">- Verbindung mit den Ein-/Ausgangssignalen der Steuerung</mark>**</mark>
 
-제어기의 입출력 신호와 보드의 입출력 연동에 대한 부분은 "[로봇제어기 조작설명서 - (입출력 신호 설정)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/korean-tp630/7-system/3-control-parameter/2-io-signal-setting/README)" 을 참고하시기 바랍니다.
-
-<br>
-
-<mark style="color:green;">**- TP를 이용한 보드 입력, 출력 제어**</mark>
-
-TP에서 보드 출력을 제어하고 입력을 확인하는 부분은 "[로봇제어기 조작설명서 - (범용 출력)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/korean-tp630/6-monitoring/2-io/4-user-output)", "[로봇제어기 조작설명서 - (범용 입력)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/korean-tp630/6-monitoring/2-io/3-user-input)" 을 참고하시기 바랍니다. 
+제어기의 입출력 신호와 보드의 입출력 연동에 대한 부분은 "[Informationen zur Verbindung der Ein-/Ausgangssignale der Steuerung mit den Ein-/Ausgängen der Platine finden Sie im „Bedienungshandbuch der Robotersteuerung – (Ein-/Ausgangssignaleinstellungen)“.](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/korean-tp630/7-system/3-control-parameter/2-io-signal-setting/README)" 을 참고하시기 바랍니다.
 
 <br>
 
-<mark style="color:green;">**- Job을 이용한 보드 입력, 출력 제어**</mark>
+<mark style="color:green;">**<mark style="color:green;">- Steuerung der Ein- und Ausgänge der Platine über TP</mark>**</mark>
 
-Job에서 보드 입력, 출력을 연동하는 부분은 "[로봇제어기 기능설명서 - 로봇언어 HRScript (fb객체 : 디지털 I/O)](https://hrbook-hrc.web.app/#/view/doc-hrscript/korean/6-external-comm/1-fb-io/README)" 을 참고하시기 바랍니다.
+TP에서 보드 출력을 제어하고 입력을 확인하는 부분은 "[Informationen zur Steuerung der Platinenausgänge und zur Überprüfung der Eingänge über TP finden Sie im „Bedienungshandbuch der Robotersteuerung – (Allgemeine Ausgänge)“, „Bedienungshandbuch der Robotersteuerung – (Allgemeine Eingänge)“.](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/korean-tp630/6-monitoring/2-io/4-user-output)", "[Informationen zur Steuerung der Platinenausgänge und zur Überprüfung der Eingänge über TP finden Sie im „Bedienungshandbuch der Robotersteuerung – (Allgemeine Ausgänge)“, „Bedienungshandbuch der Robotersteuerung – (Allgemeine Eingänge)“.](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/korean-tp630/6-monitoring/2-io/3-user-input)" 을 참고하시기 바랍니다.
+
+<br>
+
+<mark style="color:green;">**<mark style="color:green;">- Steuerung der Ein- und Ausgänge der Platine über Job</mark>**</mark>
+
+Job에서 보드 입력, 출력을 연동하는 부분은 "[Informationen zur Anbindung der Ein- und Ausgänge der Platine in Job finden Sie im „Handbuch zu den Funktionen der Robotersteuerung – Robotersprache HRScript (fb-Objekt: Digital-E/A)“](https://hrbook-hrc.web.app/#/view/doc-hrscript/korean/6-external-comm/1-fb-io/README)" 을 참고하시기 바랍니다.
 
 <br><br>
-추가적으로 사용자 DIO 에는 EtherCAT 통신 연결이 순간적으로 오류가 발생했을 경우 (예시: EtherCAT 통신 끊어짐 등으로 인한 Pre-OP, Safe-OP 상태) 디지털 출력 상태를 설정하는 기능이 있습니다.
+Darüber hinaus verfügt die Anwender-DIO über eine Funktion zum Einstellen des Status des Digitalausgangs, wenn ein vorübergehender Fehler in der EtherCAT-Kommunikationsverbindung auftritt (Beispiel: Pre-OP-, Safe-OP-Status aufgrund einer Unterbrechung der EtherCAT-Kommunikation usw.).
 
-**- 메뉴 위치 : [시스템] - [옵션장치] - [사용자DIO 보드 설정]**
+- Menüposition: [System] - [Optionales Gerät] - [Einstellungen der Anwender-DIO-Platine]*
 
 ![](../_assets/23.연결_오류시_디지털_출력_설정.png)<br>
-<그림 1. 연결 오류시 디지털 출력 설정><br>
+<Abbildung 1. Einstellung des Digitalausgangs bei Verbindungsfehler><br>
 
 <br>
 
-<표 1. 연결 오류시 디지털 출력 설정 정보>
+<Tabelle 1. Informationen zur Einstellung des Digitalausgangs bei Verbindungsfehler>
 
 <table>
 <thead>
-    <tr>
-        <th style="width: 50px; text-align: center;">
-            No.
-        </th>
-        <th style="width: 110px; text-align: center;">
-            설정값
-        </th>
-        <th style="width: 370px; text-align: center;">
-            비고
-        </th>
-    </tr>
+<tr>
+<th style="width: 50px; text-align: center;">
+No.
+</th>
+<th style="width: 110px; text-align: center;">
+Einstellwert
+</th>
+<th style="width: 370px; text-align: center;">
+Anmerkungen
+</th>
+</tr>
 </thead>
 <tbody>
-    <tr>
-        <td style="text-align: center;">
-            <strong>1</strong>
-        </td>
-        <td style="text-align: center;">
-            값 초기화<br>
-            (초기 설정값)
-        </td>
-        <td> 
-             - 연결 오류 발생시, 보드 출력값을 전부 OFF 로 변경
-        </td>
-    </tr>
-    <tr>
-        <td style="text-align: center;">
-            <strong>2</strong>
-        </td>
-        <td style="text-align: center;">
-            값 유지
-        </td>
-        <td> 
-             - 연결 오류 발생시, 보드 출력값을 바로 직전 값으로 유지
-        </td>
-    </tr>
+<tr>
+<td style="text-align: center;">
+<strong>1</strong>
+</td>
+<td style="text-align: center;">
+Werte zurücksetzen<br>
+(Anfangseinstellwert)
+</td>
+<td>
+– Bei Auftreten eines Verbindungsfehlers werden alle Ausgangswerte der Platine auf AUS gesetzt.
+</td>
+</tr>
+<tr>
+<td style="text-align: center;">
+<strong>2</strong>
+</td>
+<td style="text-align: center;">
+Werte beibehalten
+</td>
+<td>
+– Bei Auftreten eines Verbindungsfehlers werden die Ausgangswerte der Platine auf die unmittelbar vorherigen Werte beibehalten.
+</td>
+</tr>
 </tbody>
 </table>
 
 <br>
-설정값을 변경하려면 원하는 설정값을 선택하고 [v확인] 버튼을 누르면 됩니다.<br><br>
+Um den Einstellwert zu ändern, wählen Sie den gewünschten Einstellwert aus und drücken Sie die Taste [v OK]. <br><br>
 
 ![](../_assets/24.연결_오류시_디지털_출력_설정값_변경.png)<br>
-<그림 2. 연결 오류시 디지털 출력 설정값 변경><br>
+<Abbildung 2. Änderung des Einstellwerts für den Digitalausgang bei Verbindungsfehler><br>
 

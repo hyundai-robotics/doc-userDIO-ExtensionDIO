@@ -1,110 +1,110 @@
-﻿# 3.5. 센서 동기 설정
+# 3.5. Sensorsynchronisationseinstellungen
 
 {% hint style="info" %}
-컨베이어 엔코더 인터페이스를 사용하지 않을 경우는 "센서 동기" 설정을 진행하지 않아도 됩니다.
+Wenn Sie die Förderband-Encoder-Schnittstelle nicht verwenden, müssen Sie die Einstellungen für die „Sensorsynchronisation” nicht vornehmen.
 {% endhint %}
 
-BD682의 컨베이어 엔코더 인터페이스 사용할 경우 "센서 동기" 설정이 필요합니다. 
+Wenn Sie die Förderband-Encoder-Schnittstelle des BD682 verwenden, sind Einstellungen für die „Sensorsynchronisation” erforderlich.
 
-**- 메뉴 위치: [시스템] - [4: 응용 파라미터] - [4: 센서 동기]**
+- Menüposition: [System] - [4: Anwendungsparameter] - [ 4: Sensorsynchronisation]*
 
 ![](../_assets/18.센서동기_설정_UI.png)<br>
-<그림 1. 센서 동기 설정 UI><br><br>
+<Abbildung 1. Benutzeroberfläche für die Sensorsynchronisationseinstellungen><br><br>
 
-'파라미터 설정'의 '동기 상태' 항목을 '컨베이어'로 설정하고 '입력 신호 할당', '출력 신호 할당'을 정상적으로 설정해야 컨베이어 엔코더 인터페이스를 사용할 수 있습니다.
+Sie können die Förderband-Encoder-Schnittstelle verwenden, indem Sie den Punkt „Synchronisationsstatus“ in den „Parametereinstellungen“ auf „Förderband“ setzen und „Eingangssignalzuweisung“ und „Ausgangssignalzuweisung“ korrekt einstellen.
 
 
 ![](../_assets/19.동기_상태_컨베이어_설정.png)<br>
-<그림 2. 동기 상태를 컨베이어로 설정><br>
+<Abbildung 2. Setzen des Synchronisationsstatus auf „Conveyor“ (Förderband)><br>
 
-'파라미터 설정'에 대한 세부 정보는 "[로봇제어기 기능설명서 - 센서 동기 (센서 동기 파라미터)](https://hrbook-hrc.web.app/#/view/doc-sensor-sync/korean/3-user-interface/3-3-sensor-sync-parameter)"를 참고하시기 바랍니다.
+'파라미터 설정'에 대한 세부 정보는 "[Ausführliche Informationen zu den „Parametereinstellungen“ finden Sie im „Handbuch zu den Funktionen der Robotersteuerung – Sensorsynchronisation (Parameter für die Sensorsynchronisation)“.](https://hrbook-hrc.web.app/#/view/doc-sensor-sync/korean/3-user-interface/3-3-sensor-sync-parameter)"를 참고하시기 바랍니다.
 
 <br>
-BD682의 컨베이어 엔코더 인터페이스는 시스템 입출력에 연동되므로 입출력 신호 할당이 필요합니다. 
+Da die Förderband-Encoder-Schnittstelle des BD682 mit dem System-Eingang/Ausgang verbunden ist, ist eine Zuweisung der Eingangs-/Ausgangssignale erforderlich.
 
-아래 그림과 같이 UI 밑에 위치한 **[BD640T BD68X] 버튼**을 누르면 지정된 입출력 번호를 입력해 줍니다. 그리고 최종적으로 **[v확인] 버튼**을 누르면 설정을 적용할 수 있습니다.
+아래 그림과 같이 UI 밑에 위치한 **Drücken Sie die Taste [BD640T BD68X] unten in der Benutzeroberfläche, wie in der Abbildung unten gezeigt, um die festgelegten Eingangs-/Ausgangsnummern einzugeben. Drücken Sie abschließend die Taste [v OK], um die Einstellungen zu übernehmen.**을 누르면 지정된 입출력 번호를 입력해 줍니다. 그리고 최종적으로 **Drücken Sie die Taste [BD640T BD68X] unten in der Benutzeroberfläche, wie in der Abbildung unten gezeigt, um die festgelegten Eingangs-/Ausgangsnummern einzugeben. Drücken Sie abschließend die Taste [v OK], um die Einstellungen zu übernehmen.**을 누르면 설정을 적용할 수 있습니다.
 
 ![](../_assets/20.채널1_시스템_입출력_설정.png)<br>
-<그림 3. 채널1 시스템 입출력 설정><br><br>
+<Abbildung 3. Einstellungen für System-Ein-/Ausgänge von Kanal 1><br><br>
 
 ![](../_assets/21.채널2_시스템_입출력_설정.png)<br>
-<그림 4. 채널2 시스템 입출력 설정><br><br>
+<Abbildung 4. Einstellungen für System-Ein-/Ausgänge von Kanal 2><br><br>
 
-추가적으로 펄스 카운터 타입, 펄스 통신 방식(엔코더 종류)을 선택할 수 있습니다. 아래의 표 내용을 참고하시기 바랍니다.
+Darüber hinaus können Sie den Impulszählertyp und die Impulskommunikationsmethode (Encodertyp) auswählen. Bitte beachten Sie die folgenden Tabelleninhalte.
 <br>
 
-<표 1. 펄스 카운터 타입, 펄스 통신 방식(엔코더 종류) 정보>
+<Tabelle 1. Informationen zu Impulszählertyp und Impulskommunikationsmethode (Encodertyp)>
 
 <table>
 <thead>
-    <tr>
-        <th style="width: 20px; text-align: center;">
-            No.
-        </th>
-        <th style="width: 110px; text-align: center;">
-            출력 신호 할당
-        </th>
-        <th style="width: 30px; text-align: center;">
-            ON/OFF
-        </th>
-        <th style="width: 250px; text-align: center;">
-            비고
-        </th>
-    </tr>
+<tr>
+<th style="width: 20px; text-align: center;">
+No.
+</th>
+<th style="width: 110px; text-align: center;">
+Ausgangssignalzuweisung
+</th>
+<th style="width: 30px; text-align: center;">
+ON/OFF
+</th>
+<th style="width: 250px; text-align: center;">
+Anmerkungen
+</th>
+</tr>
 </thead>
 <tbody>
-    <tr>
-        <td rowspan="2" style="text-align: center;">
-            <strong>1</strong>
-        </td>
-        <td rowspan="2" style="text-align: center;">
-            펄스 카운터 타입
-        </td>
-        <td style="text-align: center;">
-            ON<br>(1)
-        </td>
-        <td> 
-            Up / Down 카운터 방식
-        </td>
-    </tr>        
-        <td style="text-align: center;">
-            OFF<br>(0)
-        </td>
-        <td> 
-            Up 카운터 방식 (초기값)
-        </td>
-    </tr>
-        <tr>
-        <td rowspan="2" style="text-align: center;">
-            <strong>2</strong>
-        </td>
-        <td rowspan="2" style="text-align: center;">
-            펄스 통신 방식<br>
-            (엔코더 종류)
-        </td>
-        <td style="text-align: center;">
-            ON<br>(1)
-        </td>
-        <td> 
-            오픈 콜렉터 엔코더
-        </td>
-    </tr>        
-        <td style="text-align: center;">
-            OFF<br>(0)
-        </td>
-        <td> 
-            라인드라이브 엔코더 (초기값)
-        </td>
-    </tr>
+<tr>
+<td rowspan="2" style="text-align: center;">
+<strong>1</strong>
+</td>
+<td rowspan="2" style="text-align: center;">
+Impulszählertyp
+</td>
+<td style="text-align: center;">
+ON<br>(1)
+</td>
+<td>
+Aufwärts-/Abwärtszählmethode
+</td>
+</tr>
+<td style="text-align: center;">
+OFF<br>(0)
+</td>
+<td>
+Aufwärtszählmethode (Anfangswert)
+</td>
+</tr>
+<tr>
+<td rowspan="2" style="text-align: center;">
+<strong>2</strong>
+</td>
+<td rowspan="2" style="text-align: center;">
+Impulskommunikationsmethode<br>
+(Encodertyp)
+</td>
+<td style="text-align: center;">
+ON<br>(1)
+</td>
+<td>
+Open-Collector-Encoder
+</td>
+</tr>
+<td style="text-align: center;">
+OFF<br>(0)
+</td>
+<td>
+Line-Drive-Encoder (Anfangswert)
+</td>
+</tr>
 </tbody>
 </table>
 
 <br>
 
-아래 그림처럼 체크박스를 클릭하면 ON으로 입력할 수 있습니다.<br>
-적용을 위해서는 반드시 **[v확인] 버튼**을 눌러야 합니다.
+Sie können diese Option aktivieren, indem Sie das Kontrollkästchen wie in der Abbildung unten gezeigt anklicken.<br>
+적용을 위해서는 반드시 **Um die Einstellungen zu übernehmen, müssen Sie auf die Schaltfläche [v OK] klicken.**을 눌러야 합니다.
 
 ![](../_assets/22.출력신호할당_ON.png)<br>
-<그림 5. 펄스 카운터 타입 ON 적용><br>
+<Abbildung 5. Impulszählertyp EIN-Anwendung><br>
 
-세부적인 내용은 "[로봇제어기 기능설명서 - 센서 동기](https://hrbook-hrc.web.app/#/view/doc-sensor-sync/korean/README)"의 컨베이어 관련 부분을 참고하시기 바랍니다.
+세부적인 내용은 "[Ausführliche Informationen finden Sie im Abschnitt „Handbuch zu den Funktionen der Robotersteuerung – Sensorsynchronisation” unter „Förderband”.](https://hrbook-hrc.web.app/#/view/doc-sensor-sync/korean/README)"의 컨베이어 관련 부분을 참고하시기 바랍니다.

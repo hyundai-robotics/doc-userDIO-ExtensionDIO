@@ -1,73 +1,73 @@
-﻿# 1. 개요
+# 1. Übersicht
 
-Hi7 제어기에서 '사용자 DIO 보드(BD681)'와 '확장 DIO 보드(BD682)'를 활용하여 디지털 입출력 신호와 컨베이어 인터페이스를 진행할 수 있습니다.
+In der Hi7-Steuerung können Sie digitale Ein-/Ausgangssignale und eine Förderbandschnittstelle mithilfe der „Anwender-DIO-Platine (BD681)” und der „Erweiterungs-DIO-Platine (BD682)” ausführen.
 
 {% hint style="info" %}
-매뉴얼에서 DIO는 디지털 입출력(Digital Input and Output)을 의미합니다.
+In diesem Handbuch steht DIO für „Digital Input and Output“ (digitaler Ein- und Ausgang).
 {% endhint %}
 
-'확장 DIO 보드(BD682)'는 단독으로는 사용할 수 없으며 '사용자 DIO 보드(BD681)'와 같이 사용해야 합니다.
+Die „Erweiterungs-DIO-Platine (BD682)” muss zusammen mit der „Anwender-DIO-Platine (BD681)” verwendet werden und darf nicht alleine verwendet werden.
 
 <br>
 
-<표 1. 보드 사양>
+<Tabelle 1. Spezifikationen der Platine>
 
 <table>
 <thead>
-    <tr>
-        <th style="width: 50px; text-align: center;">
-            No.
-        </th>
-        <th style="width: 110px; text-align: center;">
-            보드명<br>
-            (보드 식별자)
-        </th>
-        <th style="width: 300px; text-align: center;">
-            보드 기능 정보
-        </th>
-    </tr>
+<tr>
+<th style="width: 50px; text-align: center;">
+No.
+</th>
+<th style="width: 110px; text-align: center;">
+Platinenbezeichnung<br>
+(Platinenkennung)
+</th>
+<th style="width: 300px; text-align: center;">
+Informationen zur Platinenfunktion
+</th>
+</tr>
 </thead>
 <tbody>
-    <tr>
-        <td style="text-align: center;">
-            <strong>1</strong>
-        </td>
-        <td style="text-align: center;">
-            사용자 DIO 보드<br>
-            ( BD681 )
-        </td>
-        <td> 
-             - 디지털 입력 16 채널 <br>
-             - 디지털 출력 16 채널
-        </td>
-    </tr>
-    <tr>
-        <td style="text-align: center;">
-            <strong>2</strong>
-        </td>
-        <td style="text-align: center;">
-            확장 DIO 보드<br>
-            ( BD682 )
-        </td>
-        <td> 
-             - 디지털 입력 16 채널 <br>
-             - 디지털 출력 16 채널 (릴레이 출력 8 채널 포함)<br> 
-             - 컨베이어 인터페이스 2채널 <br> 
-             - 단독 사용 불가 (BD681과 같이 사용 필요)
-        </td>
-    </tr>
+<tr>
+<td style="text-align: center;">
+<strong>1</strong>
+</td>
+<td style="text-align: center;">
+Anwender-DIO-Platine<br>
+( BD681 )
+</td>
+<td>
+- 16 digitale Eingangskanäle<br>
+- 16 digitale Eingangskanäle
+</td>
+</tr>
+<tr>
+<td style="text-align: center;">
+<strong>2</strong>
+</td>
+<td style="text-align: center;">
+Erweiterungs-DIO-Platine<br>
+( BD682 )
+</td>
+<td>
+- 16 digitale Eingangskanäle<br>
+- 16 digitale Ausgangskanäle (einschließlich 8 Relaisausgangskanäle)<br>
+- 2 Kanäle für Förderbandschnittstelle<br>
+- Kann nicht allein verwendet werden (muss zusammen mit BD681 verwendet werden)
+</td>
+</tr>
 </tbody>
 </table>
 
 <br>
-BD681 2개와 BD682 1개를 이용하여 최대 48 채널의 입출력을 제어할 수 있습니다.
+Mit zwei BD681 und einem BD682 können Sie bis zu 48 Ein-/Ausgangskanäle steuern.
 <br><br>
 
-사용자 DIO 및 확장 DIO 를 정상적으로 사용하기 위해서는 아래 항목들에 대한 설정 및 확인이 필요합니다.<br>
+Um Anwender-DIO und Erweiterungs-DIO normal verwenden zu können, müssen die folgenden Punkte eingestellt und überprüft werden.<br>
 
-1. 이더캣 통신 연결<br>
-2. 보드 스위치 확인<br>
-3. FB 블록 설정<br>
-4. 내장 PLC 사용 여부 확인<br>
-5. 센서 동기 설정<br>
+1. EtherCAT-Kommunikationsanschluss<br>
+2. Überprüfung des Platinenschalters<br>
+3. FB-Block-Einstellungen<br>
+4. Bestätigung der Verwendung der Embedded-SPS<br>
+5. Sensorsynchronisationseinstellungen<br>
 

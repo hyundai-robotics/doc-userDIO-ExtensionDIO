@@ -1,50 +1,50 @@
-﻿# 3.1. EtherCAT 설정
+# 3.1. EtherCAT-Einstellungen
 
-EtherCAT 설정은 다음과 같이 진행합니다.
+Die EtherCAT-Einstellungen werden wie folgt vorgenommen.
 
-제어기를 OFF 한 상태에서 LAN 케이블을 올바르게 연결해야 합니다.
+Das LAN-Kabel muss bei ausgeschalteter Steuerung korrekt angeschlossen sein.
 
-<mark style="color:green;">**- BD681 1개 구성 ( BD681 + BD682 )**</mark>
+<mark style="color:green;">**<mark style="color:green;">- Einzel-BD681-Konfiguration (BD681 + BD682)</mark>**</mark>
 
 ![](../_assets/05.BD681_1개_케이블_연결.png)<br>
-<그림 1. BD681 1개 케이블 연결>
+<Abbildung 1. Kabelverbindung für die Einzel-BD681-Konfiguration
 
-위의 그림과 같이 BD642의 아래쪽 랜커넥터와 BD681 위쪽 랜커넥터를 연결한 후 제어기 전원을 ON 합니다. 정상적으로 EtherCAT이 연결되면 아래와 같이 TP에서 '사용자DIO 목록'으로 확인 가능합니다.
+Verbinden Sie den unteren LAN-Anschluss des BD642 und den oberen LAN-Anschluss der BD681 wie in der Abbildung oben gezeigt und schalten Sie dann die Stromversorgung der Steuerung ein. Wenn EtherCAT normal verbunden ist, können Sie dies in der „Anwender-DIO-Liste“ auf dem TP wie unten gezeigt überprüfen.
 
-**- 메뉴 위치: [시스템] - [옵션 장치] - [사용자 DIO 보드 설정]**
+- Menüposition: [System] - [Optionales Gerät] - [Einstellungen der Anwender-DIO-Platine]*
 
 ![](../_assets/07.BD681_1개_사용자DIO_보드_설정.png)<br>
-<그림 2. BD681 1개 사용자DIO 보드 설정><br>
+<Abbildung 2. Einstellungen für einzelne Anwender-DIO-Platine BD681><br>
 
 ![](../_assets/08.BD681_상태표시_LED.png)<br>
-<그림 3. BD681 상태표시 LED><br>
+<Abbildung 3. Status-LED der BD681><br>
 
-BD681 보드의 상태표시 LED는 정상적으로 연결이 완료 될 경우, 아래와 같이 동작합니다.  
+Wenn die Verbindung ordnungsgemäß hergestellt wurde, funktioniert die Status-LED der BD681-Platine wie folgt.
 
-- BD681 보드 상태표시 LED 동작
-1. 2초 간격으로 점멸 (EtherCAT 연결 대기중)
-2. 0.25초 간격으로 점멸 (EtherCAT 연결 Ok, 초기 설정값 대기중)
-3. 0.75초 간격으로 점멸 (EtherCAT 연결 Ok, 초기 설정 Ok)
+- Funktion der Status-LED der BD681-Platine
+1. Blinkt in Intervallen von 2 Sekunden (EtherCAT-Verbindung wird erwartet)
+2. Blinkt in Intervallen von 0,25 Sekunden (EtherCAT-Verbindung OK, wartet auf Anfangseinstellwerte)
+3. Blinkt in Intervallen von 0,75 Sekunden (EtherCAT-Verbindung OK, Anfangseinstellung OK)
 <br><br>
 
-<mark style="color:green;">**- BD681 2개 구성 ( #1_BD681 + BD682 + #2_BD681 )**</mark>
+<mark style="color:green;">**<mark style="color:green;">- Dual-BD681-Konfiguration(#1_BD681 + BD682 + #2_BD681)</mark>**</mark>
 
 ![](../_assets/09.BD681_2개_케이블_연결.png)<br>
-<그림 4. BD681 2개 케이블 연결>
+<Abbildung 4. Kabelverbindung für die Dual-BD681-Konfiguration>
 
-위의 그림과 같이 #1 BD681 자리 옆에 #2 BD681을 꽂아 넣습니다.
+Stecken Sie die BD681 #2 neben den Steckplatz der BD681 #1, wie in der Abbildung oben gezeigt.
 
 {% hint style="info" %}
-#2 BD681은 보드 스위치가 ON 되어야 합니다.
+# Der Schalter der BD681-Platine #2 muss auf ON stehen.
 {% endhint %}
 
-보드 스위치에 대한 세부 내용은 "[2.2 보드 스위치](../2-HW/2-Board-Switch.md)" 및 "[3.2 보드 스위치 확인](./2-Board-Switch-check.md)" 매뉴얼을 참고하시기 바랍니다.
+보드 스위치에 대한 세부 내용은 "[Ausführliche Informationen zum Platinenschalter finden Sie in den Handbüchern „2.2 Platinenschalter“ und „3.2 Überprüfung des Platinenschalters“.](../2-HW/2-Board-Switch.md)" 및 "[Ausführliche Informationen zum Platinenschalter finden Sie in den Handbüchern „2.2 Platinenschalter“ und „3.2 Überprüfung des Platinenschalters“.](./2-Board-Switch-check.md)" 매뉴얼을 참고하시기 바랍니다.
 
-BD642의 아래쪽 랜커넥터와 #1 BD681 위쪽 랜커넥터를 연결한 후, #1 BD681 아래쪽 랜커넥터와 #2 BD681 위쪽 랜커넥터를 연결합니다. 그리고 제어기 전원을 ON 합니다. 정상적으로 EtherCAT이 연결되면 아래와 같이 TP에서 확인 가능합니다.
+Verbinden Sie den unteren LAN-Anschluss des BD642 mit dem oberen LAN-Anschluss des #1 BD681 und anschließend den unteren LAN-Anschluss des #1 BD681 mit dem oberen LAN-Anschluss des #2 BD681. Schalten Sie dann die Stromversorgung der Steuerung ein. Wenn EtherCAT ordnungsgemäß verbunden ist, können Sie dies wie unten gezeigt auf dem TP überprüfen.
 
 ![](../_assets/11.BD681_2개_사용자DIO_보드_설정.png)<br>
-<그림 5. BD681 2개 사용자DIO 보드 설정><br>
+<Abbildung 5. Einstellungen der Dual-Anwender-DIO-Platine BD681><br>
 
-BD681 보드의 상태표시 LED는 정상적으로 연결 될 경우, 'BD681 1개 구성'의 'BD681 보드 상태표시 LED 동작' 과 동일하게 동작합니다.
+Wenn die BD681-Platine normal angeschlossen ist, funktioniert die Status-LED genauso wie unter „Funktion der Status-LED der BD681-Platine” in „Einzel-BD681-Konfiguration” beschrieben.
 
 

@@ -1,1 +1,1 @@
-﻿# 4. 사용자 DIO, 확장 DIO 사용 방법
+# 4. Verwendungsmethode für Anwender-DIO und Erweiterungs-DIO

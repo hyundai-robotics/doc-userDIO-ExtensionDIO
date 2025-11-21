@@ -1,32 +1,32 @@
-﻿# 3.3. FB 블럭 설정
+# 3.3. FB-Block-Einstellungen
 
-FB 블럭 설정은 다음 메뉴에서 진행할 수 있습니다.
+Die FB-Block-Einstellungen können im folgenden Menü vorgenommen werden.
 
-**- 메뉴 위치: [시스템] - [2:제어 파라미터] - [2:입출력 신호 설정] - [6:fb블럭 할당]**
+- Menüposition: [System] - [2: Steuerungsparameter] - [2: Ein-/Ausgangssignal-Einstellungen] - [6: FB-Block-Zuweisung]*
 
 ![](../_assets/12.FB블럭할당.png)<br>
-<그림 1. FB 블럭 할당 메뉴><br><br>
+<Abbildung 1. Menü „FB-Block-Zuweisung“><br><br>
 
-할당하고 싶은 fb 블럭을 선택하여 '사용자 DIO'로 설정을 진행하면 됩니다.
+Wählen Sie den zuweisbaren FB-Block aus und setzen Sie ihn auf „Anwender-DIO”.
 
 ![](../_assets/13.fb1_사용자DIO할당.png)<br>
-<그림 2. fb1에 사용자DIO 할당 예시><br><br>
+<Abbildung 2. Beispiel für die Zuweisung von fb1 zu Anwender-DIO><br><br>
 
-자세한 사항은 "[로봇제어기 조작설명서 - (FB 블록 할당)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/korean-tp630/7-system/3-control-parameter/2-io-signal-setting/9-dio-block-assign)" 을 참고하시기 바랍니다.
+자세한 사항은 "[Weitere Informationen finden Sie in der „Bedienungsanleitung der Robotersteuerung – (FB-Block-Zuweisung)”.](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/korean-tp630/7-system/3-control-parameter/2-io-signal-setting/9-dio-block-assign)" 을 참고하시기 바랍니다.
 
-사용자 DIO에 대한 FB블럭이 할당 되었는지는 [6:fb블럭 할당] 및 [사용자DIO 보드 설정] 메뉴에서 확인 가능합니다.
+Sie können in den Menüs [6: FB-Block-Zuweisung] und [Einstellungen der Anwender-DIO-Platine] überprüfen, ob der FB-Block für Anwender-DIO zugewiesen wurde.
 
 ![](../_assets/14.사용자DIO_FB_미할당.png)<br>
-<그림 3. 사용자DIO FB블록 미할당><br><br>
+<Abbildung 3. FB-Block für Anwender-DIO nicht zugewiesen><br><br>
 
 ![](../_assets/15.사용자DIO_FB3_할당.png)<br>
-<그림 4. 사용자DIO fb3 할당><br>
+<Abbildung 4. Anwender-DIO-Zuweisung für fb3><br>
 
 {% hint style="warning" %}
-사용자DIO를 여러 FB블럭에 할당하여도 <strong>가장 번호가 낮은 FB블럭에서 사용 가능하며, 나머지 할당된 FB블럭은 제어가 무시</strong> 됩니다.
+Auch wenn Anwender-DIO mehreren FB-Blöcken zugewiesen ist, <strong>kann es nur im FB-Block mit der niedrigsten Nummer verwendet werden, und die übrigen zugewiesenen FB-Blöcke werden für die Steuerung ignoriert</strong>.
 {% endhint %}
 
-아래 그림과 같이 FB블럭이 할당 되었을 경우, fb2에서 사용자 DIO 제어가 가능하며, fb5에 입력된 값은 무시됩니다.
+Wenn FB-Blöcke wie in der Abbildung unten zugewiesen sind, ist die Anwender-DIO-Steuerung in fb2 möglich, und in fb5 eingegebene Werte werden ignoriert.
 
 ![](../_assets/16.사용자DIO_FB_다중할당.png)<br>
-<그림 5. 사용자DIO fb 다중 할당 예시><br>
+<Abbildung 5. Beispiel für die Mehrfachzuweisung von Anwender-DIO-FB><br>
