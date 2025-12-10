@@ -1266,7 +1266,7 @@ EtherCAT 설정은 다음과 같이 진행합니다.
 
 <mark style="color:green;">**- BD681 1개 구성 ( BD681 + BD682 )**</mark>
 
-![](../_assets/05.BD681_1개_케이블_연결.png)<br>
+![](../_assets/05_figure.png)<br>
 <그림 1. BD681 1개 케이블 연결>
 
 위의 그림과 같이 BD642의 아래쪽 랜커넥터와 BD681 위쪽 랜커넥터를 연결한 후 제어기 전원을 ON 합니다. 정상적으로 EtherCAT이 연결되면 아래와 같이 TP에서 '사용자DIO 목록'으로 확인 가능합니다.

@@ -56,37 +56,37 @@
 	},
 	{
 		"link": "3-Configuration/2-Board-Switch-check.md",
-		"char_ofs": 39466,
-		"byte_ofs": 46866
+		"char_ofs": 39457,
+		"byte_ofs": 46845
 	},
 	{
 		"link": "3-Configuration/3-FB-Block-Configuration.md",
-		"char_ofs": 44560,
-		"byte_ofs": 52943
+		"char_ofs": 44551,
+		"byte_ofs": 52922
 	},
 	{
 		"link": "3-Configuration/4-Internal-PLC-Configuration.md",
-		"char_ofs": 45506,
-		"byte_ofs": 54478
+		"char_ofs": 45497,
+		"byte_ofs": 54457
 	},
 	{
 		"link": "3-Configuration/5-Sensor-Sync-Configuration.md",
-		"char_ofs": 46105,
-		"byte_ofs": 55498
+		"char_ofs": 46096,
+		"byte_ofs": 55477
 	},
 	{
 		"link": "4-Usage/README.md",
-		"char_ofs": 48827,
-		"byte_ofs": 59481
+		"char_ofs": 48818,
+		"byte_ofs": 59460
 	},
 	{
 		"link": "4-Usage/1-DIO-Usage.md",
-		"char_ofs": 48853,
-		"byte_ofs": 59528
+		"char_ofs": 48844,
+		"byte_ofs": 59507
 	},
 	{
 		"link": "4-Usage/2-Conveyor-Usage.md",
-		"char_ofs": 51078,
-		"byte_ofs": 62754
+		"char_ofs": 51069,
+		"byte_ofs": 62733
 	}
 ]
