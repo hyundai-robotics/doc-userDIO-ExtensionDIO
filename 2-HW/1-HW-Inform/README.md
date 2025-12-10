@@ -4,20 +4,20 @@
 또한 확장 DIO (BD682)를 통해 디지털 입출력 포트 추가 및 컨베이어 시스템과의 동기화를 할 수 있습니다.<br>
 기본적인 보드의 하드웨어 구성은 아래와 같습니다.<br>
 
-![](../../_assets/25.사용자DIO_보드.png)<br>
+![](../../_assets/25_figure.png)<br>
 <그림 1. 사용자 DIO (BD681)>
 
 <br>
 
-![](../../_assets/26.사용자DIO_보드_커넥터.png)<br>
+![](../../_assets/26_figure.png)<br>
 <그림 2. 사용자 DIO (BD681) 커넥터>
 
 <br>
 
-![](../../_assets/29.확장DIO_보드.png)<br>
+![](../../_assets/29_figure.png)<br>
 <그림 3. 확장 DIO (BD682)>
 
 <br>
 
-![](../../_assets/30.확장DIO_보드_커넥터.png)<br>
+![](../../_assets/30_figure.png)<br>
 <그림 4. 확장 DIO (BD682) 커넥터>
