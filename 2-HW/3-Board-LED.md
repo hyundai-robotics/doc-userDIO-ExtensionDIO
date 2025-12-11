@@ -3,12 +3,12 @@
 BD681 에는 보드 상태를 알 수 있는 LED가 있습니다.<br>
 LED의 동작 상태에 따라서 보드의 정상 동작 유무를 확인할 수 있습니다.
 
-![](../_assets/34_figure.png)<br>
+![](../_assets/34.보드_LED.png)<br>
 <그림 1. 보드 상태 LED>
 
 <br>
 
-![](../_assets/35_figure.png)<br>
+![](../_assets/35.보드_LED_상세.png)<br>
 <그림 2. 보드 상태 LED 상세>
 
 <br>

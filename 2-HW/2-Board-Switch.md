@@ -2,11 +2,11 @@
 
 BD681 보드 스위치 위치는 아래 사진과 같습니다.<br>
 
-![](../_assets/01_figure.png)<br>
+![](../_assets/01.사용자DIO_보드_스위치_위치.png)<br>
 <그림 1. 사용자DIO 보드 스위치 위치>
 <br>
 
-![](../_assets/03_figure.png)<br>
+![](../_assets/03.사용자DIO_보드_스위치_ON_OFF.png)<br>
 <그림 2. 사용자DIO 보드 스위치 ON/OFF>
 
 <br>

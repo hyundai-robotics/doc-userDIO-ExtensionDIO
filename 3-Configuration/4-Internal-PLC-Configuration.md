@@ -10,7 +10,7 @@ FB블럭을 사용하여 정상적으로 사용자 DIO를 연동하기 위해서
 
 내장 PLC에서 불러오는 래더 로직(Ladder Logic)이 FB블럭 입출력에 영향을 주게 되므로 주의가 필요합니다.
 
-![](../_assets/17_figure.png)<br>
+![](../_assets/17.래더로직_FB_입출력_연결.png)<br>
 <그림 1. 래더 로직의 fb1 논리적/물리적 입출력 연결 예시><br>
 
 내장 PLC에 대한 자세한 사항은 "[로봇제어기 기능설명서 - 내장 PLC](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/korean/README)" 를 참고하시기 바랍니다.

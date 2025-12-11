@@ -12,7 +12,7 @@
 {% endhint %}
 
 
-![](../_assets/02_figure.png)<br>
+![](../_assets/02.사용자DIO_보드_설정_TP.png)<br>
 <그림 1. 사용자DIO 보드 설정 TP UI><br>
 
 <br>
