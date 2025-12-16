@@ -14,48 +14,48 @@ Die „Erweiterungs-DIO-Platine (BD682)” muss zusammen mit der „Anwender-DIO
 
 <table>
 <thead>
-<tr>
-<th style="width: 50px; text-align: center;">
-No.
-</th>
-<th style="width: 110px; text-align: center;">
-Platinenbezeichnung<br>
-(Platinenkennung)
-</th>
-<th style="width: 300px; text-align: center;">
-Informationen zur Platinenfunktion
-</th>
-</tr>
+    <tr>
+        <th style="width: 50px; text-align: center;">
+            No.
+        </th>
+        <th style="width: 110px; text-align: center;">
+            Platinenbezeichnung<br>
+            (Platinenkennung)
+        </th>
+        <th style="width: 300px; text-align: center;">
+            Informationen zur Platinenfunktion
+        </th>
+    </tr>
 </thead>
 <tbody>
-<tr>
-<td style="text-align: center;">
-<strong>1</strong>
-</td>
-<td style="text-align: center;">
-Anwender-DIO-Platine<br>
-( BD681 )
-</td>
-<td>
-- 16 digitale Eingangskanäle<br>
-- 16 digitale Eingangskanäle
-</td>
-</tr>
-<tr>
-<td style="text-align: center;">
-<strong>2</strong>
-</td>
-<td style="text-align: center;">
-Erweiterungs-DIO-Platine<br>
-( BD682 )
-</td>
-<td>
-- 16 digitale Eingangskanäle<br>
-- 16 digitale Ausgangskanäle (einschließlich 8 Relaisausgangskanäle)<br>
-- 2 Kanäle für Förderbandschnittstelle<br>
-- Kann nicht allein verwendet werden (muss zusammen mit BD681 verwendet werden)
-</td>
-</tr>
+    <tr>
+        <td style="text-align: center;">
+            <strong>1</strong>
+        </td>
+        <td style="text-align: center;">
+            Anwender-DIO-Platine<br>
+            ( BD681 )
+        </td>
+        <td> 
+             - 16 digitale Eingangskanäle <br>
+             - 16 digitale Ausgangskanäle
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">
+            <strong>2</strong>
+        </td>
+        <td style="text-align: center;">
+            Erweiterungs-DIO-Platine<br>
+            ( BD682 )
+        </td>
+        <td> 
+             - 16 digitale Eingangskanäle <br>
+             - 16 digitale Ausgangskanäle (einschließlich 8 Relaisausgangskanäle)<br> 
+             - 2 Kanäle für Förderbandschnittstelle <br> 
+             - Kann nicht allein verwendet werden (muss zusammen mit BD681 verwendet werden)
+        </td>
+    </tr>
 </tbody>
 </table>
 

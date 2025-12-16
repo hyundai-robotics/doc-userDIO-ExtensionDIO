@@ -11,6 +11,6 @@ Dieses Handbuch kann ohne vorherige Ankündigung geändert werden.
 
 
 
-*Copyright ⓒ 2025 by Hyundai Robotics**
+**Copyright ⓒ 2025 by Hyundai Robotics**
 {% endhint %}
 

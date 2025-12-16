@@ -1,4 +1,4 @@
-﻿# Table of contents
+﻿# Inhaltsverzeichnis
 
 * [Handbuch zu den Funktionen der Hi7-Robotersteuerung – Anwender-DIO und Erweiterungs-DIO](README.md)
 
@@ -18,7 +18,7 @@
   * [3.3. FB-Block-Einstellungen](3-Configuration/3-FB-Block-Configuration.md)
   * [3.4. Überprüfung der Einstellungen der Embedded-SPS](3-Configuration/4-Internal-PLC-Configuration.md)
   * [3.5. Sensorsynchronisationseinstellungen](3-Configuration/5-Sensor-Sync-Configuration.md)
-  
+
 * [4. Verwendungsmethode für Anwender-DIO und Erweiterungs-DIO](4-Usage/README.md)
   * [4.1. Verwendungsmethode für DIO](4-Usage/1-DIO-Usage.md)
   * [4.2. Verwendung der Förderbandschnittstelle](4-Usage/2-Conveyor-Usage.md)
