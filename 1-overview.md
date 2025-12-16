@@ -14,48 +14,48 @@
 
 <table>
 <thead>
-<tr>
-<th style="width: 50px; text-align: center;">
-No.
-</th>
-<th style="width: 110px; text-align: center;">
-电路板名称<br>
-（电路板标识符）
-</th>
-<th style="width: 300px; text-align: center;">
-电路板功能信息
-</th>
-</tr>
+    <tr>
+        <th style="width: 50px; text-align: center;">
+            No.
+        </th>
+        <th style="width: 110px; text-align: center;">
+            电路板名称<br>
+            （电路板标识符）
+        </th>
+        <th style="width: 300px; text-align: center;">
+            电路板功能信息
+        </th>
+    </tr>
 </thead>
 <tbody>
-<tr>
-<td style="text-align: center;">
-<strong>1</strong>
-</td>
-<td style="text-align: center;">
-用户DIO板<br>
-( BD681 )
-</td>
-<td>
-- 数字输入16通道 <br>
-- 数字输入16通道
-</td>
-</tr>
-<tr>
-<td style="text-align: center;">
-<strong>2</strong>
-</td>
-<td style="text-align: center;">
-扩展DIO板<br>
-( BD682 )
-</td>
-<td>
-- 数字输入16通道 <br>
-- 数字输出16通道（含继电器输出8通道）<br>
-- 输送带接口2通道 <br>
-- 不可单独使用（需与BD681配合使用）
-</td>
-</tr>
+    <tr>
+        <td style="text-align: center;">
+            <strong>1</strong>
+        </td>
+        <td style="text-align: center;">
+            用户DIO板<br>
+            （BD681）
+        </td>
+        <td> 
+             - 数字输入16通道 <br>
+             - 数字输出16通道
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">
+            <strong>2</strong>
+        </td>
+        <td style="text-align: center;">
+            扩展DIO板<br>
+            ( BD682 )
+        </td>
+        <td> 
+             - 数字输入16通道 <br>
+             - 数字输出16通道（含继电器输出8通道）<br> 
+             - 输送带接口2通道 <br> 
+             - 不可单独使用（需与BD681配合使用）
+        </td>
+    </tr>
 </tbody>
 </table>
 
@@ -65,7 +65,7 @@ No.
 
 要正常使用用户DIO及扩展DIO，就需要对以下项目进行设置及确认。<br>
 
-1. 以太网通信连接<br>
+1. EtherCAT通信连接<br>
 2. 电路板开关确认<br>
 3. FB块设置<br>
 4. 内置PLC使用与否确认<br>

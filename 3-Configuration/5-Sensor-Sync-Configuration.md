@@ -6,7 +6,7 @@
 
 当使用BD682的输送带编码器接口时，则需要进行“传感器同步”设置。
 
-*- 菜单位置：[系统]-[4: 应用参数]-[4:传感器同步]**
+**- 菜单位置：[系统] - [4: 应用参数] - [4: 传感器同步]**
 
 ![](../_assets/18.센서동기_설정_UI.png)<br>
 <图1. 传感器同步设置UI><br><br>
@@ -17,12 +17,12 @@
 ![](../_assets/19.동기_상태_컨베이어_설정.png)<br>
 <图2. 将同步状态设置为输送带><br>
 
-'파라미터 설정'에 대한 세부 정보는 "[关于“参数设置”的详细信息，请参考“机器人控制器功能说明书-传感器同步（传感器同步参数）”。](https://hrbook-hrc.web.app/#/view/doc-sensor-sync/korean/3-user-interface/3-3-sensor-sync-parameter)"를 참고하시기 바랍니다.
+关于“参数设置”的详细信息，请参考“[机器人控制器功能说明书 - 传感器同步 (传感器同步参数)](https://hrbook-hrc.web.app/#/view/doc-sensor-sync/korean/3-user-interface/3-3-sensor-sync-parameter)”。
 
 <br>
 BD682的输送带编码器接口与系统输入输出联动，因此需要进行输入输出信号分配。
 
-아래 그림과 같이 UI 밑에 위치한 **如下图所示，按下UI下方的[BD640T BD68X]按钮，即可输入指定的输入输出编号。最后按下[v确认]按钮即可应用设置。**을 누르면 지정된 입출력 번호를 입력해 줍니다. 그리고 최종적으로 **如下图所示，按下UI下方的[BD640T BD68X]按钮，即可输入指定的输入输出编号。最后按下[v确认]按钮即可应用设置。**을 누르면 설정을 적용할 수 있습니다.
+如下图所示，按下UI下方的 **[BD640T BD68X] 按钮**，即可输入指定的输入输出编号。最后按下 **[v确认] 按钮**即可应用设置。
 
 ![](../_assets/20.채널1_시스템_입출력_설정.png)<br>
 <图3. 通道1系统输入输出设置><br><br>
@@ -37,74 +37,74 @@ BD682的输送带编码器接口与系统输入输出联动，因此需要进行
 
 <table>
 <thead>
-<tr>
-<th style="width: 20px; text-align: center;">
-No.
-</th>
-<th style="width: 110px; text-align: center;">
-输出信号分配
-</th>
-<th style="width: 30px; text-align: center;">
-ON/OFF
-</th>
-<th style="width: 250px; text-align: center;">
-备注
-</th>
-</tr>
+    <tr>
+        <th style="width: 20px; text-align: center;">
+            No.
+        </th>
+        <th style="width: 110px; text-align: center;">
+            输出信号分配
+        </th>
+        <th style="width: 30px; text-align: center;">
+            ON/OFF
+        </th>
+        <th style="width: 250px; text-align: center;">
+            备注
+        </th>
+    </tr>
 </thead>
 <tbody>
-<tr>
-<td rowspan="2" style="text-align: center;">
-<strong>1</strong>
-</td>
-<td rowspan="2" style="text-align: center;">
-脉冲计数器类型
-</td>
-<td style="text-align: center;">
-ON<br>(1)
-</td>
-<td>
-Up/Down计数器方式
-</td>
-</tr>
-<td style="text-align: center;">
-OFF<br>(0)
-</td>
-<td>
-Up计数器方式（默认值）
-</td>
-</tr>
-<tr>
-<td rowspan="2" style="text-align: center;">
-<strong>2</strong>
-</td>
-<td rowspan="2" style="text-align: center;">
-脉冲通信方式<br>
-（编码器类型）
-</td>
-<td style="text-align: center;">
-ON<br>(1)
-</td>
-<td>
-开路集电极型编码器
-</td>
-</tr>
-<td style="text-align: center;">
-OFF<br>(0)
-</td>
-<td>
-线路驱动型编码器（默认值）
-</td>
-</tr>
+    <tr>
+        <td rowspan="2" style="text-align: center;">
+            <strong>1</strong>
+        </td>
+        <td rowspan="2" style="text-align: center;">
+            脉冲计数器类型
+        </td>
+        <td style="text-align: center;">
+            ON<br>(1)
+        </td>
+        <td> 
+            Up/Down计数器方式
+        </td>
+    </tr>        
+        <td style="text-align: center;">
+            OFF<br>(0)
+        </td>
+        <td> 
+            Up计数器方式（默认值）
+        </td>
+    </tr>
+        <tr>
+        <td rowspan="2" style="text-align: center;">
+            <strong>2</strong>
+        </td>
+        <td rowspan="2" style="text-align: center;">
+            脉冲通信方式<br>
+            （编码器类型）
+        </td>
+        <td style="text-align: center;">
+            ON<br>(1)
+        </td>
+        <td> 
+            开路集电极型编码器
+        </td>
+    </tr>        
+        <td style="text-align: center;">
+            OFF<br>(0)
+        </td>
+        <td> 
+            线路驱动型编码器（默认值）
+        </td>
+    </tr>
 </tbody>
 </table>
 
 <br>
 
 如下图所示，点击复选框即可输入为ON。<br>
-적용을 위해서는 반드시 **要应用设置，就必须按下[v确认]按钮。**을 눌러야 합니다.
+要应用设置，就必须按下**[v确认]按钮**。
 
 ![](../_assets/22.출력신호할당_ON.png)<br>
 <图5. 应用脉冲计数器类型ON><br>
 
-세부적인 내용은 "[详细内容请参考“机器人控制器功能说明书-传感器同步”中与输送带相关的部分。](https://hrbook-hrc.web.app/#/view/doc-sensor-sync/korean/README)"의 컨베이어 관련 부분을 참고하시기 바랍니다.
+详细内容请参考“[机器人控制器功能说明书-传感器同步](https://hrbook-hrc.web.app/#/view/doc-sensor-sync/korean/README)”中与输送带相关的部分。

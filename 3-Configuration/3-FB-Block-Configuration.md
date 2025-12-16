@@ -2,7 +2,7 @@
 
 FB块设置可在以下菜单中进行。
 
-*- 菜单位置：[系统]-[2:控制参数]-[2:输入输出信号设置]-[6:fb块分配]**
+**- 菜单位置：[系统] - [2:控制参数] - [2:输入输出信号设置] - [6:fb块分配]**
 
 ![](../_assets/12.FB블럭할당.png)<br>
 <图1. FB块分配菜单><br><br>
@@ -12,7 +12,7 @@ FB块设置可在以下菜单中进行。
 ![](../_assets/13.fb1_사용자DIO할당.png)<br>
 <图2. fb1分配用户DIO示例><br><br>
 
-자세한 사항은 "[详细内容请参考“机器人控制器操作说明书-(FB块分配)”。](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/korean-tp630/7-system/3-control-parameter/2-io-signal-setting/9-dio-block-assign)" 을 참고하시기 바랍니다.
+详细内容请参考“[机器人控制器操作说明书 - (FB块分配)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/korean-tp630/7-system/3-control-parameter/2-io-signal-setting/9-dio-block-assign)”。
 
 对于是否为用户DIO分配了FB块，可在[6:fb块分配]及[用户DIO板设置]菜单中进行确认。
 

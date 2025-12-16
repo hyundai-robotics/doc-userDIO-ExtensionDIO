@@ -18,7 +18,7 @@
   * [3.3. FB块设置](3-Configuration/3-FB-Block-Configuration.md)
   * [3.4. 内置PLC设置确认](3-Configuration/4-Internal-PLC-Configuration.md)
   * [3.5. 传感器同步设置](3-Configuration/5-Sensor-Sync-Configuration.md)
-  
+
 * [4. 用户DIO、扩展DIO使用方法](4-Usage/README.md)
   * [4.1. DIO使用方法](4-Usage/1-DIO-Usage.md)
   * [4.2. 输送带接口使用方法](4-Usage/2-Conveyor-Usage.md)
