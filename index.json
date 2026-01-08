@@ -76,17 +76,17 @@
 	},
 	{
 		"link": "4-Usage/README.md",
-		"char_ofs": 49409,
-		"byte_ofs": 60602
+		"char_ofs": 49719,
+		"byte_ofs": 61204
 	},
 	{
 		"link": "4-Usage/1-DIO-Usage.md",
-		"char_ofs": 49435,
-		"byte_ofs": 60649
+		"char_ofs": 49745,
+		"byte_ofs": 61251
 	},
 	{
 		"link": "4-Usage/2-Conveyor-Usage.md",
-		"char_ofs": 51684,
-		"byte_ofs": 63953
+		"char_ofs": 51994,
+		"byte_ofs": 64555
 	}
 ]
