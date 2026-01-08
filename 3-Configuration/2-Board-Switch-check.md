@@ -168,7 +168,7 @@ If error “E55005 : The 2nd User DIO Board switch setting error detected.” oc
             #2 BD681 Switch OFF<br>
             (Use Ext_DIO)
         </td>
-        <td style="text-align: center;">X (Unavailable)</td>
+        <td style="text-align: center;">O (Available)</td>
     </tr>
     <tr>
         <td style="text-align: center;"><strong>8</strong></td>

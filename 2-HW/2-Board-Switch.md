@@ -144,7 +144,7 @@ When removing the board from the controller to check the switches, always turn o
             #1 BD681 Switch ON<br>
             #2 BD681 Switch OFF
         </td>
-        <td style="text-align: center;">X (Unavailable)</td>
+        <td style="text-align: center;">O (Available)</td>
     </tr>
     <tr>
         <td style="text-align: center;"><strong>8</strong></td>

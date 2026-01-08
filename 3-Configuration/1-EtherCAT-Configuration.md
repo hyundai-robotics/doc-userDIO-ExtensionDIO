@@ -46,3 +46,18 @@ Connect the lower LAN connector of BD642 to the upper LAN connector of #1 BD681,
 < Figure 5. BD681 (2 Units) Configuration><br>
 
 When the connection is established successfully, the status LED of the BD681 board operates in the same way as described in “Single BD681 Configuration” under “BD681 status LED operation”
+
+<mark style="color:green;">**- Configuration with 2 BD681 Units ( #1_BD681 + #2_BD681 + BD682 )**</mark>
+
+![](../_assets/09_2.BD681_2개_케이블_연결.png)<br>
+< Figure 4. Cable Connection with 2 BD681 Units>
+
+As shown in the figure above, insert BD681 #1 into the slot next to BD681 #2.
+
+{% hint style="info" %}
+For #1 BD681, the board switch must be set to ON.
+{% endhint %}
+
+![](../_assets/11_2.BD681_2개_사용자DIO_보드_설정_en.png)<br>
+< Figure 5. BD681 (2 Units) Configuration><br>
+
