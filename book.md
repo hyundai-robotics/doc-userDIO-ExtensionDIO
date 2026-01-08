@@ -1704,6 +1704,16 @@ To apply the setting, be sure to press the **[v OK] button**.
 ![](../_assets/22.출력신호할당_ON_en.png)<br>
 < Figure 5. Pulse Count Type ON Applied><br>
 
+{% hint style="info" %}
+When using an open-collector type encoder, the 'Pulse line error' function is not available.<br>
+Therefore, you must set 'Pulse line error' in the 'Input signal assign' to '-1 (Not Used)'.
+{% endhint %}
+
+If you do not set 'Pulse line error' to '-1 (Not Used)', error E27001 (Conveyor pulse line abnormal) may occur upon controller reboot.
+
+![](../_assets/36.오픈콜렉터_엔코더_펄스라인에러_설정_en.png)<br>
+<Figure 6. Open Collector Type Encoder Pulse line error setting><br>
+
 For detailed information, refer to the conveyor-related section of "[Robot Controller Function Manual - Sensor Synchronization](https://hrbook-hrc.web.app/#/view/doc-sensor-sync/korean/README)".
 # 4. How to Use User DIO and Extension DIO# 4.1. How to Use DIO
 
