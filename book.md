@@ -1712,7 +1712,7 @@ Therefore, you must set 'Pulse line error' in the 'Input signal assign' to '-1 (
 If you do not set 'Pulse line error' to '-1 (Not Used)', error E27001 (Conveyor pulse line abnormal) may occur upon controller reboot.
 
 ![](../_assets/36.오픈콜렉터_엔코더_펄스라인에러_설정_en.png)<br>
-<Figure 6. Open Collector Type Encoder Pulse line error setting><br>
+< Figure 6. Open Collector Type Encoder Pulse line error setting><br>
 
 For detailed information, refer to the conveyor-related section of "[Robot Controller Function Manual - Sensor Synchronization](https://hrbook-hrc.web.app/#/view/doc-sensor-sync/korean/README)".
 # 4. How to Use User DIO and Extension DIO# 4.1. How to Use DIO
