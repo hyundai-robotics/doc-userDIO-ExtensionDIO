@@ -169,7 +169,7 @@
             #2 BD681 스위치 OFF<br>
             (Use Ext_DIO)
         </td>
-        <td style="text-align: center;">X (사용 불가)</td>
+        <td style="text-align: center;">O (사용 가능)</td>
     </tr>
     <tr>
         <td style="text-align: center;"><strong>8</strong></td>

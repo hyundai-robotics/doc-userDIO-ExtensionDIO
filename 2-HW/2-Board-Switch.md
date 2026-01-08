@@ -145,7 +145,7 @@ BD681 보드 스위치 위치는 아래 사진과 같습니다.<br>
             #1 BD681 스위치 ON<br>
             #2 BD681 스위치 OFF
         </td>
-        <td style="text-align: center;">X (사용 불가)</td>
+        <td style="text-align: center;">O (사용 가능)</td>
     </tr>
     <tr>
         <td style="text-align: center;"><strong>8</strong></td>
