@@ -1415,11 +1415,11 @@ In order to check correctly in [User DIO Board Setting], BD681 must be connected
 <br>
 
 
-When using two User DIO boards, if the switch of the second User DIO board is set to OFF, error <strong>“E55005 : The 2nd User DIO Board switch setting error detected.”</strong> will be generated.<br>
-To resolve this error, set the switch of the second User DIO board to ON.
+When using two User DIO boards, if both User DIO board switches are set to OFF, the system will output the error <strong>“E55005 : User DIO Board switch setting error detected.”</strong> <br>
+To resolve this error, set the switch of the standalone User DIO board to ON.
 
 {% hint style="warning" %}
-If error “E55005 : The 2nd User DIO Board switch setting error detected.” occurs, the User DIO board and Extension DIO board cannot be used properly. You must correct the board switch settings before using them.
+If error “E55005 : User DIO Board switch setting error detected.” occurs, the User DIO board and Extension DIO board cannot be used properly. You must correct the board switch settings before using them.
 {% endhint %}
 
 <br>
@@ -1709,7 +1709,9 @@ When using an open-collector type encoder, the 'Pulse line error' function is no
 Therefore, you must set 'Pulse line error' in the 'Input signal assign' to '-1 (Not Used)'.
 {% endhint %}
 
-If you do not set 'Pulse line error' to '-1 (Not Used)', error E27001 (Conveyor pulse line abnormal) may occur upon controller reboot.
+{% hint style="warning" %}
+When using an open-collector type encoder, if you do not set 'Pulse line error' to '-1 (Not Used)', error E27001 (Conveyor pulse line abnormal) may occur upon controller reboot.
+{% endhint %}
 
 ![](../_assets/36.오픈콜렉터_엔코더_펄스라인에러_설정_en.png)<br>
 < Figure 6. Open Collector Type Encoder Pulse line error setting><br>

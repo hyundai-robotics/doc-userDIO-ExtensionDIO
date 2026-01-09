@@ -54,11 +54,11 @@ In order to check correctly in [User DIO Board Setting], BD681 must be connected
 <br>
 
 
-When using two User DIO boards, if the switch of the second User DIO board is set to OFF, error <strong>“E55005 : The 2nd User DIO Board switch setting error detected.”</strong> will be generated.<br>
-To resolve this error, set the switch of the second User DIO board to ON.
+When using two User DIO boards, if both User DIO board switches are set to OFF, the system will output the error <strong>“E55005 : User DIO Board switch setting error detected.”</strong> <br>
+To resolve this error, set the switch of the standalone User DIO board to ON.
 
 {% hint style="warning" %}
-If error “E55005 : The 2nd User DIO Board switch setting error detected.” occurs, the User DIO board and Extension DIO board cannot be used properly. You must correct the board switch settings before using them.
+If error “E55005 : User DIO Board switch setting error detected.” occurs, the User DIO board and Extension DIO board cannot be used properly. You must correct the board switch settings before using them.
 {% endhint %}
 
 <br>
