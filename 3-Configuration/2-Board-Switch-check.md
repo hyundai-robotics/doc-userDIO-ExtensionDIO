@@ -101,8 +101,10 @@ If error “E55005 : User DIO Board switch setting error detected.” occurs, th
         <td style="text-align: center;">
             OFF<br>
             (Use Ext_DIO)
+        </td>        
+        <td style="text-align: center;">
+        <font style="color:rgb(255, 0, 0);">X (Unavailable)</font>
         </td>
-        <td style="text-align: center;">X (Unavailable)</td>
     </tr>
     <tr>
         <td style="text-align: center;"><strong>3</strong></td>
@@ -125,18 +127,19 @@ If error “E55005 : User DIO Board switch setting error detected.” occurs, th
         <td style="text-align: center;">
             ON<br>
             (Only UserDIO)
+        </td>        
+        <td style="text-align: center;">
+        <font style="color:rgb(255, 0, 0);">X (Unavailable)</font>
         </td>
-        <td style="text-align: center;">X (Unavailable)</td>
     </tr>
     <tr>
         <td style="text-align: center;"><strong>5</strong></td>
         <td style="text-align: center;">
-            BD681 : 2 EA<br>
-            BD682 : 1 EA
+            BD681 : 2 EA
         </td>
         <td style="text-align: center;">
-            #1 BD681 Switch OFF<br>
-            (Use Ext_DIO)<br><br>
+            #1 BD681 Switch ON<br>
+            (Only UserDIO)<br><br>
             #2 BD681 Switch ON<br>
             (Only UserDIO)
         </td>
@@ -145,6 +148,65 @@ If error “E55005 : User DIO Board switch setting error detected.” occurs, th
     <tr>
         <td style="text-align: center;"><strong>6</strong></td>
         <td style="text-align: center;">
+            BD681 : 2 EA
+        </td>
+        <td style="text-align: center;">
+            #1 BD681 Switch OFF<br>
+            (Use Ext_DIO)<br><br>
+            #2 BD681 Switch ON<br>
+            (Only UserDIO)
+        </td>        
+        <td style="text-align: center;">
+        <font style="color:rgb(255, 0, 0);">X (Unavailable)</font>
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align: center;"><strong>7</strong></td>
+        <td style="text-align: center;">
+            BD681 : 2 EA
+        </td>
+        <td style="text-align: center;">
+            #1 BD681 Switch ON<br>
+            (Only UserDIO)<br><br>
+            #2 BD681 Switch OFF<br>
+            (Use Ext_DIO)
+        </td>        
+        <td style="text-align: center;">
+        <font style="color:rgb(255, 0, 0);">X (Unavailable)</font>
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align: center;"><strong>8</strong></td>
+        <td style="text-align: center;">
+            BD681 : 2 EA
+        </td>
+        <td style="text-align: center;">
+            #1 BD681 Switch OFF<br>
+            (Use Ext_DIO)<br><br>
+            #2 BD681 Switch OFF<br>
+            (Use Ext_DIO)
+        </td>        
+        <td style="text-align: center;">
+        <font style="color:rgb(255, 0, 0);">X (Unavailable)</font>
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align: center;"><strong>9</strong></td>
+        <td style="text-align: center;">
+            BD681 : 2 EA<br>
+            BD682 : 1 EA
+        </td>
+        <td style="text-align: center;">
+            #1 BD681 Switch OFF<br>
+            (Use Ext_DIO)<br><br>
+            #2 BD681 Switch ON<br>
+            (Only UserDIO)
+        </td>
+        <td style="text-align: center;">O (Available)</td>
+    </tr>
+    <tr>
+        <td style="text-align: center;"><strong>10</strong></td>
+        <td style="text-align: center;">
             BD681 : 2 EA<br>
             BD682 : 1 EA
         </td>
@@ -153,11 +215,13 @@ If error “E55005 : User DIO Board switch setting error detected.” occurs, th
             (Use Ext_DIO)<br><br>
             #2 BD681 Switch OFF<br>
             (Use Ext_DIO)
+        </td>        
+        <td style="text-align: center;">
+        <font style="color:rgb(255, 0, 0);">X (Unavailable)</font>
         </td>
-        <td style="text-align: center;">X (Unavailable)</td>
     </tr>
     <tr>
-        <td style="text-align: center;"><strong>7</strong></td>
+        <td style="text-align: center;"><strong>11</strong></td>
         <td style="text-align: center;">
             BD681 : 2 EA<br>
             BD682 : 1 EA
@@ -171,7 +235,7 @@ If error “E55005 : User DIO Board switch setting error detected.” occurs, th
         <td style="text-align: center;">O (Available)</td>
     </tr>
     <tr>
-        <td style="text-align: center;"><strong>8</strong></td>
+        <td style="text-align: center;"><strong>12</strong></td>
         <td style="text-align: center;">
             BD681 : 2 EA<br>
             BD682 : 1 EA
@@ -181,8 +245,10 @@ If error “E55005 : User DIO Board switch setting error detected.” occurs, th
             (Only UserDIO)<br><br>
             #2 BD681 Switch ON<br>
             (Only UserDIO)
+        </td>        
+        <td style="text-align: center;">
+        <font style="color:rgb(255, 0, 0);">X (Unavailable)</font>
         </td>
-        <td style="text-align: center;">X (Unavailable)</td>
     </tr>
 </tbody>
 </table>

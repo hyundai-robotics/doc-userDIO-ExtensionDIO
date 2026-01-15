@@ -1055,8 +1055,10 @@ When removing the board from the controller to check the switches, always turn o
         </td>
         <td style="text-align: center;">
             OFF
+        </td>        
+        <td style="text-align: center;">
+        <font style="color:rgb(255, 0, 0);">X (Unavailable)</font>
         </td>
-        <td style="text-align: center;">X (Unavailable)</td>
     </tr>
     <tr>
         <td style="text-align: center;"><strong>3</strong></td>
@@ -1077,17 +1079,18 @@ When removing the board from the controller to check the switches, always turn o
         </td>
         <td style="text-align: center;">
             ON
+        </td>        
+        <td style="text-align: center;">
+        <font style="color:rgb(255, 0, 0);">X (Unavailable)</font>
         </td>
-        <td style="text-align: center;">X (Unavailable)</td>
     </tr>
     <tr>
         <td style="text-align: center;"><strong>5</strong></td>
         <td style="text-align: center;">
-            BD681 : 2 EA<br>
-            BD682 : 1 EA
+            BD681 : 2 EA
         </td>
         <td style="text-align: center;">
-            #1 BD681 Switch OFF<br>
+            #1 BD681 Switch ON<br>
             #2 BD681 Switch ON
         </td>
         <td style="text-align: center;">O (Available)</td>
@@ -1095,17 +1098,70 @@ When removing the board from the controller to check the switches, always turn o
     <tr>
         <td style="text-align: center;"><strong>6</strong></td>
         <td style="text-align: center;">
+            BD681 : 2 EA
+        </td>
+        <td style="text-align: center;">
+            #1 BD681 Switch OFF<br>
+            #2 BD681 Switch ON
+        </td>        
+        <td style="text-align: center;">
+        <font style="color:rgb(255, 0, 0);">X (Unavailable)</font>
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align: center;"><strong>7</strong></td>
+        <td style="text-align: center;">
+            BD681 : 2 EA
+        </td>
+        <td style="text-align: center;">
+            #1 BD681 Switch ON<br>
+            #2 BD681 Switch OFF
+        </td>        
+        <td style="text-align: center;">
+        <font style="color:rgb(255, 0, 0);">X (Unavailable)</font>
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align: center;"><strong>8</strong></td>
+        <td style="text-align: center;">
+            BD681 : 2 EA
+        </td>
+        <td style="text-align: center;">
+            #1 BD681 Switch OFF<br>
+            #2 BD681 Switch OFF
+        </td>        
+        <td style="text-align: center;">
+        <font style="color:rgb(255, 0, 0);">X (Unavailable)</font>
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align: center;"><strong>9</strong></td>
+        <td style="text-align: center;">
+            BD681 : 2 EA<br>
+            BD682 : 1 EA
+        </td>
+        <td style="text-align: center;">
+            #1 BD681 Switch OFF<br>
+            #2 BD681 Switch ON
+        </td>
+        <td style="text-align: center;">O (Available)</td>
+    </tr>
+    <tr>
+        <td style="text-align: center;"><strong>10</strong></td>
+        <td style="text-align: center;">
             BD681 : 2 EA<br>
             BD682 : 1 EA
         </td>
         <td style="text-align: center;">
             #1 BD681 Switch OFF<br>
             #2 BD681 Switch OFF
+        </td>        
+        <td style="text-align: center;">
+        <font style="color:rgb(255, 0, 0);">X (Unavailable)</font>
         </td>
-        <td style="text-align: center;">X (Unavailable)</td>
     </tr>
     <tr>
-        <td style="text-align: center;"><strong>7</strong></td>
+        <td style="text-align: center;"><strong>11</strong></td>
         <td style="text-align: center;">
             BD681 : 2 EA<br>
             BD682 : 1 EA
@@ -1117,7 +1173,7 @@ When removing the board from the controller to check the switches, always turn o
         <td style="text-align: center;">O (Available)</td>
     </tr>
     <tr>
-        <td style="text-align: center;"><strong>8</strong></td>
+        <td style="text-align: center;"><strong>12</strong></td>
         <td style="text-align: center;">
             BD681 : 2 EA<br>
             BD682 : 1 EA
@@ -1125,8 +1181,10 @@ When removing the board from the controller to check the switches, always turn o
         <td style="text-align: center;">
             #1 BD681 Switch ON<br>
             #2 BD681 Switch ON
+        </td>        
+        <td style="text-align: center;">
+        <font style="color:rgb(255, 0, 0);">X (Unavailable)</font>
         </td>
-        <td style="text-align: center;">X (Unavailable)</td>
     </tr>
 </tbody>
 </table>
@@ -1359,6 +1417,16 @@ For #1 BD681, the board switch must be set to ON.
 ![](../_assets/11_2.BD681_2개_사용자DIO_보드_설정_en.png)<br>
 < Figure 7. BD681 (2 Units) Configuration><br>
 
+<mark style="color:green;">**- Configuration with 2 BD681 Units ( #1_BD681 + #2_BD681 )**</mark>
+
+{% hint style="info" %}
+To use two BD681 boards without a BD682, both the #1 BD681 and #2 BD681 board switches must be set to ON.
+{% endhint %}
+
+![](../_assets/37.BD681_2개_연결(BD682_X)_en.png)<br>
+< Figure 8. BD681 (2 Units) Configuration without a BD682><br>
+
+
 # 3.2. Board Switch Check
 
 
@@ -1462,8 +1530,10 @@ If error “E55005 : User DIO Board switch setting error detected.” occurs, th
         <td style="text-align: center;">
             OFF<br>
             (Use Ext_DIO)
+        </td>        
+        <td style="text-align: center;">
+        <font style="color:rgb(255, 0, 0);">X (Unavailable)</font>
         </td>
-        <td style="text-align: center;">X (Unavailable)</td>
     </tr>
     <tr>
         <td style="text-align: center;"><strong>3</strong></td>
@@ -1486,18 +1556,19 @@ If error “E55005 : User DIO Board switch setting error detected.” occurs, th
         <td style="text-align: center;">
             ON<br>
             (Only UserDIO)
+        </td>        
+        <td style="text-align: center;">
+        <font style="color:rgb(255, 0, 0);">X (Unavailable)</font>
         </td>
-        <td style="text-align: center;">X (Unavailable)</td>
     </tr>
     <tr>
         <td style="text-align: center;"><strong>5</strong></td>
         <td style="text-align: center;">
-            BD681 : 2 EA<br>
-            BD682 : 1 EA
+            BD681 : 2 EA
         </td>
         <td style="text-align: center;">
-            #1 BD681 Switch OFF<br>
-            (Use Ext_DIO)<br><br>
+            #1 BD681 Switch ON<br>
+            (Only UserDIO)<br><br>
             #2 BD681 Switch ON<br>
             (Only UserDIO)
         </td>
@@ -1506,6 +1577,65 @@ If error “E55005 : User DIO Board switch setting error detected.” occurs, th
     <tr>
         <td style="text-align: center;"><strong>6</strong></td>
         <td style="text-align: center;">
+            BD681 : 2 EA
+        </td>
+        <td style="text-align: center;">
+            #1 BD681 Switch OFF<br>
+            (Use Ext_DIO)<br><br>
+            #2 BD681 Switch ON<br>
+            (Only UserDIO)
+        </td>        
+        <td style="text-align: center;">
+        <font style="color:rgb(255, 0, 0);">X (Unavailable)</font>
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align: center;"><strong>7</strong></td>
+        <td style="text-align: center;">
+            BD681 : 2 EA
+        </td>
+        <td style="text-align: center;">
+            #1 BD681 Switch ON<br>
+            (Only UserDIO)<br><br>
+            #2 BD681 Switch OFF<br>
+            (Use Ext_DIO)
+        </td>        
+        <td style="text-align: center;">
+        <font style="color:rgb(255, 0, 0);">X (Unavailable)</font>
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align: center;"><strong>8</strong></td>
+        <td style="text-align: center;">
+            BD681 : 2 EA
+        </td>
+        <td style="text-align: center;">
+            #1 BD681 Switch OFF<br>
+            (Use Ext_DIO)<br><br>
+            #2 BD681 Switch OFF<br>
+            (Use Ext_DIO)
+        </td>        
+        <td style="text-align: center;">
+        <font style="color:rgb(255, 0, 0);">X (Unavailable)</font>
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align: center;"><strong>9</strong></td>
+        <td style="text-align: center;">
+            BD681 : 2 EA<br>
+            BD682 : 1 EA
+        </td>
+        <td style="text-align: center;">
+            #1 BD681 Switch OFF<br>
+            (Use Ext_DIO)<br><br>
+            #2 BD681 Switch ON<br>
+            (Only UserDIO)
+        </td>
+        <td style="text-align: center;">O (Available)</td>
+    </tr>
+    <tr>
+        <td style="text-align: center;"><strong>10</strong></td>
+        <td style="text-align: center;">
             BD681 : 2 EA<br>
             BD682 : 1 EA
         </td>
@@ -1514,11 +1644,13 @@ If error “E55005 : User DIO Board switch setting error detected.” occurs, th
             (Use Ext_DIO)<br><br>
             #2 BD681 Switch OFF<br>
             (Use Ext_DIO)
+        </td>        
+        <td style="text-align: center;">
+        <font style="color:rgb(255, 0, 0);">X (Unavailable)</font>
         </td>
-        <td style="text-align: center;">X (Unavailable)</td>
     </tr>
     <tr>
-        <td style="text-align: center;"><strong>7</strong></td>
+        <td style="text-align: center;"><strong>11</strong></td>
         <td style="text-align: center;">
             BD681 : 2 EA<br>
             BD682 : 1 EA
@@ -1532,7 +1664,7 @@ If error “E55005 : User DIO Board switch setting error detected.” occurs, th
         <td style="text-align: center;">O (Available)</td>
     </tr>
     <tr>
-        <td style="text-align: center;"><strong>8</strong></td>
+        <td style="text-align: center;"><strong>12</strong></td>
         <td style="text-align: center;">
             BD681 : 2 EA<br>
             BD682 : 1 EA
@@ -1542,8 +1674,10 @@ If error “E55005 : User DIO Board switch setting error detected.” occurs, th
             (Only UserDIO)<br><br>
             #2 BD681 Switch ON<br>
             (Only UserDIO)
+        </td>        
+        <td style="text-align: center;">
+        <font style="color:rgb(255, 0, 0);">X (Unavailable)</font>
         </td>
-        <td style="text-align: center;">X (Unavailable)</td>
     </tr>
 </tbody>
 </table>

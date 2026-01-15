@@ -85,8 +85,10 @@ When removing the board from the controller to check the switches, always turn o
         </td>
         <td style="text-align: center;">
             OFF
+        </td>        
+        <td style="text-align: center;">
+        <font style="color:rgb(255, 0, 0);">X (Unavailable)</font>
         </td>
-        <td style="text-align: center;">X (Unavailable)</td>
     </tr>
     <tr>
         <td style="text-align: center;"><strong>3</strong></td>
@@ -107,17 +109,18 @@ When removing the board from the controller to check the switches, always turn o
         </td>
         <td style="text-align: center;">
             ON
+        </td>        
+        <td style="text-align: center;">
+        <font style="color:rgb(255, 0, 0);">X (Unavailable)</font>
         </td>
-        <td style="text-align: center;">X (Unavailable)</td>
     </tr>
     <tr>
         <td style="text-align: center;"><strong>5</strong></td>
         <td style="text-align: center;">
-            BD681 : 2 EA<br>
-            BD682 : 1 EA
+            BD681 : 2 EA
         </td>
         <td style="text-align: center;">
-            #1 BD681 Switch OFF<br>
+            #1 BD681 Switch ON<br>
             #2 BD681 Switch ON
         </td>
         <td style="text-align: center;">O (Available)</td>
@@ -125,17 +128,70 @@ When removing the board from the controller to check the switches, always turn o
     <tr>
         <td style="text-align: center;"><strong>6</strong></td>
         <td style="text-align: center;">
+            BD681 : 2 EA
+        </td>
+        <td style="text-align: center;">
+            #1 BD681 Switch OFF<br>
+            #2 BD681 Switch ON
+        </td>        
+        <td style="text-align: center;">
+        <font style="color:rgb(255, 0, 0);">X (Unavailable)</font>
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align: center;"><strong>7</strong></td>
+        <td style="text-align: center;">
+            BD681 : 2 EA
+        </td>
+        <td style="text-align: center;">
+            #1 BD681 Switch ON<br>
+            #2 BD681 Switch OFF
+        </td>        
+        <td style="text-align: center;">
+        <font style="color:rgb(255, 0, 0);">X (Unavailable)</font>
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align: center;"><strong>8</strong></td>
+        <td style="text-align: center;">
+            BD681 : 2 EA
+        </td>
+        <td style="text-align: center;">
+            #1 BD681 Switch OFF<br>
+            #2 BD681 Switch OFF
+        </td>        
+        <td style="text-align: center;">
+        <font style="color:rgb(255, 0, 0);">X (Unavailable)</font>
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align: center;"><strong>9</strong></td>
+        <td style="text-align: center;">
+            BD681 : 2 EA<br>
+            BD682 : 1 EA
+        </td>
+        <td style="text-align: center;">
+            #1 BD681 Switch OFF<br>
+            #2 BD681 Switch ON
+        </td>
+        <td style="text-align: center;">O (Available)</td>
+    </tr>
+    <tr>
+        <td style="text-align: center;"><strong>10</strong></td>
+        <td style="text-align: center;">
             BD681 : 2 EA<br>
             BD682 : 1 EA
         </td>
         <td style="text-align: center;">
             #1 BD681 Switch OFF<br>
             #2 BD681 Switch OFF
+        </td>        
+        <td style="text-align: center;">
+        <font style="color:rgb(255, 0, 0);">X (Unavailable)</font>
         </td>
-        <td style="text-align: center;">X (Unavailable)</td>
     </tr>
     <tr>
-        <td style="text-align: center;"><strong>7</strong></td>
+        <td style="text-align: center;"><strong>11</strong></td>
         <td style="text-align: center;">
             BD681 : 2 EA<br>
             BD682 : 1 EA
@@ -147,7 +203,7 @@ When removing the board from the controller to check the switches, always turn o
         <td style="text-align: center;">O (Available)</td>
     </tr>
     <tr>
-        <td style="text-align: center;"><strong>8</strong></td>
+        <td style="text-align: center;"><strong>12</strong></td>
         <td style="text-align: center;">
             BD681 : 2 EA<br>
             BD682 : 1 EA
@@ -155,8 +211,10 @@ When removing the board from the controller to check the switches, always turn o
         <td style="text-align: center;">
             #1 BD681 Switch ON<br>
             #2 BD681 Switch ON
+        </td>        
+        <td style="text-align: center;">
+        <font style="color:rgb(255, 0, 0);">X (Unavailable)</font>
         </td>
-        <td style="text-align: center;">X (Unavailable)</td>
     </tr>
 </tbody>
 </table>

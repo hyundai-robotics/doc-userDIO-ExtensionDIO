@@ -61,3 +61,13 @@ For #1 BD681, the board switch must be set to ON.
 ![](../_assets/11_2.BD681_2개_사용자DIO_보드_설정_en.png)<br>
 < Figure 7. BD681 (2 Units) Configuration><br>
 
+<mark style="color:green;">**- Configuration with 2 BD681 Units ( #1_BD681 + #2_BD681 )**</mark>
+
+{% hint style="info" %}
+To use two BD681 boards without a BD682, both the #1 BD681 and #2 BD681 board switches must be set to ON.
+{% endhint %}
+
+![](../_assets/37.BD681_2개_연결(BD682_X)_en.png)<br>
+< Figure 8. BD681 (2 Units) Configuration without a BD682><br>
+
+
