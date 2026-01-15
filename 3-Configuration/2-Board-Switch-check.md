@@ -132,6 +132,58 @@
     <tr>
         <td style="text-align: center;"><strong>5</strong></td>
         <td style="text-align: center;">
+            BD681 : 2 EA
+        </td>
+        <td style="text-align: center;">
+            #1 BD681 스위치 ON<br>
+            (Only UserDIO)<br><br>
+            #2 BD681 스위치 ON<br>
+            (Only UserDIO)
+        </td>
+        <td style="text-align: center;">O (사용 가능)</td>
+    </tr>
+    <tr>
+        <td style="text-align: center;"><strong>6</strong></td>
+        <td style="text-align: center;">
+            BD681 : 2 EA
+        </td>
+        <td style="text-align: center;">
+            #1 BD681 스위치 OFF<br>
+            (Use Ext_DIO)<br><br>
+            #2 BD681 스위치 ON<br>
+            (Only UserDIO)
+        </td>
+        <td style="text-align: center;">X (사용 불가)</td>
+    </tr>
+    <tr>
+        <td style="text-align: center;"><strong>7</strong></td>
+        <td style="text-align: center;">
+            BD681 : 2 EA
+        </td>
+        <td style="text-align: center;">
+            #1 BD681 스위치 ON<br>
+            (Only UserDIO)<br><br>
+            #2 BD681 스위치 OFF<br>
+            (Use Ext_DIO)
+        </td>
+        <td style="text-align: center;">X (사용 불가)</td>
+    </tr>
+    <tr>
+        <td style="text-align: center;"><strong>8</strong></td>
+        <td style="text-align: center;">
+            BD681 : 2 EA
+        </td>
+        <td style="text-align: center;">
+            #1 BD681 스위치 OFF<br>
+            (Use Ext_DIO)<br><br>
+            #2 BD681 스위치 OFF<br>
+            (Use Ext_DIO)
+        </td>
+        <td style="text-align: center;">X (사용 불가)</td>
+    </tr>
+    <tr>
+        <td style="text-align: center;"><strong>9</strong></td>
+        <td style="text-align: center;">
             BD681 : 2 EA<br>
             BD682 : 1 EA
         </td>
@@ -144,7 +196,7 @@
         <td style="text-align: center;">O (사용 가능)</td>
     </tr>
     <tr>
-        <td style="text-align: center;"><strong>6</strong></td>
+        <td style="text-align: center;"><strong>10</strong></td>
         <td style="text-align: center;">
             BD681 : 2 EA<br>
             BD682 : 1 EA
@@ -158,7 +210,7 @@
         <td style="text-align: center;">X (사용 불가)</td>
     </tr>
     <tr>
-        <td style="text-align: center;"><strong>7</strong></td>
+        <td style="text-align: center;"><strong>11</strong></td>
         <td style="text-align: center;">
             BD681 : 2 EA<br>
             BD682 : 1 EA
@@ -172,7 +224,7 @@
         <td style="text-align: center;">O (사용 가능)</td>
     </tr>
     <tr>
-        <td style="text-align: center;"><strong>8</strong></td>
+        <td style="text-align: center;"><strong>12</strong></td>
         <td style="text-align: center;">
             BD681 : 2 EA<br>
             BD682 : 1 EA

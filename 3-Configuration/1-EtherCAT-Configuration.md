@@ -63,3 +63,13 @@ BD681 보드의 상태표시 LED는 정상적으로 연결 될 경우, 'BD681 1�
 <그림 7. BD681 2개 사용자DIO 보드 설정><br>
 
 
+<mark style="color:green;">**- BD681 2개 구성 ( #1_BD681 + #2_BD681 )**</mark>
+
+{% hint style="info" %}
+BD682 없이 BD681만 2개 사용하려면,
+#1 BD681, #2 BD681 전부 보드 스위치가 ON 되어야 합니다.
+{% endhint %}
+
+![](../_assets/37.BD681_2개_연결(BD682_X).png)<br>
+<그림 8. BD682 없이 BD681 2개 사용자DIO 보드 설정><br>
+
