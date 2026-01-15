@@ -87,7 +87,9 @@ BD681 보드 스위치 위치는 아래 사진과 같습니다.<br>
         <td style="text-align: center;">
             OFF
         </td>
-        <td style="text-align: center;">X (사용 불가)</td>
+        <td style="text-align: center;">
+        <font style="color:rgb(255, 0, 0);">X (사용 불가)</font>
+        </td>
     </tr>
     <tr>
         <td style="text-align: center;"><strong>3</strong></td>
@@ -109,7 +111,9 @@ BD681 보드 스위치 위치는 아래 사진과 같습니다.<br>
         <td style="text-align: center;">
             ON
         </td>
-        <td style="text-align: center;">X (사용 불가)</td>
+        <td style="text-align: center;">
+        <font style="color:rgb(255, 0, 0);">X (사용 불가)</font>
+        </td>
     </tr>
     <tr>
         <td style="text-align: center;"><strong>5</strong></td>
@@ -131,7 +135,9 @@ BD681 보드 스위치 위치는 아래 사진과 같습니다.<br>
             #1 BD681 스위치 OFF<br>
             #2 BD681 스위치 ON
         </td>
-        <td style="text-align: center;">X (사용 불가)</td>
+        <td style="text-align: center;">
+        <font style="color:rgb(255, 0, 0);">X (사용 불가)</font>
+        </td>
     </tr>
     <tr>
         <td style="text-align: center;"><strong>7</strong></td>
@@ -142,7 +148,9 @@ BD681 보드 스위치 위치는 아래 사진과 같습니다.<br>
             #1 BD681 스위치 ON<br>
             #2 BD681 스위치 OFF
         </td>
-        <td style="text-align: center;">X (사용 불가)</td>
+        <td style="text-align: center;">
+        <font style="color:rgb(255, 0, 0);">X (사용 불가)</font>
+        </td>
     </tr>
     <tr>
         <td style="text-align: center;"><strong>8</strong></td>
@@ -153,7 +161,9 @@ BD681 보드 스위치 위치는 아래 사진과 같습니다.<br>
             #1 BD681 스위치 OFF<br>
             #2 BD681 스위치 OFF
         </td>
-        <td style="text-align: center;">X (사용 불가)</td>
+        <td style="text-align: center;">
+        <font style="color:rgb(255, 0, 0);">X (사용 불가)</font>
+        </td>
     </tr>
     <tr>
         <td style="text-align: center;"><strong>9</strong></td>
@@ -177,7 +187,9 @@ BD681 보드 스위치 위치는 아래 사진과 같습니다.<br>
             #1 BD681 스위치 OFF<br>
             #2 BD681 스위치 OFF
         </td>
-        <td style="text-align: center;">X (사용 불가)</td>
+        <td style="text-align: center;">
+        <font style="color:rgb(255, 0, 0);">X (사용 불가)</font>
+        </td>
     </tr>
     <tr>
         <td style="text-align: center;"><strong>11</strong></td>
@@ -201,7 +213,9 @@ BD681 보드 스위치 위치는 아래 사진과 같습니다.<br>
             #1 BD681 스위치 ON<br>
             #2 BD681 스위치 ON
         </td>
-        <td style="text-align: center;">X (사용 불가)</td>
+        <td style="text-align: center;">
+        <font style="color:rgb(255, 0, 0);">X (사용 불가)</font>
+        </td>
     </tr>
 </tbody>
 </table>
