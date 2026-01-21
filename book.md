@@ -1,19 +1,5 @@
 ﻿# Hi7 로봇제어기 기능설명서 - 사용자DIO, 확장DIO
 
-{% hint style="warning" %}
-본 제품 설명서에서 제공되는 정보는 현대로보틱스의 자산입니다.
-
-현대로보틱스의 서면에 의한 동의 없이 전부 또는 일부를 무단 전재 및 재배포할 수 없으며, 제3자에게 제공되거나 다른 목적에 사용할 수 없습니다.
-
-
-
-본 설명서는 사전 예고 없이 변경될 수 있습니다.
-
-
-
-**Copyright ⓒ 2025 by Hyundai Robotics**
-{% endhint %}
-
 # 1. 개요
 
 Hi7 제어기에서 '사용자 DIO 보드(BD681)'와 '확장 DIO 보드(BD682)'를 활용하여 디지털 입출력 신호와 컨베이어 인터페이스를 진행할 수 있습니다.
@@ -1661,7 +1647,7 @@ FB 블럭 설정은 다음 메뉴에서 진행할 수 있습니다.
 ![](../_assets/13.fb1_사용자DIO할당.png)<br>
 <그림 2. fb1에 사용자DIO 할당 예시><br><br>
 
-자세한 사항은 "[로봇제어기 조작설명서 - (FB 블록 할당)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/korean-tp630/7-system/3-control-parameter/2-io-signal-setting/9-dio-block-assign)" 을 참고하시기 바랍니다.
+자세한 사항은 "[로봇제어기 조작설명서 - (FB 블록 할당)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/korean-hi6a-tp630/7-system/3-control-parameter/2-io-signal-setting/9-dio-block-assign)" 을 참고하시기 바랍니다.
 
 사용자 DIO에 대한 FB블럭이 할당 되었는지는 [6:fb블럭 할당] 및 [사용자DIO 보드 설정] 메뉴에서 확인 가능합니다.
 
@@ -1694,7 +1680,7 @@ FB블럭을 사용하여 정상적으로 사용자 DIO를 연동하기 위해서
 ![](../_assets/17.래더로직_FB_입출력_연결.png)<br>
 <그림 1. 래더 로직의 fb1 논리적/물리적 입출력 연결 예시><br>
 
-내장 PLC에 대한 자세한 사항은 "[로봇제어기 기능설명서 - 내장 PLC](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/korean/README)" 를 참고하시기 바랍니다.
+내장 PLC에 대한 자세한 사항은 "[로봇제어기 기능설명서 - 내장 PLC](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/ko/README?cont_model=Hi7)" 를 참고하시기 바랍니다.
 # 3.5. 센서 동기 설정
 
 {% hint style="info" %}
@@ -1714,7 +1700,7 @@ BD682의 컨베이어 엔코더 인터페이스 사용할 경우 "센서 동기"
 ![](../_assets/19.동기_상태_컨베이어_설정.png)<br>
 <그림 2. 동기 상태를 컨베이어로 설정><br>
 
-'파라미터 설정'에 대한 세부 정보는 "[로봇제어기 기능설명서 - 센서 동기 (센서 동기 파라미터)](https://hrbook-hrc.web.app/#/view/doc-sensor-sync/korean/3-user-interface/3-3-sensor-sync-parameter)"를 참고하시기 바랍니다.
+'파라미터 설정'에 대한 세부 정보는 "[로봇제어기 기능설명서 - 센서 동기 (센서 동기 파라미터)](https://hrbook-hrc.web.app/#/view/doc-sensor-sync/ko/3-user-interface/3-3-sensor-sync-parameter?cont_model=Hi7)"를 참고하시기 바랍니다.
 
 <br>
 BD682의 컨베이어 엔코더 인터페이스는 시스템 입출력에 연동되므로 입출력 신호 할당이 필요합니다. 
@@ -1816,7 +1802,7 @@ BD682의 컨베이어 엔코더 인터페이스는 시스템 입출력에 연동
 ![](../_assets/36.오픈콜렉터_엔코더_펄스라인에러_설정.png)<br>
 <그림 6. 오픈콜렉터 엔코더 펄스 라인 에러 설정><br>
 
-세부적인 내용은 "[로봇제어기 기능설명서 - 센서 동기](https://hrbook-hrc.web.app/#/view/doc-sensor-sync/korean/README)"의 컨베이어 관련 부분을 참고하시기 바랍니다.
+세부적인 내용은 "[로봇제어기 기능설명서 - 센서 동기](https://hrbook-hrc.web.app/#/view/doc-sensor-sync/ko/README?cont_model=Hi7)"의 컨베이어 관련 부분을 참고하시기 바랍니다.
 # 4. 사용자 DIO, 확장 DIO 사용 방법# 4.1. DIO 사용 방법
 
 BD681, BD682 의 커넥터에 올바르게 케이블을 연결하였다면, 디지털 입출력을 제어하기 위한 방법은 아래 내용들을 참고하시기 바랍니다.
@@ -1824,19 +1810,19 @@ BD681, BD682 의 커넥터에 올바르게 케이블을 연결하였다면, 디�
 
 <mark style="color:green;">**- 제어기의 입출력 신호와 연동**</mark>
 
-제어기의 입출력 신호와 보드의 입출력 연동에 대한 부분은 "[로봇제어기 조작설명서 - (입출력 신호 설정)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/korean-tp630/7-system/3-control-parameter/2-io-signal-setting/README)" 을 참고하시기 바랍니다.
+제어기의 입출력 신호와 보드의 입출력 연동에 대한 부분은 "[로봇제어기 조작설명서 - (입출력 신호 설정)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/korean-hi6a-tp630/7-system/3-control-parameter/2-io-signal-setting/README)" 을 참고하시기 바랍니다.
 
 <br>
 
 <mark style="color:green;">**- TP를 이용한 보드 입력, 출력 제어**</mark>
 
-TP에서 보드 출력을 제어하고 입력을 확인하는 부분은 "[로봇제어기 조작설명서 - (범용 출력)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/korean-tp630/6-monitoring/2-io/4-user-output)", "[로봇제어기 조작설명서 - (범용 입력)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/korean-tp630/6-monitoring/2-io/3-user-input)" 을 참고하시기 바랍니다. 
+TP에서 보드 출력을 제어하고 입력을 확인하는 부분은 "[로봇제어기 조작설명서 - (범용 출력)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/korean-hi6a-tp630/6-monitoring/2-io/4-user-output)", "[로봇제어기 조작설명서 - (범용 입력)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/korean-hi6a-tp630/6-monitoring/2-io/3-user-input)" 을 참고하시기 바랍니다. 
 
 <br>
 
 <mark style="color:green;">**- Job을 이용한 보드 입력, 출력 제어**</mark>
 
-Job에서 보드 입력, 출력을 연동하는 부분은 "[로봇제어기 기능설명서 - 로봇언어 HRScript (fb객체 : 디지털 I/O)](https://hrbook-hrc.web.app/#/view/doc-hrscript/korean/6-external-comm/1-fb-io/README)" 을 참고하시기 바랍니다.
+Job에서 보드 입력, 출력을 연동하는 부분은 "[로봇제어기 기능설명서 - 로봇언어 HRScript (fb객체 : 디지털 I/O)](https://hrbook-hrc.web.app/#/view/doc-hrscript/ko/6-external-comm/1-fb-io/README?cont_model=Hi7)" 을 참고하시기 바랍니다.
 
 <br><br>
 추가적으로 사용자 DIO 에는 EtherCAT 통신 연결이 순간적으로 오류가 발생했을 경우 (예시: EtherCAT 통신 끊어짐 등으로 인한 Pre-OP, Safe-OP 상태) 디지털 출력 상태를 설정하는 기능이 있습니다.
@@ -1904,4 +1890,4 @@ BD682 의 커넥터에 올바르게 케이블을 연결하였다면, 컨베이�
 
 <mark style="color:green;">**- 제어기와 컨베이어 인터페이스 연동**</mark>
 
-보드를 이용한 제어기와 컨베이어 인터페이스 연동에 대한 세부 내용은 "[로봇제어기 기능설명서 - 센서 동기](https://hrbook-hrc.web.app/#/view/doc-sensor-sync/korean/README)" 매뉴얼의 컨베이어 관련 부분을 참고하시기 바랍니다.
+보드를 이용한 제어기와 컨베이어 인터페이스 연동에 대한 세부 내용은 "[로봇제어기 기능설명서 - 센서 동기](https://hrbook-hrc.web.app/#/view/doc-sensor-sync/ko/README?cont_model=Hi7)" 매뉴얼의 컨베이어 관련 부분을 참고하시기 바랍니다.

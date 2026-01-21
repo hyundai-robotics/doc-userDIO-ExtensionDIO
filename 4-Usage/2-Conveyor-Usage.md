@@ -5,4 +5,4 @@ BD682 의 커넥터에 올바르게 케이블을 연결하였다면, 컨베이�
 
 <mark style="color:green;">**- 제어기와 컨베이어 인터페이스 연동**</mark>
 
-보드를 이용한 제어기와 컨베이어 인터페이스 연동에 대한 세부 내용은 "[로봇제어기 기능설명서 - 센서 동기](https://hrbook-hrc.web.app/#/view/doc-sensor-sync/korean/README)" 매뉴얼의 컨베이어 관련 부분을 참고하시기 바랍니다.
+보드를 이용한 제어기와 컨베이어 인터페이스 연동에 대한 세부 내용은 "[로봇제어기 기능설명서 - 센서 동기](https://hrbook-hrc.web.app/#/view/doc-sensor-sync/ko/README?cont_model=Hi7)" 매뉴얼의 컨베이어 관련 부분을 참고하시기 바랍니다.

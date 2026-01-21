@@ -17,7 +17,7 @@ BD682의 컨베이어 엔코더 인터페이스 사용할 경우 "센서 동기"
 ![](../_assets/19.동기_상태_컨베이어_설정.png)<br>
 <그림 2. 동기 상태를 컨베이어로 설정><br>
 
-'파라미터 설정'에 대한 세부 정보는 "[로봇제어기 기능설명서 - 센서 동기 (센서 동기 파라미터)](https://hrbook-hrc.web.app/#/view/doc-sensor-sync/korean/3-user-interface/3-3-sensor-sync-parameter)"를 참고하시기 바랍니다.
+'파라미터 설정'에 대한 세부 정보는 "[로봇제어기 기능설명서 - 센서 동기 (센서 동기 파라미터)](https://hrbook-hrc.web.app/#/view/doc-sensor-sync/ko/3-user-interface/3-3-sensor-sync-parameter?cont_model=Hi7)"를 참고하시기 바랍니다.
 
 <br>
 BD682의 컨베이어 엔코더 인터페이스는 시스템 입출력에 연동되므로 입출력 신호 할당이 필요합니다. 
@@ -119,4 +119,4 @@ BD682의 컨베이어 엔코더 인터페이스는 시스템 입출력에 연동
 ![](../_assets/36.오픈콜렉터_엔코더_펄스라인에러_설정.png)<br>
 <그림 6. 오픈콜렉터 엔코더 펄스 라인 에러 설정><br>
 
-세부적인 내용은 "[로봇제어기 기능설명서 - 센서 동기](https://hrbook-hrc.web.app/#/view/doc-sensor-sync/korean/README)"의 컨베이어 관련 부분을 참고하시기 바랍니다.
+세부적인 내용은 "[로봇제어기 기능설명서 - 센서 동기](https://hrbook-hrc.web.app/#/view/doc-sensor-sync/ko/README?cont_model=Hi7)"의 컨베이어 관련 부분을 참고하시기 바랍니다.
