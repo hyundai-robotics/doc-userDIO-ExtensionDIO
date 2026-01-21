@@ -5,5 +5,5 @@ If the cables are properly connected to the connectors of BD682, refer to the fo
 
 <mark style="color:green;">**- Integration of Controller and Conveyor Interface**</mark>
 
-For detailed information on the integration of the controller and conveyor interface using the board, refer to the conveyor-related section of the "[Robot Controller Function Manual - Sensor Synchronization](https://hrbook-hrc.web.app/#/view/doc-sensor-sync/korean/README)".
+For detailed information on the integration of the controller and conveyor interface using the board, refer to the conveyor-related section of the "[Robot Controller Function Manual - Sensor Synchronization](https://hrbook-hrc.web.app/#/view/doc-sensor-sync/en/README?cont_model=Hi7)".
 

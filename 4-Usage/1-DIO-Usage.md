@@ -17,7 +17,7 @@ For controlling board outputs and checking inputs from the TP, refer to "[Robot 
 
 <mark style="color:green;">**- Board Input/Output Control Using Job**</mark>
 
-For linking board inputs and outputs in a Job, refer to "[Robot Controller Function Manual - Robot Language HRScript (FB Object: Digital I/O)](https://hrbook-hrc.web.app/#/view/doc-hrscript/english/6-external-comm/1-fb-io/README)".
+For linking board inputs and outputs in a Job, refer to "[Robot Controller Function Manual - Robot Language HRScript (FB Object: Digital I/O)](https://hrbook-hrc.web.app/#/view/doc-hrscript/en/6-external-comm/1-fb-io/README?cont_model=Hi7)".
 
 <br><br>
 Additionally, the User DIO provides a function to configure the digital output state in case a momentary EtherCAT communication error occurs (e.g., transition to Pre-OP or Safe-OP state due to a communication error).

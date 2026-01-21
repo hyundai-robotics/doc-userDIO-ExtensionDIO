@@ -13,4 +13,4 @@ Since the Ladder Logic loaded from the Embedded PLC affects the inputs and outpu
 ![](../_assets/17.래더로직_FB_입출력_연결.png)<br>
 < Figure 1. Example of Logical/Physical I/O Connections of FB1 in Ladder Logic><br>
 
-For more details on the Embedded PLC, refer to "[Robot Controller Function Manual – Embedded PLC](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/english/README)"
+For more details on the Embedded PLC, refer to "[Robot Controller Function Manual – Embedded PLC](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/en/README?cont_model=Hi7)"

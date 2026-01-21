@@ -16,7 +16,7 @@ To use the conveyor encoder interface, set the "Synchronization" item in "Parame
 ![](../_assets/19.동기_상태_컨베이어_설정_en.png)<br>
 < Figure 2. Set to Conveyor><br>
 
-For more details on the "parameter setting", refer to "[Robot Controller Function Manual - Sensor Synchronization (parameter setting)](https://hrbook-hrc.web.app/#/view/doc-sensor-sync/korean/3-user-interface/3-3-sensor-sync-parameter)".
+For more details on the "parameter setting", refer to "[Robot Controller Function Manual - Sensor Synchronization (parameter setting)](https://hrbook-hrc.web.app/#/view/doc-sensor-sync/en/3-user-interface/3-3-sensor-sync-parameter?cont_model=Hi7)".
 
 <br>
 Since the conveyor interface of BD682 is linked to the system I/O, input and output signal assignment is required.
@@ -118,4 +118,4 @@ When using an open-collector type encoder, if you do not set 'Pulse line error' 
 ![](../_assets/36.오픈콜렉터_엔코더_펄스라인에러_설정_en.png)<br>
 < Figure 6. Open Collector Type Encoder Pulse line error setting><br>
 
-For detailed information, refer to the conveyor-related section of "[Robot Controller Function Manual - Sensor Synchronization](https://hrbook-hrc.web.app/#/view/doc-sensor-sync/korean/README)".
+For detailed information, refer to the conveyor-related section of "[Robot Controller Function Manual - Sensor Synchronization](https://hrbook-hrc.web.app/#/view/doc-sensor-sync/en/README?cont_model=Hi7)".

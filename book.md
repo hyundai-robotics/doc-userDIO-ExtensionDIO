@@ -1,18 +1,5 @@
 ﻿# Hi7 Robot Controller Function Manual - User DIO, Extension DIO
 
-{% hint style="warning" %}
-The information provided in this product manual is the property of Hyundai Robotics.
-
-It cannot be reproduced or redistributed in part or whole without written consent from Hyundai Robotics, and it cannot be provided to third parties or used for other purposes.
-
-
-
-The manual is subject to change without prior notification.
-
-
-
-**Copyright ⓒ 2025 by Hyundai Robotics**
-{% endhint %}
 
 # 1. Overview
 
@@ -1729,7 +1716,7 @@ Since the Ladder Logic loaded from the Embedded PLC affects the inputs and outpu
 ![](../_assets/17.래더로직_FB_입출력_연결.png)<br>
 < Figure 1. Example of Logical/Physical I/O Connections of FB1 in Ladder Logic><br>
 
-For more details on the Embedded PLC, refer to "[Robot Controller Function Manual – Embedded PLC](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/english/README)"
+For more details on the Embedded PLC, refer to "[Robot Controller Function Manual – Embedded PLC](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/en/README?cont_model=Hi7)"
 # 3.5. Sensor Synchronization Configuration
 
 {% hint style="info" %}
@@ -1748,7 +1735,7 @@ To use the conveyor encoder interface, set the "Synchronization" item in "Parame
 ![](../_assets/19.동기_상태_컨베이어_설정_en.png)<br>
 < Figure 2. Set to Conveyor><br>
 
-For more details on the "parameter setting", refer to "[Robot Controller Function Manual - Sensor Synchronization (parameter setting)](https://hrbook-hrc.web.app/#/view/doc-sensor-sync/korean/3-user-interface/3-3-sensor-sync-parameter)".
+For more details on the "parameter setting", refer to "[Robot Controller Function Manual - Sensor Synchronization (parameter setting)](https://hrbook-hrc.web.app/#/view/doc-sensor-sync/en/3-user-interface/3-3-sensor-sync-parameter?cont_model=Hi7)".
 
 <br>
 Since the conveyor interface of BD682 is linked to the system I/O, input and output signal assignment is required.
@@ -1850,7 +1837,7 @@ When using an open-collector type encoder, if you do not set 'Pulse line error' 
 ![](../_assets/36.오픈콜렉터_엔코더_펄스라인에러_설정_en.png)<br>
 < Figure 6. Open Collector Type Encoder Pulse line error setting><br>
 
-For detailed information, refer to the conveyor-related section of "[Robot Controller Function Manual - Sensor Synchronization](https://hrbook-hrc.web.app/#/view/doc-sensor-sync/korean/README)".
+For detailed information, refer to the conveyor-related section of "[Robot Controller Function Manual - Sensor Synchronization](https://hrbook-hrc.web.app/#/view/doc-sensor-sync/en/README?cont_model=Hi7)".
 # 4. How to Use User DIO and Extension DIO# 4.1. How to Use DIO
 
 If the cables are properly connected to the connectors of BD681 and BD682, refer to the following instructions for controlling digital inputs and outputs.
@@ -1870,7 +1857,7 @@ For controlling board outputs and checking inputs from the TP, refer to "[Robot 
 
 <mark style="color:green;">**- Board Input/Output Control Using Job**</mark>
 
-For linking board inputs and outputs in a Job, refer to "[Robot Controller Function Manual - Robot Language HRScript (FB Object: Digital I/O)](https://hrbook-hrc.web.app/#/view/doc-hrscript/english/6-external-comm/1-fb-io/README)".
+For linking board inputs and outputs in a Job, refer to "[Robot Controller Function Manual - Robot Language HRScript (FB Object: Digital I/O)](https://hrbook-hrc.web.app/#/view/doc-hrscript/en/6-external-comm/1-fb-io/README?cont_model=Hi7)".
 
 <br><br>
 Additionally, the User DIO provides a function to configure the digital output state in case a momentary EtherCAT communication error occurs (e.g., transition to Pre-OP or Safe-OP state due to a communication error).
@@ -1938,5 +1925,5 @@ If the cables are properly connected to the connectors of BD682, refer to the fo
 
 <mark style="color:green;">**- Integration of Controller and Conveyor Interface**</mark>
 
-For detailed information on the integration of the controller and conveyor interface using the board, refer to the conveyor-related section of the "[Robot Controller Function Manual - Sensor Synchronization](https://hrbook-hrc.web.app/#/view/doc-sensor-sync/korean/README)".
+For detailed information on the integration of the controller and conveyor interface using the board, refer to the conveyor-related section of the "[Robot Controller Function Manual - Sensor Synchronization](https://hrbook-hrc.web.app/#/view/doc-sensor-sync/en/README?cont_model=Hi7)".
 
