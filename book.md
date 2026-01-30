@@ -81,6 +81,11 @@ The User DIO (BD681) allows integration and configuration with various devices t
 The Extension DIO (BD682) also allows additional digital I/O ports and synchronization with conveyor signals.<br>
 The basic hardware configuration of the board is as follows.<br>
 
+{% hint style="warning" %}
+When using two BD681 boards, ensure that the installation positions and switch ON/OFF settings are correct.
+To prevent board damage, one BD681 board must be installed in the original BD671 slot.
+{% endhint %}
+
 ![](../../_assets/25.사용자DIO_보드.png)<br>
 < Figure 1. User DIO (BD681)>
 
@@ -1855,6 +1860,15 @@ For controlling board outputs and checking inputs from the TP, refer to "[Robot 
 
 <br>
 
+{% hint style="info" %}
+Note that the controlled I/O range differs depending on the BD681 and BD682 combinations.
+{% endhint %}
+
+![](../_assets/38.DIO_ctrl.png)<br>
+< Figure 1. Example of I/O control ranges according to board combinations><br>
+
+<br>
+
 <mark style="color:green;">**- Board Input/Output Control Using Job**</mark>
 
 For linking board inputs and outputs in a Job, refer to "[Robot Controller Function Manual - Robot Language HRScript (FB Object: Digital I/O)](https://hrbook-hrc.web.app/#/view/doc-hrscript/en/6-external-comm/1-fb-io/README?cont_model=Hi7)".
@@ -1865,7 +1879,7 @@ Additionally, the User DIO provides a function to configure the digital output s
 **- The location of the menu: [system] - [12: Option System] - [UserDIO Board Setting]**
 
 ![](../_assets/23.연결_오류시_디지털_출력_설정_en.png)<br>
-< Figure 1. Digital Output Setting on Connection Error><br>
+< Figure 2. Digital Output Setting on Connection Error><br>
 
 <br>
 
@@ -1916,7 +1930,7 @@ Additionally, the User DIO provides a function to configure the digital output s
 If you want to change the configured value, select the desired setting and press the [v OK] button.<br><br>
 
 ![](../_assets/24.연결_오류시_디지털_출력_설정값_변경_en.png)<br>
-< Figure 2. Change of Digital Output Setting on Connection Error><br>
+< Figure 3. Change of Digital Output Setting on Connection Error><br>
 
 # 4.2. How to Use Conveyor Interface
 
