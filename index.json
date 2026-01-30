@@ -21,72 +21,72 @@
 	},
 	{
 		"link": "2-HW/1-HW-Inform/1-Digital-Input.md",
-		"char_ofs": 2077,
-		"byte_ofs": 3091
+		"char_ofs": 2224,
+		"byte_ofs": 3345
 	},
 	{
 		"link": "2-HW/1-HW-Inform/2-Digital-Output.md",
-		"char_ofs": 12107,
-		"byte_ofs": 14416
+		"char_ofs": 12254,
+		"byte_ofs": 14670
 	},
 	{
 		"link": "2-HW/1-HW-Inform/3-Conveyor-Interface.md",
-		"char_ofs": 22244,
-		"byte_ofs": 25901
+		"char_ofs": 22391,
+		"byte_ofs": 26155
 	},
 	{
 		"link": "2-HW/2-Board-Switch.md",
-		"char_ofs": 29522,
-		"byte_ofs": 34619
+		"char_ofs": 29669,
+		"byte_ofs": 34873
 	},
 	{
 		"link": "2-HW/3-Board-LED.md",
-		"char_ofs": 35659,
-		"byte_ofs": 41590
+		"char_ofs": 35806,
+		"byte_ofs": 41844
 	},
 	{
 		"link": "3-Configuration/README.md",
-		"char_ofs": 39643,
-		"byte_ofs": 46162
+		"char_ofs": 39790,
+		"byte_ofs": 46416
 	},
 	{
 		"link": "3-Configuration/1-EtherCAT-Configuration.md",
-		"char_ofs": 39670,
-		"byte_ofs": 46211
+		"char_ofs": 39817,
+		"byte_ofs": 46465
 	},
 	{
 		"link": "3-Configuration/2-Board-Switch-check.md",
-		"char_ofs": 41780,
-		"byte_ofs": 49555
+		"char_ofs": 41927,
+		"byte_ofs": 49809
 	},
 	{
 		"link": "3-Configuration/3-FB-Block-Configuration.md",
-		"char_ofs": 48906,
-		"byte_ofs": 57824
+		"char_ofs": 49053,
+		"byte_ofs": 58078
 	},
 	{
 		"link": "3-Configuration/4-Internal-PLC-Configuration.md",
-		"char_ofs": 49885,
-		"byte_ofs": 59446
+		"char_ofs": 50032,
+		"byte_ofs": 59700
 	},
 	{
 		"link": "3-Configuration/5-Sensor-Sync-Configuration.md",
-		"char_ofs": 50503,
-		"byte_ofs": 60503
+		"char_ofs": 50650,
+		"byte_ofs": 60757
 	},
 	{
 		"link": "4-Usage/README.md",
-		"char_ofs": 53647,
-		"byte_ofs": 65312
+		"char_ofs": 53794,
+		"byte_ofs": 65566
 	},
 	{
 		"link": "4-Usage/1-DIO-Usage.md",
-		"char_ofs": 53673,
-		"byte_ofs": 65359
+		"char_ofs": 53820,
+		"byte_ofs": 65613
 	},
 	{
 		"link": "4-Usage/2-Conveyor-Usage.md",
-		"char_ofs": 55948,
-		"byte_ofs": 68689
+		"char_ofs": 56256,
+		"byte_ofs": 69187
 	}
 ]

@@ -15,6 +15,15 @@ TP에서 보드 출력을 제어하고 입력을 확인하는 부분은 "[로봇
 
 <br>
 
+{% hint style="info" %}
+BD681, BD682 조합에 따라 제어되는 IO 범위가 다르니 주의하시기 바랍니다.
+{% endhint %}
+
+![](../_assets/38.DIO_ctrl.png)<br>
+<그림 1. 조합에 따른 IO 제어 범위 예시><br>
+
+<br>
+
 <mark style="color:green;">**- Job을 이용한 보드 입력, 출력 제어**</mark>
 
 Job에서 보드 입력, 출력을 연동하는 부분은 "[로봇제어기 기능설명서 - 로봇언어 HRScript (fb객체 : 디지털 I/O)](https://hrbook-hrc.web.app/#/view/doc-hrscript/ko/6-external-comm/1-fb-io/README?cont_model=Hi7)" 을 참고하시기 바랍니다.
@@ -25,7 +34,7 @@ Job에서 보드 입력, 출력을 연동하는 부분은 "[로봇제어기 기�
 **- 메뉴 위치 : [시스템] - [옵션장치] - [사용자DIO 보드 설정]**
 
 ![](../_assets/23.연결_오류시_디지털_출력_설정.png)<br>
-<그림 1. 연결 오류시 디지털 출력 설정><br>
+<그림 2. 연결 오류시 디지털 출력 설정><br>
 
 <br>
 
