@@ -9,7 +9,7 @@ Make sure to connect the LAN cable correctly while the controller is turned off.
 ![](../_assets/05.BD681_1개_케이블_연결.png)<br>
 < Figure 1. Single BD681 Cable Connection>
 
-As shown in the figure above, connect the lower LAN connector of BD642 to the upper LAN connector of BD681, and then turn on the controller power. If EtherCAT is connected normally, it can be verified on the TP under “UserDIO List,” as shown below.
+As shown in the figure above, connect the lower LAN connector of BD642 to the upper LAN connector of BD681, and then turn on the controller power. If EtherCAT is connected normally, it can be verified on the TP under "UserDIO List," as shown below.
 
 **- The location of the menu: [system] - [12: Option System] - [UserDIO Board Setting]**
 
@@ -45,7 +45,7 @@ Connect the lower LAN connector of BD642 to the upper LAN connector of #1 BD681,
 ![](../_assets/11.BD681_2개_사용자DIO_보드_설정_en.png)<br>
 < Figure 5. BD681 (2 Units) Configuration><br>
 
-When the connection is established successfully, the status LED of the BD681 board operates in the same way as described in “Single BD681 Configuration” under “BD681 status LED operation”
+When the connection is established successfully, the status LED of the BD681 board operates in the same way as described in "Single BD681 Configuration" under "BD681 status LED operation"
 
 <mark style="color:green;">**- Configuration with 2 BD681 Units ( #1_BD681 + #2_BD681 + BD682 )**</mark>
 

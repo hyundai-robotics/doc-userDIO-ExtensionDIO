@@ -5,7 +5,7 @@ If the board has already been assembled in the controller, the internal switch s
 
 **- The location of the menu: [system] - [12: Option System] - [UserDIO Board Setting]**
 
-You can check it in the “UserDIO List,” under the “UserDIO Mode” entry.
+You can check it in the "UserDIO List," under the "UserDIO Mode" entry.
 
 {% hint style="info" %}
 In order to check correctly in [User DIO Board Setting], BD681 must be connected to EtherCAT successfully.
@@ -54,11 +54,11 @@ In order to check correctly in [User DIO Board Setting], BD681 must be connected
 <br>
 
 
-When using two User DIO boards, if both User DIO board switches are set to OFF, the system will output the error <strong>“E55005 : User DIO Board switch setting error detected.”</strong> <br>
+When using two User DIO boards, if both User DIO board switches are set to OFF, the system will output the error <strong>"E55005 : User DIO Board switch setting error detected."</strong> <br>
 To resolve this error, set the switch of the standalone User DIO board to ON.
 
 {% hint style="warning" %}
-If error “E55005 : User DIO Board switch setting error detected.” occurs, the User DIO board and Extension DIO board cannot be used properly. You must correct the board switch settings before using them.
+If error "E55005 : User DIO Board switch setting error detected." occurs, the User DIO board and Extension DIO board cannot be used properly. You must correct the board switch settings before using them.
 {% endhint %}
 
 <br>

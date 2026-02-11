@@ -7,12 +7,12 @@ FB block settings can be configured in the following menu.
 ![](../_assets/12.FB블럭할당_en.png)<br>
 < Figure 1. FB block allocation menu><br><br>
 
-Select the FB block you want to assign and configure it as “User DIO”.
+Select the FB block you want to assign and configure it as "User DIO".
 
 ![](../_assets/13.fb1_사용자DIO할당_en.png)<br>
 < Figure 2. Example of User DIO Assigned to FB1><br><br>
 
-For more details, refer to "[Robot Controller Operation Manual - (FB Block Allocation)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/english-tp630/7-system/3-control-parameter/2-io-signal-setting/9-dio-block-assign)".
+For more details, refer to "[Robot Controller Operation Manual - (FB Block Allocation)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/en-tp630/7-system/3-control-parameter/2-io-signal-setting/9-dio-block-assign)".
 
 Whether an FB block has been assigned to the User DIO can be checked in the [6: FB block allocation] and [UserDIO Board Setting] menus.
 

@@ -5,13 +5,13 @@ If the cables are properly connected to the connectors of BD681 and BD682, refer
 
 <mark style="color:green;">**- Linkage with Controller Input/Output Signals**</mark>
 
-For details on the linkage between the controller I/O signals and the board I/O, please refer to "[Robot Controller Operation Manual - (Input/Output Signal Setting)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/english-tp630/7-system/3-control-parameter/2-io-signal-setting/README)".
+For details on the linkage between the controller I/O signals and the board I/O, please refer to "[Robot Controller Operation Manual - (Input/Output Signal Setting)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/en-tp630/7-system/3-control-parameter/2-io-signal-setting/README)".
 
 <br>
 
 <mark style="color:green;">**- Board Input/Output Control Using TP**</mark>
 
-For controlling board outputs and checking inputs from the TP, refer to "[Robot Controller Operation Manual - (Public Output)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/english-tp630/6-monitoring/2-io/4-user-output)" and "[Robot Controller Operation Manual - (Public Input)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/english-tp630/6-monitoring/2-io/3-user-input)".
+For controlling board outputs and checking inputs from the TP, refer to "[Robot Controller Operation Manual - (Public Output)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/en-tp630/6-monitoring/2-io/4-user-output)" and "[Robot Controller Operation Manual - (Public Input)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/en-tp630/6-monitoring/2-io/3-user-input)".
 
 <br>
 

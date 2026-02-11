@@ -140,7 +140,7 @@ Pins 1 and 10, as well as Pins 11 and 20, are internally connected on the board.
 {% endhint %}
 
 {% hint style="info" %}
-On the BD682, pins 12 through 19 (digital outputs 9–16) are relay outputs.
+On the BD682, pins 12 through 19 (digital outputs 9-16) are relay outputs.
 {% endhint %}
 
 < Table 2. Extension DIO (BD682) Digital Output Connector>

@@ -1,8 +1,12 @@
 ﻿{
-    "langCode": "ko",
-    "series": "Hi6a Controller",
+    "langCode": "en",
+    "series": "Hi7 Controller",
     "title": "Function Manual - User DIO, Extension DIO",
-    "publisher": "Hyundai Robotics",
+    "publisher": "HD Hyundai Robotics",
     "tocTitle": "Table of Contents",
-    "tocTitleElements": "[ \"h1\", \"h2\" ]"
+    "tocTitleElements": "[ \"h1\", \"h2\" ]",
+    "docId": "HI7USERDIOEXTDIO_EN_001",
+    "references": [
+        { "rpath" : "doc-hi6-operation/en-tp630" }
+    ]
 }

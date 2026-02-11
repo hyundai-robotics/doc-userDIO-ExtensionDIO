@@ -1,6 +1,10 @@
-﻿# Hi7 Robot Controller Function Manual - User DIO, Extension DIO
+﻿
+[__SOURCE](README.md)
+# Hi7 Robot Controller Function Manual - User DIO, Extension DIO
 
 
+
+[__SOURCE](1-overview.md)
 # 1. Overview
 
 In the Hi7 controller, the "User DIO Board (BD681)" and the "Extension DIO Board (BD682)" to process digital I/O signals and interface with conveyor signals.
@@ -74,7 +78,11 @@ For proper use of the User DIO and Extension DIO, the following items must be co
 4. Embedded PLC Configuration<br>
 5. Sensor Sync Configuration<br>
 
+
+[__SOURCE](2-HW/README.md)
 # 2. Hardware
+
+[__SOURCE](2-HW/1-HW-Inform/README.md)
 # 2.1. Hardware Information
 
 The User DIO (BD681) allows integration and configuration with various devices through digital I/O ports.<br>
@@ -103,6 +111,8 @@ To prevent board damage, one BD681 board must be installed in the original BD671
 
 ![](../../_assets/30.확장DIO_보드_커넥터.png)<br>
 < Figure 4. Extension DIO (BD682) Connector>
+
+[__SOURCE](2-HW/1-HW-Inform/1-Digital-Input.md)
 # 2.1.1. Digital Input
 
 The figure and table below illustrate the pin configuration of the terminal block for digital inputs.<br>
@@ -395,6 +405,8 @@ The NPN and PNP types of the digital input are determined by the voltage connect
 </table>
 
 
+
+[__SOURCE](2-HW/1-HW-Inform/2-Digital-Output.md)
 # 2.1.2. Digital Output
 
 The figure and table below illustrate the pin configuration of the terminal block for digital outputs.<br>
@@ -537,7 +549,7 @@ Pins 1 and 10, as well as Pins 11 and 20, are internally connected on the board.
 {% endhint %}
 
 {% hint style="info" %}
-On the BD682, pins 12 through 19 (digital outputs 9–16) are relay outputs.
+On the BD682, pins 12 through 19 (digital outputs 9-16) are relay outputs.
 {% endhint %}
 
 < Table 2. Extension DIO (BD682) Digital Output Connector>
@@ -692,6 +704,8 @@ The NPN and PNP types of the digital output are determined by the voltage connec
 </table>
 
 
+
+[__SOURCE](2-HW/1-HW-Inform/3-Conveyor-Interface.md)
 # 2.1.3. Conveyor Synchronization Configuration
 
 The figure and table below illustrate the pin configuration of the terminal block for the encoder input and limit switch used in conveyor synchronization.<br>
@@ -960,6 +974,8 @@ The system consists of two input channels in total, and each channel can be conn
 </tbody>
 </table>
 <br>
+
+[__SOURCE](2-HW/2-Board-Switch.md)
 # 2.2. Board Switch
 
 The switch positions of the BD681 board are shown in the figure below.<br>
@@ -1182,6 +1198,8 @@ When removing the board from the controller to check the switches, always turn o
 </table>
 <br>
 
+
+[__SOURCE](2-HW/3-Board-LED.md)
 # 2.3. Board Status LED
 
 
@@ -1345,7 +1363,11 @@ By checking the LED operation status, you can verify whether the board is functi
 {% hint style="info" %}
 If the IO_LED and MOD_LED do not flash (whether they are off or remain steadily on), it indicates that the MCU is not operating normally.
 {% endhint %}
+
+[__SOURCE](3-Configuration/README.md)
 # 3. How to Configure User DIO and Extension DIO
+
+[__SOURCE](3-Configuration/1-EtherCAT-Configuration.md)
 # 3.1. EtherCAT Configuration
 
 EtherCAT configuration is performed as follows.
@@ -1357,7 +1379,7 @@ Make sure to connect the LAN cable correctly while the controller is turned off.
 ![](../_assets/05.BD681_1개_케이블_연결.png)<br>
 < Figure 1. Single BD681 Cable Connection>
 
-As shown in the figure above, connect the lower LAN connector of BD642 to the upper LAN connector of BD681, and then turn on the controller power. If EtherCAT is connected normally, it can be verified on the TP under “UserDIO List,” as shown below.
+As shown in the figure above, connect the lower LAN connector of BD642 to the upper LAN connector of BD681, and then turn on the controller power. If EtherCAT is connected normally, it can be verified on the TP under "UserDIO List," as shown below.
 
 **- The location of the menu: [system] - [12: Option System] - [UserDIO Board Setting]**
 
@@ -1393,7 +1415,7 @@ Connect the lower LAN connector of BD642 to the upper LAN connector of #1 BD681,
 ![](../_assets/11.BD681_2개_사용자DIO_보드_설정_en.png)<br>
 < Figure 5. BD681 (2 Units) Configuration><br>
 
-When the connection is established successfully, the status LED of the BD681 board operates in the same way as described in “Single BD681 Configuration” under “BD681 status LED operation”
+When the connection is established successfully, the status LED of the BD681 board operates in the same way as described in "Single BD681 Configuration" under "BD681 status LED operation"
 
 <mark style="color:green;">**- Configuration with 2 BD681 Units ( #1_BD681 + #2_BD681 + BD682 )**</mark>
 
@@ -1419,6 +1441,8 @@ To use two BD681 boards without a BD682, both the #1 BD681 and #2 BD681 board sw
 < Figure 8. BD681 (2 Units) Configuration without a BD682><br>
 
 
+
+[__SOURCE](3-Configuration/2-Board-Switch-check.md)
 # 3.2. Board Switch Check
 
 
@@ -1426,7 +1450,7 @@ If the board has already been assembled in the controller, the internal switch s
 
 **- The location of the menu: [system] - [12: Option System] - [UserDIO Board Setting]**
 
-You can check it in the “UserDIO List,” under the “UserDIO Mode” entry.
+You can check it in the "UserDIO List," under the "UserDIO Mode" entry.
 
 {% hint style="info" %}
 In order to check correctly in [User DIO Board Setting], BD681 must be connected to EtherCAT successfully.
@@ -1475,11 +1499,11 @@ In order to check correctly in [User DIO Board Setting], BD681 must be connected
 <br>
 
 
-When using two User DIO boards, if both User DIO board switches are set to OFF, the system will output the error <strong>“E55005 : User DIO Board switch setting error detected.”</strong> <br>
+When using two User DIO boards, if both User DIO board switches are set to OFF, the system will output the error <strong>"E55005 : User DIO Board switch setting error detected."</strong> <br>
 To resolve this error, set the switch of the standalone User DIO board to ON.
 
 {% hint style="warning" %}
-If error “E55005 : User DIO Board switch setting error detected.” occurs, the User DIO board and Extension DIO board cannot be used properly. You must correct the board switch settings before using them.
+If error "E55005 : User DIO Board switch setting error detected." occurs, the User DIO board and Extension DIO board cannot be used properly. You must correct the board switch settings before using them.
 {% endhint %}
 
 <br>
@@ -1674,6 +1698,8 @@ If error “E55005 : User DIO Board switch setting error detected.” occurs, th
 </tbody>
 </table>
 <br>
+
+[__SOURCE](3-Configuration/3-FB-Block-Configuration.md)
 # 3.3. FB block Configuration
 
 FB block settings can be configured in the following menu.
@@ -1683,12 +1709,12 @@ FB block settings can be configured in the following menu.
 ![](../_assets/12.FB블럭할당_en.png)<br>
 < Figure 1. FB block allocation menu><br><br>
 
-Select the FB block you want to assign and configure it as “User DIO”.
+Select the FB block you want to assign and configure it as "User DIO".
 
 ![](../_assets/13.fb1_사용자DIO할당_en.png)<br>
 < Figure 2. Example of User DIO Assigned to FB1><br><br>
 
-For more details, refer to "[Robot Controller Operation Manual - (FB Block Allocation)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/english-tp630/7-system/3-control-parameter/2-io-signal-setting/9-dio-block-assign)".
+For more details, refer to "[Robot Controller Operation Manual - (FB Block Allocation)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/en-tp630/7-system/3-control-parameter/2-io-signal-setting/9-dio-block-assign)".
 
 Whether an FB block has been assigned to the User DIO can be checked in the [6: FB block allocation] and [UserDIO Board Setting] menus.
 
@@ -1706,13 +1732,15 @@ As shown in the figure below, when the FB blocks are assigned, User DIO control 
 
 ![](../_assets/16.사용자DIO_FB_다중할당_en.png)<br>
 < Figure 5. Example of Multiple FB Assignments for User DIO><br>
+
+[__SOURCE](3-Configuration/4-Internal-PLC-Configuration.md)
 # 3.4. Embedded PLC Configuration Check
 
 To properly link the User DIO using FB blocks, it is necessary to check the Embedded PLC settings.
 
 **- Embedded PLC off (Not Used)**<br>
 
-The functions of the embedded PLC will be turned off. When this occurs, the logical outputs of the robot controller, FB0.DO0–FB9.DO959, will be automatically outputted as the physical outputs (means bypassing), FB0.Y0–FB9.Y959, and the physical inputs, FB0.X0–FB9.X959, will be automatically inputted as logical inputs, FB0.DI0–FB9.DI595.<br><br>
+The functions of the embedded PLC will be turned off. When this occurs, the logical outputs of the robot controller, FB0.DO0-FB9.DO959, will be automatically outputted as the physical outputs (means bypassing), FB0.Y0-FB9.Y959, and the physical inputs, FB0.X0-FB9.X959, will be automatically inputted as logical inputs, FB0.DI0-FB9.DI595.<br><br>
 
 **- Embedded PLC Used**
 
@@ -1721,7 +1749,9 @@ Since the Ladder Logic loaded from the Embedded PLC affects the inputs and outpu
 ![](../_assets/17.래더로직_FB_입출력_연결.png)<br>
 < Figure 1. Example of Logical/Physical I/O Connections of FB1 in Ladder Logic><br>
 
-For more details on the Embedded PLC, refer to "[Robot Controller Function Manual – Embedded PLC](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/en/README?cont_model=Hi7)"
+For more details on the Embedded PLC, refer to "[Robot Controller Function Manual - Embedded PLC](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/en/README?cont_model=Hi7)"
+
+[__SOURCE](3-Configuration/5-Sensor-Sync-Configuration.md)
 # 3.5. Sensor Synchronization Configuration
 
 {% hint style="info" %}
@@ -1843,20 +1873,24 @@ When using an open-collector type encoder, if you do not set 'Pulse line error' 
 < Figure 6. Open Collector Type Encoder Pulse line error setting><br>
 
 For detailed information, refer to the conveyor-related section of "[Robot Controller Function Manual - Sensor Synchronization](https://hrbook-hrc.web.app/#/view/doc-sensor-sync/en/README?cont_model=Hi7)".
-# 4. How to Use User DIO and Extension DIO# 4.1. How to Use DIO
+
+[__SOURCE](4-Usage/README.md)
+# 4. How to Use User DIO and Extension DIO
+[__SOURCE](4-Usage/1-DIO-Usage.md)
+# 4.1. How to Use DIO
 
 If the cables are properly connected to the connectors of BD681 and BD682, refer to the following instructions for controlling digital inputs and outputs.
 <br>
 
 <mark style="color:green;">**- Linkage with Controller Input/Output Signals**</mark>
 
-For details on the linkage between the controller I/O signals and the board I/O, please refer to "[Robot Controller Operation Manual - (Input/Output Signal Setting)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/english-tp630/7-system/3-control-parameter/2-io-signal-setting/README)".
+For details on the linkage between the controller I/O signals and the board I/O, please refer to "[Robot Controller Operation Manual - (Input/Output Signal Setting)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/en-tp630/7-system/3-control-parameter/2-io-signal-setting/README)".
 
 <br>
 
 <mark style="color:green;">**- Board Input/Output Control Using TP**</mark>
 
-For controlling board outputs and checking inputs from the TP, refer to "[Robot Controller Operation Manual - (Public Output)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/english-tp630/6-monitoring/2-io/4-user-output)" and "[Robot Controller Operation Manual - (Public Input)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/english-tp630/6-monitoring/2-io/3-user-input)".
+For controlling board outputs and checking inputs from the TP, refer to "[Robot Controller Operation Manual - (Public Output)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/en-tp630/6-monitoring/2-io/4-user-output)" and "[Robot Controller Operation Manual - (Public Input)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/en-tp630/6-monitoring/2-io/3-user-input)".
 
 <br>
 
@@ -1932,6 +1966,8 @@ If you want to change the configured value, select the desired setting and press
 ![](../_assets/24.연결_오류시_디지털_출력_설정값_변경_en.png)<br>
 < Figure 3. Change of Digital Output Setting on Connection Error><br>
 
+
+[__SOURCE](4-Usage/2-Conveyor-Usage.md)
 # 4.2. How to Use Conveyor Interface
 
 If the cables are properly connected to the connectors of BD682, refer to the following instructions for controlling conveyor interface.
