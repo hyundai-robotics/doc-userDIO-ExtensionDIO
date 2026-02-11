@@ -1,5 +1,9 @@
-﻿# Hi7 로봇제어기 기능설명서 - 사용자DIO, 확장DIO
+﻿
+[__SOURCE](README.md)
+# Hi7 로봇제어기 기능설명서 - 사용자DIO, 확장DIO
 
+
+[__SOURCE](1-overview.md)
 # 1. 개요
 
 Hi7 제어기에서 '사용자 DIO 보드(BD681)'와 '확장 DIO 보드(BD682)'를 활용하여 디지털 입출력 신호와 컨베이어 인터페이스를 진행할 수 있습니다.
@@ -73,7 +77,11 @@ BD681 2개와 BD682 1개를 이용하여 최대 48 채널의 입출력을 제어
 4. 내장 PLC 사용 여부 확인<br>
 5. 센서 동기 설정<br>
 
+
+[__SOURCE](2-HW/README.md)
 # 2. 하드웨어
+
+[__SOURCE](2-HW/1-HW-Inform/README.md)
 # 2.1. 하드웨어 정보
 
 사용자 DIO (BD681)를 사용하여 각종 장치들과 디지털 입출력 포트를 통하여 연계 또는 구성이 가능합니다.<br>
@@ -102,6 +110,8 @@ BD681을 2개 사용할 경우, BD681 꽂는 위치와 스위치 ON/OFF에 주�
 
 ![](../../_assets/30.확장DIO_보드_커넥터.png)<br>
 <그림 4. 확장 DIO (BD682) 커넥터>
+
+[__SOURCE](2-HW/1-HW-Inform/1-Digital-Input.md)
 # 2.1.1. 디지털 입력
 
 다음의 그림과 표는 디지털 입력용 터미널 블록의 핀 구성을 나타낸 것입니다.<br>
@@ -392,6 +402,8 @@ BD682를 추가 장착을 하게 되면, 디지털 입력 16pt가 추가 됩니�
 </table>
 
 
+
+[__SOURCE](2-HW/1-HW-Inform/2-Digital-Output.md)
 # 2.1.2. 디지털 출력
 
 다음의 그림과 표는 디지털 출력용 터미널 블록의 핀 구성을 나타낸 것입니다.<br>
@@ -687,6 +699,8 @@ BD682 의 디지털 출력 중, 12번 핀 ~ 19번 핀(디지털 출력 9 ~ 16)�
 </table>
 
 
+
+[__SOURCE](2-HW/1-HW-Inform/3-Conveyor-Interface.md)
 # 2.1.3. 컨베이어 동기화 구성
 
 다음의 그림과 표는 컨베이어 동기화를 위한 터미널 블록의 핀 구성을 나타낸 것이며, 엔코더 입력 및 리밋 스위치로 구성 되어 있습니다.<br>
@@ -936,6 +950,8 @@ BD682 의 디지털 출력 중, 12번 핀 ~ 19번 핀(디지털 출력 9 ~ 16)�
 </tbody>
 </table>
 <br>
+
+[__SOURCE](2-HW/2-Board-Switch.md)
 # 2.2. 보드 스위치
 
 BD681 보드 스위치 위치는 아래 사진과 같습니다.<br>
@@ -1159,6 +1175,8 @@ BD681 보드 스위치 위치는 아래 사진과 같습니다.<br>
 </table>
 <br>
 
+
+[__SOURCE](2-HW/3-Board-LED.md)
 # 2.3. 보드 상태 LED
 
 BD681 에는 보드 상태를 알 수 있는 LED가 있습니다.<br>
@@ -1306,7 +1324,11 @@ LED의 동작 상태에 따라서 보드의 정상 동작 유무를 확인할 �
 {% hint style="info" %}
 IO_LED, MOD_LED가 점멸하지 않고 멈춰있으면(꺼져 있거나 계속 켜져 있는 경우) MCU 동작이 정상적이지 않은 상태입니다.
 {% endhint %}
+
+[__SOURCE](3-Configuration/README.md)
 # 3. 사용자 DIO, 확장 DIO 설정 방법
+
+[__SOURCE](3-Configuration/1-EtherCAT-Configuration.md)
 # 3.1. EtherCAT 설정
 
 EtherCAT 설정은 다음과 같이 진행합니다.
@@ -1382,6 +1404,8 @@ BD682 없이 BD681만 2개 사용하려면,
 ![](../_assets/37.BD681_2개_연결(BD682_X).png)<br>
 <그림 8. BD682 없이 BD681 2개 사용자DIO 보드 설정><br>
 
+
+[__SOURCE](3-Configuration/2-Board-Switch-check.md)
 # 3.2. 보드 스위치 확인
 
 
@@ -1638,6 +1662,8 @@ BD682 없이 BD681만 2개 사용하려면,
 </tbody>
 </table>
 <br>
+
+[__SOURCE](3-Configuration/3-FB-Block-Configuration.md)
 # 3.3. FB 블럭 설정
 
 FB 블럭 설정은 다음 메뉴에서 진행할 수 있습니다.
@@ -1652,7 +1678,7 @@ FB 블럭 설정은 다음 메뉴에서 진행할 수 있습니다.
 ![](../_assets/13.fb1_사용자DIO할당.png)<br>
 <그림 2. fb1에 사용자DIO 할당 예시><br><br>
 
-자세한 사항은 "[로봇제어기 조작설명서 - (FB 블록 할당)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/korean-hi6a-tp630/7-system/3-control-parameter/2-io-signal-setting/9-dio-block-assign)" 을 참고하시기 바랍니다.
+자세한 사항은 "[로봇제어기 조작설명서 - (FB 블록 할당)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/ko-hi6a-tp630/7-system/3-control-parameter/2-io-signal-setting/9-dio-block-assign)" 을 참고하시기 바랍니다.
 
 사용자 DIO에 대한 FB블럭이 할당 되었는지는 [6:fb블럭 할당] 및 [사용자DIO 보드 설정] 메뉴에서 확인 가능합니다.
 
@@ -1670,6 +1696,8 @@ FB 블럭 설정은 다음 메뉴에서 진행할 수 있습니다.
 
 ![](../_assets/16.사용자DIO_FB_다중할당.png)<br>
 <그림 5. 사용자DIO fb 다중 할당 예시><br>
+
+[__SOURCE](3-Configuration/4-Internal-PLC-Configuration.md)
 # 3.4. 내장 PLC 설정 확인
 
 FB블럭을 사용하여 정상적으로 사용자 DIO를 연동하기 위해서는 내장 PLC 설정 확인이 필요합니다.
@@ -1686,6 +1714,8 @@ FB블럭을 사용하여 정상적으로 사용자 DIO를 연동하기 위해서
 <그림 1. 래더 로직의 fb1 논리적/물리적 입출력 연결 예시><br>
 
 내장 PLC에 대한 자세한 사항은 "[로봇제어기 기능설명서 - 내장 PLC](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/ko/README?cont_model=Hi7)" 를 참고하시기 바랍니다.
+
+[__SOURCE](3-Configuration/5-Sensor-Sync-Configuration.md)
 # 3.5. 센서 동기 설정
 
 {% hint style="info" %}
@@ -1808,20 +1838,24 @@ BD682의 컨베이어 엔코더 인터페이스는 시스템 입출력에 연동
 <그림 6. 오픈콜렉터 엔코더 펄스 라인 에러 설정><br>
 
 세부적인 내용은 "[로봇제어기 기능설명서 - 센서 동기](https://hrbook-hrc.web.app/#/view/doc-sensor-sync/ko/README?cont_model=Hi7)"의 컨베이어 관련 부분을 참고하시기 바랍니다.
-# 4. 사용자 DIO, 확장 DIO 사용 방법# 4.1. DIO 사용 방법
+
+[__SOURCE](4-Usage/README.md)
+# 4. 사용자 DIO, 확장 DIO 사용 방법
+[__SOURCE](4-Usage/1-DIO-Usage.md)
+# 4.1. DIO 사용 방법
 
 BD681, BD682 의 커넥터에 올바르게 케이블을 연결하였다면, 디지털 입출력을 제어하기 위한 방법은 아래 내용들을 참고하시기 바랍니다.
 <br>
 
 <mark style="color:green;">**- 제어기의 입출력 신호와 연동**</mark>
 
-제어기의 입출력 신호와 보드의 입출력 연동에 대한 부분은 "[로봇제어기 조작설명서 - (입출력 신호 설정)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/korean-hi6a-tp630/7-system/3-control-parameter/2-io-signal-setting/README)" 을 참고하시기 바랍니다.
+제어기의 입출력 신호와 보드의 입출력 연동에 대한 부분은 "[로봇제어기 조작설명서 - (입출력 신호 설정)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/ko-hi6a-tp630/7-system/3-control-parameter/2-io-signal-setting/README)" 을 참고하시기 바랍니다.
 
 <br>
 
 <mark style="color:green;">**- TP를 이용한 보드 입력, 출력 제어**</mark>
 
-TP에서 보드 출력을 제어하고 입력을 확인하는 부분은 "[로봇제어기 조작설명서 - (범용 출력)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/korean-hi6a-tp630/6-monitoring/2-io/4-user-output)", "[로봇제어기 조작설명서 - (범용 입력)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/korean-hi6a-tp630/6-monitoring/2-io/3-user-input)" 을 참고하시기 바랍니다. 
+TP에서 보드 출력을 제어하고 입력을 확인하는 부분은 "[로봇제어기 조작설명서 - (범용 출력)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/ko-hi6a-tp630/6-monitoring/2-io/4-user-output)", "[로봇제어기 조작설명서 - (범용 입력)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/ko-hi6a-tp630/6-monitoring/2-io/3-user-input)" 을 참고하시기 바랍니다. 
 
 <br>
 
@@ -1897,6 +1931,8 @@ Job에서 보드 입력, 출력을 연동하는 부분은 "[로봇제어기 기�
 ![](../_assets/24.연결_오류시_디지털_출력_설정값_변경.png)<br>
 <그림 3. 연결 오류시 디지털 출력 설정값 변경><br>
 
+
+[__SOURCE](4-Usage/2-Conveyor-Usage.md)
 # 4.2. 컨베이어 인터페이스 사용 방법
 
 BD682 의 커넥터에 올바르게 케이블을 연결하였다면, 컨베이어 인터페이스를 연동하기 위한 방법은 아래 내용들을 참고하시기 바랍니다.
