@@ -2,6 +2,8 @@
 
 * [Hi7 로봇제어기 기능설명서 - 사용자DIO, 확장DIO](README.md)
 
+* [사전 주의사항](0-about-this-manual/precautions.md)
+
 * [1. 개요](1-overview.md)
 
 * [2. 하드웨어](2-HW/README.md)
