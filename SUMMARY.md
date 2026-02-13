@@ -2,6 +2,8 @@
 
 * [Hi7 Controller Function Manual - User DIO, Extension DIO](README.md)
 
+* [Precautions](0-about-this-manual/precautions.md)
+
 * [1. Overview](1-overview.md)
 
 * [2. Hardware](2-HW/README.md)
