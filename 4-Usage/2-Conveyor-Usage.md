@@ -1,9 +1,8 @@
-﻿# 4.2. How to Use Conveyor Interface
+﻿# 4.2. 如何使用输送机接口
 
-If the cables are properly connected to the connectors of BD682, refer to the following instructions for controlling conveyor interface.
+如果电缆正确连接到 BD682 的连接器，请参考以下说明以控制输送机接口。
 <br>
 
-<mark style="color:green;">**- Integration of Controller and Conveyor Interface**</mark>
+<mark style="color:green;">**- 控制器与输送机接口的集成**</mark>
 
-For detailed information on the integration of the controller and conveyor interface using the board, refer to the conveyor-related section of the "[Robot Controller Function Manual - Sensor Synchronization](https://hrbook-hrc.web.app/#/view/doc-sensor-sync/en/README?cont_model=Hi7)".
-
+有关使用电路板集成控制器和输送机接口的详细信息，请参阅 “[机器人控制器功能手册 - 传感器同步](https://hrbook-hrc.web.app/#/view/doc-sensor-sync/en/README?cont_model=Hi7)” 的与输送机相关部分。

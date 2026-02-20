@@ -1,28 +1,21 @@
 ﻿# Table of contents
 
-* [Hi7 Controller Function Manual - User DIO, Extension DIO](README.md)
-
-* [Precautions](0-about-this-manual/precautions.md)
-
-* [1. Overview](1-overview.md)
-
-* [2. Hardware](2-HW/README.md)
-  * [2.1. Hardware Information](2-HW/1-HW-Inform/README.md)
-    * [2.1.1. Digital Input](2-HW/1-HW-Inform/1-Digital-Input.md)
-    * [2.1.2. Digital Output](2-HW/1-HW-Inform/2-Digital-Output.md)
-    * [2.1.3. Conveyor Synchronization Configuration](2-HW/1-HW-Inform/3-Conveyor-Interface.md)
-  * [2.2. Board Switch](2-HW/2-Board-Switch.md)
-  * [2.3. Board Status LED](2-HW/3-Board-LED.md)
-
-* [3. How to Configure User DIO and Extension DIO](3-Configuration/README.md)
-  * [3.1. EtherCAT Configuration](3-Configuration/1-EtherCAT-Configuration.md)
-  * [3.2. Board Switch Check](3-Configuration/2-Board-Switch-check.md)
-  * [3.3. FB block Configuration](3-Configuration/3-FB-Block-Configuration.md)
-  * [3.4. Embedded PLC Configuration Check](3-Configuration/4-Internal-PLC-Configuration.md)
-  * [3.5. Sensor Synchronization Configuration](3-Configuration/5-Sensor-Sync-Configuration.md)
-  
-* [4. How to Use User DIO and Extension DIO](4-Usage/README.md)
-  * [4.1. How to Use DIO](4-Usage/1-DIO-Usage.md)
-  * [4.2. How to Use Conveyor Interface](4-Usage/2-Conveyor-Usage.md)
-
-
+          * [Hi7 机器控制器功能手册 - 用户 DIO，扩展 DIO](README.md)
+          * [注意事项](0-about-this-manual/precautions.md)
+* [1. 概述](1-overview.md)
+* [2. 硬件](2-HW/README.md)
+  * [2.1. 硬件信息](2-HW/1-HW-Inform/README.md)
+    * [2.1.1. 数字输入](2-HW/1-HW-Inform/1-Digital-Input.md)
+    * [2.1.2. 数字输出](2-HW/1-HW-Inform/2-Digital-Output.md)
+    * [2.1.3. 输送机同步配置](2-HW/1-HW-Inform/3-Conveyor-Interface.md)
+  * [2.2. 板开关](2-HW/2-Board-Switch.md)
+  * [2.3. 板状态 LED](2-HW/3-Board-LED.md)
+* [3. 如何配置用户 DIO 和扩展 DIO](3-Configuration/README.md)
+  * [3.1. EtherCAT 配置](3-Configuration/1-EtherCAT-Configuration.md)
+  * [3.2. 板开关检查](3-Configuration/2-Board-Switch-check.md)
+  * [3.3. FB块配置](3-Configuration/3-FB-Block-Configuration.md)
+  * [3.4. 嵌入式 PLC 配置检查](3-Configuration/4-Internal-PLC-Configuration.md)
+  * [3.5. 传感器同步配置](3-Configuration/5-Sensor-Sync-Configuration.md)
+* [4. 如何使用用户 DIO 和扩展 DIO](4-Usage/README.md)
+  * [4.1. 如何使用 DIO](4-Usage/1-DIO-Usage.md)
+  * [4.2. 如何使用输送机接口](4-Usage/2-Conveyor-Usage.md)

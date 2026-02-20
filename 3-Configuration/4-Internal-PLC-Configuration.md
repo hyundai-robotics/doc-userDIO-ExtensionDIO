@@ -1,16 +1,16 @@
-﻿# 3.4. Embedded PLC Configuration Check
+﻿# 3.4. 嵌入式 PLC 配置检查
 
-To properly link the User DIO using FB blocks, it is necessary to check the Embedded PLC settings.
+要正确连接使用 FB 块的用户 DIO，有必要检查嵌入式 PLC 设置。
 
-**- Embedded PLC off (Not Used)**<br>
+**- 嵌入式 PLC 关闭（未使用）**<br>
 
-The functions of the embedded PLC will be turned off. When this occurs, the logical outputs of the robot controller, FB0.DO0-FB9.DO959, will be automatically outputted as the physical outputs (means bypassing), FB0.Y0-FB9.Y959, and the physical inputs, FB0.X0-FB9.X959, will be automatically inputted as logical inputs, FB0.DI0-FB9.DI595.<br><br>
+嵌入式 PLC 的功能将被关闭。当发生这种情况时，机器人控制器的逻辑输出 FB0.DO0-FB9.DO959 将自动输出为物理输出（即绕过），FB0.Y0-FB9.Y959，物理输入 FB0.X0-FB9.X959 将自动输入为逻辑输入 FB0.DI0-FB9.DI595。<br><br>
 
-**- Embedded PLC Used**
+**- 嵌入式 PLC 使用中**
 
-Since the Ladder Logic loaded from the Embedded PLC affects the inputs and outputs of the FB blocks, caution is required.
+由于从嵌入式 PLC 加载的梯形逻辑会影响 FB 块的输入和输出，因此需要谨慎操作。
 
 ![](../_assets/17.래더로직_FB_입출력_연결.png)<br>
-< Figure 1. Example of Logical/Physical I/O Connections of FB1 in Ladder Logic><br>
+< Figure 1. 梯形逻辑中 FB1 的逻辑/物理 I/O 连接示例><br>
 
-For more details on the Embedded PLC, refer to "[Robot Controller Function Manual - Embedded PLC](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/en/README?cont_model=Hi7)"
+有关嵌入式 PLC 的更多详细信息，请参阅 "[机器人控制器功能手册 - 嵌入式 PLC](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/en/README?cont_model=Hi7)"

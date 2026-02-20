@@ -1,29 +1,29 @@
-﻿# 1. Overview
+﻿# 1. 概述
 
-In the Hi7 controller, the "User DIO Board (BD681)" and the "Extension DIO Board (BD682)" to process digital I/O signals and interface with conveyor signals.
+在 Hi7 控制器中，“用户 DIO 板 (BD681)” 和 “扩展 DIO 板 (BD682)” 用于处理数字 I/O 信号并与传送带信号接口。
 
 {% hint style="info" %}
-In this manual, DIO stands for Digital Input and Output.
+在本手册中，DIO 代表数字输入和输出。
 {% endhint %}
 
-The "Extension DIO Board (BD682)" cannot be used independently, and it must be used together with the "User DIO Board (BD681)."
+“扩展 DIO 板 (BD682)” 不能独立使用，必须与“用户 DIO 板 (BD681)” 一起使用。
 
 <br>
 
-< Table 1. Board Specification>
+< 表 1. 板规格>
 
 <table>
 <thead>
     <tr>
         <th style="width: 50px; text-align: center;">
-            No.
+            编号
         </th>
         <th style="width: 200px; text-align: center;">
-            Board Name<br>
-            (Board Identifier)
+            板名称<br>
+            (板识别号)
         </th>
         <th style="width: 350px; text-align: center;">
-            Board Features
+            板特点
         </th>
     </tr>
 </thead>
@@ -33,12 +33,12 @@ The "Extension DIO Board (BD682)" cannot be used independently, and it must be u
             <strong>1</strong>
         </td>
         <td style="text-align: center;">
-            User DIO Board<br>
+            用户 DIO 板<br>
             ( BD681 )
         </td>
         <td> 
-             - Digital Input 16 ch <br>
-             - Digital Ouput 16 ch
+             - 数字输入 16 ch <br>
+             - 数字输出 16 ch
         </td>
     </tr>
     <tr>
@@ -46,28 +46,27 @@ The "Extension DIO Board (BD682)" cannot be used independently, and it must be u
             <strong>2</strong>
         </td>
         <td style="text-align: center;">
-            Extension DIO Board<br>
+            扩展 DIO 板<br>
             ( BD682 )
         </td>
         <td> 
-             - Digital Input 16 ch <br>
-             - Digital Ouput 16 ch (Relay Output (8 ch) Included)<br> 
-             - Conveyor Interface 2 ch <br> 
-             - Not for standalone use (requires BD681)
+             - 数字输入 16 通道 <br>
+             - 数字输出 16 通道 (包含继电器输出 (8 通道))<br> 
+             - 输送带接口 2 通道 <br> 
+             - 不可单独使用 (需要 BD681)
         </td>
     </tr>
 </tbody>
 </table>
 
 <br>
-A maximum of 48 I/O channels can be controlled using two BD681 boards and one BD682 board.
+最多可以使用两个 BD681 板和一个 BD682 板控制 48 个 I/O 通道。
 <br><br>
 
-For proper use of the User DIO and Extension DIO, the following items must be configured and verified.<br>
+为了正确使用用户 DIO 和扩展 DIO，必须配置和验证以下项目。<br>
 
-1. EtherCAT Configuration<br>
-2. Board Switch Check<br>
-3. FB block Configuration<br>
-4. Embedded PLC Configuration<br>
-5. Sensor Sync Configuration<br>
-
+1. EtherCAT 配置<br>
+2. 板开关检查<br>
+3. FB 块配置<br>
+4. 嵌入式 PLC 配置<br>
+5. 传感器同步配置<br>

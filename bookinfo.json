@@ -1,12 +1,14 @@
 ﻿{
-    "langCode": "en",
-    "series": "Hi7 Controller",
-    "title": "Function Manual - User DIO, Extension DIO",
-    "publisher": "HD Hyundai Robotics",
-    "tocTitle": "Table of Contents",
+    "langCode": "zh",
+    "series": "Hi7 控制器",
+    "title": "功能手册 - 用户 DIO, 扩展 DIO",
+    "publisher": "HD 현대 로보틱스",
+    "tocTitle": "目录",
     "tocTitleElements": "[ \"h1\", \"h2\" ]",
-    "docId": "HI7USERDIOEXTDIO_EN_001",
+    "docId": "HI7USERDIOEXTDIO_ZH_001",
     "references": [
-        { "rpath" : "doc-hi6-operation/en-tp630" }
+        {
+            "rpath": "doc-hi6-operation/zh-tp630"
+        }
     ]
 }
