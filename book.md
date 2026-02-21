@@ -1,4 +1,10 @@
 ﻿
+[__SOURCE](README.md)
+# Hi7 机器控制器功能手册 - 用户 DIO，扩展 DIO
+[__SOURCE](0-about-this-manual/precautions.md)
+# 注意事项
+
+{% include url="https://hrcontentsrelay-bmgae5hdbzapc4bc.koreacentral-01.azurewebsites.net/api/proxy?path=doc-common-pages/zh/precautions.md" %}
 [__SOURCE](1-overview.md)
 # 1. 概述
 

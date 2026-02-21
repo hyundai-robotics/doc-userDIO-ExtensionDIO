@@ -1,7 +1,7 @@
 ﻿# Table of contents
 
-          * [Hi7 机器控制器功能手册 - 用户 DIO，扩展 DIO](README.md)
-          * [注意事项](0-about-this-manual/precautions.md)
+* [Hi7 机器控制器功能手册 - 用户 DIO，扩展 DIO](README.md)
+* [注意事项](0-about-this-manual/precautions.md)
 * [1. 概述](1-overview.md)
 * [2. 硬件](2-HW/README.md)
   * [2.1. 硬件信息](2-HW/1-HW-Inform/README.md)
