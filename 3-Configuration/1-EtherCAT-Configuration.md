@@ -48,7 +48,7 @@ EtherCAT 配置步骤如下。
 当连接成功建立时，BD681 板的状态 LED 操作与 "单个 BD681 配置" 中 "BD681 状态 LED 操作" 描述的方式相同。
 
 <mark style="color:green;">**- 使用 2 个 BD681 单元的配置 ( #1_BD681 + #2_BD681 + BD682 )**</mark>
-![](../_assets/09_2.BD681_2个_电缆_连接.png)<br>
+![](../_assets/09_2.BD681_2개_케이블_연결.png)<br>
 < Figure 6. 2个BD681单元的电缆连接>
 
 如上图所示，将BD681 #1插入BD681 #2旁边的插槽中。
@@ -57,7 +57,7 @@ EtherCAT 配置步骤如下。
 对于#1 BD681，电路板开关必须设置为开启。
 {% endhint %}
 
-![](../_assets/11_2.BD681_2个_用户DIO_板_设置_en.png)<br>
+![](../_assets/11_2.BD681_2개_사용자DIO_보드_설정_en.png)<br>
 < Figure 7. BD681 (2个单元) 配置><br>
 
 <mark style="color:green;">**- 2个BD681单元的配置 ( #1_BD681 + #2_BD681 )**</mark>
@@ -66,5 +66,5 @@ EtherCAT 配置步骤如下。
 要在没有BD682的情况下使用两个BD681板，#1 BD681和#2 BD681的电路板开关必须都设置为开启。
 {% endhint %}
 
-![](../_assets/37.BD681_2个_连接(BD682_X)_en.png)<br>
+![](../_assets/37.BD681_2개_연결(BD682_X)_en.png)<br>
 < Figure 8. 没有BD682的BD681 (2个单元) 配置><br>
