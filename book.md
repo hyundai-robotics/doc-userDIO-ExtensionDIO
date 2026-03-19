@@ -6,7 +6,7 @@
 [__SOURCE](0-about-this-manual/precautions.md)
 # 사전 주의사항
 
-{% include url="https://hrcontentsrelay-bmgae5hdbzapc4bc.koreacentral-01.azurewebsites.net/api/proxy?path=doc-common-pages/ko/precautions.md" %}
+{% include file="ko/precautions.md" %}
 
 [__SOURCE](1-overview.md)
 # 1. 개요
@@ -1683,7 +1683,7 @@ FB 블럭 설정은 다음 메뉴에서 진행할 수 있습니다.
 ![](../_assets/13.fb1_사용자DIO할당.png)<br>
 <그림 2. fb1에 사용자DIO 할당 예시><br><br>
 
-자세한 사항은 "[로봇제어기 조작설명서 - (FB 블록 할당)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/ko-hi6a-tp630/7-system/3-control-parameter/2-io-signal-setting/9-dio-block-assign)" 을 참고하시기 바랍니다.
+자세한 사항은 "[로봇제어기 조작설명서 - (FB 블록 할당)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/ko-tp630/7-system/3-control-parameter/2-io-signal-setting/9-dio-block-assign?cont_model=Hi7)" 을 참고하시기 바랍니다.
 
 사용자 DIO에 대한 FB블럭이 할당 되었는지는 [6:fb블럭 할당] 및 [사용자DIO 보드 설정] 메뉴에서 확인 가능합니다.
 
@@ -1854,13 +1854,13 @@ BD681, BD682 의 커넥터에 올바르게 케이블을 연결하였다면, 디�
 
 <mark style="color:green;">**- 제어기의 입출력 신호와 연동**</mark>
 
-제어기의 입출력 신호와 보드의 입출력 연동에 대한 부분은 "[로봇제어기 조작설명서 - (입출력 신호 설정)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/ko-hi6a-tp630/7-system/3-control-parameter/2-io-signal-setting/README)" 을 참고하시기 바랍니다.
+제어기의 입출력 신호와 보드의 입출력 연동에 대한 부분은 "[로봇제어기 조작설명서 - (입출력 신호 설정)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/ko-tp630/7-system/3-control-parameter/2-io-signal-setting/README?cont_model=Hi7)" 을 참고하시기 바랍니다.
 
 <br>
 
 <mark style="color:green;">**- TP를 이용한 보드 입력, 출력 제어**</mark>
 
-TP에서 보드 출력을 제어하고 입력을 확인하는 부분은 "[로봇제어기 조작설명서 - (범용 출력)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/ko-hi6a-tp630/6-monitoring/2-io/4-user-output)", "[로봇제어기 조작설명서 - (범용 입력)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/ko-hi6a-tp630/6-monitoring/2-io/3-user-input)" 을 참고하시기 바랍니다. 
+TP에서 보드 출력을 제어하고 입력을 확인하는 부분은 "[로봇제어기 조작설명서 - (범용 출력)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/ko-tp630/6-monitoring/2-io/4-user-output?cont_model=Hi7)", "[로봇제어기 조작설명서 - (범용 입력)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/ko-tp630/6-monitoring/2-io/3-user-input?cont_model=Hi7)" 을 참고하시기 바랍니다. 
 
 <br>
 
