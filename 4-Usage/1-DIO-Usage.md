@@ -5,13 +5,13 @@
 
 <mark style="color:green;">**- 与控制器输入/输出信号的联动**</mark>
 
-有关控制器 I/O 信号与板 I/O 之间联动的详细信息，请参考 "[机器人控制器操作手册 - (输入/输出信号设置)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/en-tp630/7-system/3-control-parameter/2-io-signal-setting/README)"。
+有关控制器 I/O 信号与板 I/O 之间联动的详细信息，请参考 "[机器人控制器操作手册 - (输入/输出信号设置)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/zh-tp630/7-system/3-control-parameter/2-io-signal-setting/README?cont_model=Hi7)"。
 
 <br>
 
 <mark style="color:green;">**- 使用 TP 进行板输入/输出控制**</mark>
 
-有关控制板输出和检查来自 TP 的输入的信息，请参考 "[机器人控制器操作手册 - (公共输出)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/en-tp630/6-monitoring/2-io/4-user-output)" 和 "[机器人控制器操作手册 - (公共输入)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/en-tp630/6-monitoring/2-io/3-user-input)"。
+有关控制板输出和检查来自 TP 的输入的信息，请参考 "[机器人控制器操作手册 - (公共输出)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/zh-tp630/6-monitoring/2-io/4-user-output?cont_model=Hi7)" 和 "[机器人控制器操作手册 - (公共输入)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/zh-tp630/6-monitoring/2-io/3-user-input?cont_model=Hi7)"。
 
 <br>
 
@@ -26,7 +26,7 @@
 
 <mark style="color:green;">**- 使用作业进行板输入/输出控制**</mark>
 
-有关在作业中链接板输入和输出的信息，请参考 "[机器人控制器功能手册 - 机器人语言 HRScript (FB 对象: 数字 I/O)](https://hrbook-hrc.web.app/#/view/doc-hrscript/en/6-external-comm/1-fb-io/README?cont_model=Hi7)"。
+有关在作业中链接板输入和输出的信息，请参考 "[机器人控制器功能手册 - 机器人语言 HRScript (FB 对象: 数字 I/O)](https://hrbook-hrc.web.app/#/view/doc-hrscript/zh/6-external-comm/1-fb-io/README?cont_model=Hi7)"。
 
 <br><br>
 此外，用户 DIO 提供了一种功能，可以在发生瞬时 EtherCAT 通信错误时配置数字输出状态（例如，由于通信错误而过渡到 Pre-OP 或 Safe-OP 状态）。

@@ -3,7 +3,7 @@
 下图和表格说明了用于输送机同步的编码器输入和限位开关的端子块的引脚配置。<br>
 该系统总共由两个输入通道组成，每个通道可以通过选择两种编码器类型之一（开集电极或线路驱动）进行连接。<br>
 
-![](../../_assets/33.扩展DIO_板_连接器_Conveyor.png)<br>
+![](../../_assets/33.확장DIO_보드_커넥터_Conveyor.png)<br>
 < 图 1. 扩展 DIO (BD682) 输送机接口连接器>
 
 < 表 1. 扩展 DIO (BD682) 输送机接口连接器>
@@ -148,30 +148,30 @@
             开放集电极类型编码器<br>
             B 信号输入
         </td>
-<td style="text-align: center;">19</td>
-<td style="text-align: center;">B1</td>
-<td style="text-align: center;">
-    通道 1<br>
-    开放集电极类型编码器<br>
-    B 信号输入
-</td>
-</tr>
-<tr>
-    <td style="text-align: center;">10</td>
-    <td style="text-align: center;">OCLS2</td>
-    <td style="text-align: center;">
-        通道 2<br>
-        开放集电极类型编码器<br>
-        限位开关
-    </td>
-    <td style="text-align: center;">20</td>
-    <td style="text-align: center;">OCLS1</td>
-    <td style="text-align: center;">
-        通道 1<br>
-        开放集电极类型编码器<br>
-        限位开关
-    </td>
-</tr>
+        <td style="text-align: center;">19</td>
+        <td style="text-align: center;">B1</td>
+        <td style="text-align: center;">
+            通道 1<br>
+            开放集电极类型编码器<br>
+            B 信号输入
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">10</td>
+        <td style="text-align: center;">OCLS2</td>
+        <td style="text-align: center;">
+            通道 2<br>
+            开放集电极类型编码器<br>
+            限位开关
+        </td>
+        <td style="text-align: center;">20</td>
+        <td style="text-align: center;">OCLS1</td>
+        <td style="text-align: center;">
+            通道 1<br>
+            开放集电极类型编码器<br>
+            限位开关
+        </td>
+    </tr>
 </tbody>
 </table>
 <br>

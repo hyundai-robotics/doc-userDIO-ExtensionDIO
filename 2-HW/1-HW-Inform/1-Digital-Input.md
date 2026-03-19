@@ -131,7 +131,7 @@
 
 当安装附加扩展 DIO (BD682) 后，引脚图如下所示。<br>
 
-![](../../_assets/31.扩展DIO_板_连接器_DIN.png)<br>
+![](../../_assets/31.확장DIO_보드_커넥터_DIN.png)<br>
 < Figure 2. 扩展 DIO (BD682) 数字输入连接器>
 
 {% hint style="info" %}
@@ -198,59 +198,57 @@
     </tr>
     <tr>
         <td style="text-align: center;">5</td>
-```html
-<td style="text-align: center;">A12</td>
-<td style="text-align: center;">数字输入 4</td>
-<td style="text-align: center;">15</td>
-<td style="text-align: center;">B12</td>
-<td style="text-align: center;">数字输入 12</td>
-</tr>
-<tr>
-<td style="text-align: center;">6</td>
-<td style="text-align: center;">A13</td>
-<td style="text-align: center;">数字输入 5</td>
-<td style="text-align: center;">16</td>
-<td style="text-align: center;">B13</td>
-<td style="text-align: center;">数字输入 13</td>
-</tr>
-<tr>
-<td style="text-align: center;">7</td>
-<td style="text-align: center;">A14</td>
-<td style="text-align: center;">数字输入 6</td>
-<td style="text-align: center;">17</td>
-<td style="text-align: center;">B14</td>
-<td style="text-align: center;">数字输入 14</td>
-</tr>
-<tr>
-<td style="text-align: center;">8</td>
-<td style="text-align: center;">A15</td>
-<td style="text-align: center;">数字输入 7</td>
-<td style="text-align: center;">18</td>
-<td style="text-align: center;">B15</td>
-<td style="text-align: center;">数字输入 15</td>
-</tr>
-<tr>
-<td style="text-align: center;">9</td>
-<td style="text-align: center;">A16</td>
-<td style="text-align: center;">数字输入 8</td>
-<td style="text-align: center;">19</td>
-<td style="text-align: center;">B16</td>
-<td style="text-align: center;">数字输入 16</td>
-</tr>
-<tr>
-<td style="text-align: center;">10</td>
-<td style="text-align: center;">
-    <font style="color:rgb(0, 230, 0);"><strong> COM_IN_A </strong></font>
-</td>
-<td style="text-align: center;">
-    COM 信号 (1~8)
-</td>
-<td style="text-align: center;">20</td>
-<td style="text-align: center;">
-    <font style="color:rgb(112, 48, 160);"><strong> COM_IN_B </strong></font>
-</td>
-```
-<td style="text-align: center;">
+        <td style="text-align: center;">A12</td>
+        <td style="text-align: center;">数字输入 4</td>
+        <td style="text-align: center;">15</td>
+        <td style="text-align: center;">B12</td>
+        <td style="text-align: center;">数字输入 12</td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">6</td>
+        <td style="text-align: center;">A13</td>
+        <td style="text-align: center;">数字输入 5</td>
+        <td style="text-align: center;">16</td>
+        <td style="text-align: center;">B13</td>
+        <td style="text-align: center;">数字输入 13</td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">7</td>
+        <td style="text-align: center;">A14</td>
+        <td style="text-align: center;">数字输入 6</td>
+        <td style="text-align: center;">17</td>
+        <td style="text-align: center;">B14</td>
+        <td style="text-align: center;">数字输入 14</td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">8</td>
+        <td style="text-align: center;">A15</td>
+        <td style="text-align: center;">数字输入 7</td>
+        <td style="text-align: center;">18</td>
+        <td style="text-align: center;">B15</td>
+        <td style="text-align: center;">数字输入 15</td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">9</td>
+        <td style="text-align: center;">A16</td>
+        <td style="text-align: center;">数字输入 8</td>
+        <td style="text-align: center;">19</td>
+        <td style="text-align: center;">B16</td>
+        <td style="text-align: center;">数字输入 16</td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">10</td>
+        <td style="text-align: center;">
+            <font style="color:rgb(0, 230, 0);"><strong> COM_IN_A </strong></font>
+        </td>
+        <td style="text-align: center;">
+            COM 信号 (1~8)
+        </td>
+        <td style="text-align: center;">20</td>
+        <td style="text-align: center;">
+            <font style="color:rgb(112, 48, 160);"><strong> COM_IN_B </strong></font>
+        </td>
+        <td style="text-align: center;">
             COM 信号 (9~16)
         </td>
     </tr>

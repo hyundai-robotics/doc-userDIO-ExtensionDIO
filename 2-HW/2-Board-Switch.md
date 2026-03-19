@@ -2,11 +2,11 @@
 
 BD681 板的开关位置如下图所示。<br>
 
-![](../_assets/01.用户DIO_板_开关_位置.png)<br>
+![](../_assets/01.사용자DIO_보드_스위치_위치.png)<br>
 < Figure 1. 用户 DIO 板开关位置>
 <br>
 
-![](../_assets/03.用户DIO_板_开关_ON_OFF.png)<br>
+![](../_assets/03.사용자DIO_보드_스위치_ON_OFF.png)<br>
 < Figure 2. 用户 DIO 板开关 ON/OFF>
 
 <br>

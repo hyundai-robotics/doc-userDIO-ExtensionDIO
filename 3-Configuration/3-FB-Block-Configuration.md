@@ -12,7 +12,7 @@ FB块设置可以在以下菜单中配置。
 ![](../_assets/13.fb1_사용자DIO할당_en.png)<br>
 < 图 2. 分配给FB1的用户DIO示例><br><br>
 
-有关更多详细信息，请参见“[机器人控制器操作手册 - (FB块分配)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/en-tp630/7-system/3-control-parameter/2-io-signal-setting/9-dio-block-assign)”。
+有关更多详细信息，请参见“[机器人控制器操作手册 - (FB块分配)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/zh-tp630/7-system/3-control-parameter/2-io-signal-setting/9-dio-block-assign?cont_model=Hi7)”。
 
 可以在[6: FB块分配]和[用户DIO板设置]菜单中检查FB块是否已分配给用户DIO。
 

@@ -4,7 +4,7 @@
 每个端子块支持最多16个输出信号，并可以根据应用接受NPN或PNP类型的输出。<br>
 安装额外的BD682可以增加16个数字输出点。<br>
 
-![](../../_assets/28.用户DIO_板_连接器_DOUT.png)<br>
+![](../../_assets/28.사용자DIO_보드_커넥터_DOUT.png)<br>
 < Figure 1. 用户 DIO (BD681) 数字输出连接器>
 
 {% hint style="info" %}
@@ -46,9 +46,7 @@
         <td style="text-align: center;">
             <font style="color:rgb(0, 112, 192);"><strong> A1 </strong></font>
         </td>
-        <td style="text-align: center;">数字输出 1</td><
-<table>
-    <tr>
+        <td style="text-align: center;">数字输出 1</td>
         <td style="text-align: center;">12</td>
         <td style="text-align: center;">
             <font style="color:rgb(255, 0, 0);"><strong> B1 </strong></font>
@@ -99,44 +97,41 @@
         <td style="text-align: center;">8</td>
         <td style="text-align: center;">A7</td>
         <td style="text-align: center;">数字输出 7</td>
+        <td style="text-align: center;">18</td>
+        <td style="text-align: center;">B7</td>
+        <td style="text-align: center;">数字输出 15</td>
     </tr>
-</table>
-```html
-<td style="text-align: center;">18</td>
-<td style="text-align: center;">B7</td>
-<td style="text-align: center;">数字输出 15</td>
-</tr>
-<tr>
-<td style="text-align: center;">9</td>
-<td style="text-align: center;">A8</td>
-<td style="text-align: center;">数字输出 8</td>
-<td style="text-align: center;">19</td>
-<td style="text-align: center;">B8</td>
-<td style="text-align: center;">数字输出 16</td>
-</tr>
-<tr>
-<td style="text-align: center;">10</td>
-<td style="text-align: center;">
-<font style="color:rgb(0, 230, 0);"><strong> COM_OUT_A </strong></font>
-</td>
-<td style="text-align: center;">
-COM 信号 (1~8)
-</td>
-<td style="text-align: center;">20</td>
-<td style="text-align: center;">
-<font style="color:rgb(112, 48, 160);"><strong> COM_OUT_B </strong></font>
-</td>
-<td style="text-align: center;">
-COM 信号 (9~16)
-</td>
-</tr>
+    <tr>
+        <td style="text-align: center;">9</td>
+        <td style="text-align: center;">A8</td>
+        <td style="text-align: center;">数字输出 8</td>
+        <td style="text-align: center;">19</td>
+        <td style="text-align: center;">B8</td>
+        <td style="text-align: center;">数字输出 16</td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">10</td>
+        <td style="text-align: center;">
+            <font style="color:rgb(0, 230, 0);"><strong> COM_OUT_A </strong></font>
+        </td>
+        <td style="text-align: center;">
+            COM 信号 (1~8)
+        </td>
+        <td style="text-align: center;">20</td>
+        <td style="text-align: center;">
+            <font style="color:rgb(112, 48, 160);"><strong> COM_OUT_B </strong></font>
+        </td>
+        <td style="text-align: center;">
+            COM 信号 (9~16)
+        </td>
+    </tr>
 </tbody>
 </table>
 <br>
 
 安装额外的扩展 DIO (BD682) 时，针脚映射如下所示。<br>
 
-![](../../_assets/32.扩展DIO_板_连接器_DOUT.png)<br>
+![](../../_assets/32.확장DIO_보드_커넥터_DOUT.png)<br>
 < Figure 2. 扩展 DIO (BD682) 数字输出连接器>
 
 {% hint style="info" %}
@@ -148,8 +143,11 @@ COM 信号 (9~16)
 {% endhint %}
 
 < Table 2. 扩展 DIO (BD682) 数字输出连接器>
-```
-<<<SOURCE_MARKDOWN_START>>>        <th style="width: 50px; text-align: center;">引脚编号</th>
+
+<table>
+<thead>
+    <tr>
+        <th style="width: 50px; text-align: center;">引脚编号</th>
         <th style="width: 50px; text-align: center;">信号</th>
         <th style="width: 120px; text-align: center;">描述</th>        
         <th style="width: 50px; text-align: center;">引脚编号</th>
@@ -198,59 +196,57 @@ COM 信号 (9~16)
         <td style="text-align: center;">4</td>
         <td style="text-align: center;">A11</td>
         <td style="text-align: center;">数字输出 3</td>
-        <td style="text-align: center;">14</td><<<SOURCE_MARKDOWN_END>>>
-```
-<td style="text-align: center;">B11</td>
-<td style="text-align: center;">数字输出 11</td>
-</tr>
-<tr>
-<td style="text-align: center;">5</td>
-<td style="text-align: center;">A12</td>
-<td style="text-align: center;">数字输出 4</td>
-<td style="text-align: center;">15</td>
-<td style="text-align: center;">B12</td>
-<td style="text-align: center;">数字输出 12</td>
-</tr>
-<tr>
-<td style="text-align: center;">6</td>
-<td style="text-align: center;">A13</td>
-<td style="text-align: center;">数字输出 5</td>
-<td style="text-align: center;">16</td>
-<td style="text-align: center;">B13</td>
-<td style="text-align: center;">数字输出 13</td>
-</tr>
-<tr>
-<td style="text-align: center;">7</td>
-<td style="text-align: center;">A14</td>
-<td style="text-align: center;">数字输出 6</td>
-<td style="text-align: center;">17</td>
-<td style="text-align: center;">B14</td>
-<td style="text-align: center;">数字输出 14</td>
-</tr>
-<tr>
-<td style="text-align: center;">8</td>
-<td style="text-align: center;">A15</td>
-<td style="text-align: center;">数字输出 7</td>
-<td style="text-align: center;">18</td>
-<td style="text-align: center;">B15</td>
-<td style="text-align: center;">数字输出 15</td>
-</tr>
-<tr>
-<td style="text-align: center;">9</td>
-<td style="text-align: center;">A16</td>
-<td style="text-align: center;">数字输出 8</td>
-<td style="text-align: center;">19</td>
-<td style="text-align: center;">B16</td>
-<td style="text-align: center;">数字输出 16</td>
-</tr>
-<tr>
-<td style="text-align: center;">10</td>
-<td style="text-align: center;">
-<font style="color:rgb(0, 230, 0);"><strong> COM_OUT_A </strong></font>
-</td>
-<td style="text-align: center;">
-COM 信号 (1~8)
-```
+        <td style="text-align: center;">14</td>
+        <td style="text-align: center;">B11</td>
+        <td style="text-align: center;">数字输出 11</td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">5</td>
+        <td style="text-align: center;">A12</td>
+        <td style="text-align: center;">数字输出 4</td>
+        <td style="text-align: center;">15</td>
+        <td style="text-align: center;">B12</td>
+        <td style="text-align: center;">数字输出 12</td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">6</td>
+        <td style="text-align: center;">A13</td>
+        <td style="text-align: center;">数字输出 5</td>
+        <td style="text-align: center;">16</td>
+        <td style="text-align: center;">B13</td>
+        <td style="text-align: center;">数字输出 13</td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">7</td>
+        <td style="text-align: center;">A14</td>
+        <td style="text-align: center;">数字输出 6</td>
+        <td style="text-align: center;">17</td>
+        <td style="text-align: center;">B14</td>
+        <td style="text-align: center;">数字输出 14</td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">8</td>
+        <td style="text-align: center;">A15</td>
+        <td style="text-align: center;">数字输出 7</td>
+        <td style="text-align: center;">18</td>
+        <td style="text-align: center;">B15</td>
+        <td style="text-align: center;">数字输出 15</td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">9</td>
+        <td style="text-align: center;">A16</td>
+        <td style="text-align: center;">数字输出 8</td>
+        <td style="text-align: center;">19</td>
+        <td style="text-align: center;">B16</td>
+        <td style="text-align: center;">数字输出 16</td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">10</td>
+        <td style="text-align: center;">
+            <font style="color:rgb(0, 230, 0);"><strong> COM_OUT_A </strong></font>
+        </td>
+        <td style="text-align: center;">
+            COM 信号 (1~8)
         </td>
         <td style="text-align: center;">20</td>
         <td style="text-align: center;">

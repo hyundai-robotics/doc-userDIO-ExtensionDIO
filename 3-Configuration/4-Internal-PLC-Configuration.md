@@ -13,4 +13,4 @@
 ![](../_assets/17.래더로직_FB_입출력_연결.png)<br>
 < Figure 1. 梯形逻辑中 FB1 的逻辑/物理 I/O 连接示例><br>
 
-有关嵌入式 PLC 的更多详细信息，请参阅 "[机器人控制器功能手册 - 嵌入式 PLC](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/en/README?cont_model=Hi7)"
+有关嵌入式 PLC 的更多详细信息，请参阅 "[机器人控制器功能手册 - 嵌入式 PLC](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/zh/README?cont_model=Hi7)"

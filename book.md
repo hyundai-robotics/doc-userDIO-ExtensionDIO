@@ -4,7 +4,7 @@
 [__SOURCE](0-about-this-manual/precautions.md)
 # 注意事项
 
-{% include url="https://hrcontentsrelay-bmgae5hdbzapc4bc.koreacentral-01.azurewebsites.net/api/proxy?path=doc-common-pages/zh/precautions.md" %}
+{% include file="zh/precautions.md" %}
 [__SOURCE](1-overview.md)
 # 1. 概述
 
@@ -243,7 +243,7 @@
 
 当安装附加扩展 DIO (BD682) 后，引脚图如下所示。<br>
 
-![](../../_assets/31.扩展DIO_板_连接器_DIN.png)<br>
+![](../../_assets/31.확장DIO_보드_커넥터_DIN.png)<br>
 < Figure 2. 扩展 DIO (BD682) 数字输入连接器>
 
 {% hint style="info" %}
@@ -310,59 +310,57 @@
     </tr>
     <tr>
         <td style="text-align: center;">5</td>
-```html
-<td style="text-align: center;">A12</td>
-<td style="text-align: center;">数字输入 4</td>
-<td style="text-align: center;">15</td>
-<td style="text-align: center;">B12</td>
-<td style="text-align: center;">数字输入 12</td>
-</tr>
-<tr>
-<td style="text-align: center;">6</td>
-<td style="text-align: center;">A13</td>
-<td style="text-align: center;">数字输入 5</td>
-<td style="text-align: center;">16</td>
-<td style="text-align: center;">B13</td>
-<td style="text-align: center;">数字输入 13</td>
-</tr>
-<tr>
-<td style="text-align: center;">7</td>
-<td style="text-align: center;">A14</td>
-<td style="text-align: center;">数字输入 6</td>
-<td style="text-align: center;">17</td>
-<td style="text-align: center;">B14</td>
-<td style="text-align: center;">数字输入 14</td>
-</tr>
-<tr>
-<td style="text-align: center;">8</td>
-<td style="text-align: center;">A15</td>
-<td style="text-align: center;">数字输入 7</td>
-<td style="text-align: center;">18</td>
-<td style="text-align: center;">B15</td>
-<td style="text-align: center;">数字输入 15</td>
-</tr>
-<tr>
-<td style="text-align: center;">9</td>
-<td style="text-align: center;">A16</td>
-<td style="text-align: center;">数字输入 8</td>
-<td style="text-align: center;">19</td>
-<td style="text-align: center;">B16</td>
-<td style="text-align: center;">数字输入 16</td>
-</tr>
-<tr>
-<td style="text-align: center;">10</td>
-<td style="text-align: center;">
-    <font style="color:rgb(0, 230, 0);"><strong> COM_IN_A </strong></font>
-</td>
-<td style="text-align: center;">
-    COM 信号 (1~8)
-</td>
-<td style="text-align: center;">20</td>
-<td style="text-align: center;">
-    <font style="color:rgb(112, 48, 160);"><strong> COM_IN_B </strong></font>
-</td>
-```
-<td style="text-align: center;">
+        <td style="text-align: center;">A12</td>
+        <td style="text-align: center;">数字输入 4</td>
+        <td style="text-align: center;">15</td>
+        <td style="text-align: center;">B12</td>
+        <td style="text-align: center;">数字输入 12</td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">6</td>
+        <td style="text-align: center;">A13</td>
+        <td style="text-align: center;">数字输入 5</td>
+        <td style="text-align: center;">16</td>
+        <td style="text-align: center;">B13</td>
+        <td style="text-align: center;">数字输入 13</td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">7</td>
+        <td style="text-align: center;">A14</td>
+        <td style="text-align: center;">数字输入 6</td>
+        <td style="text-align: center;">17</td>
+        <td style="text-align: center;">B14</td>
+        <td style="text-align: center;">数字输入 14</td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">8</td>
+        <td style="text-align: center;">A15</td>
+        <td style="text-align: center;">数字输入 7</td>
+        <td style="text-align: center;">18</td>
+        <td style="text-align: center;">B15</td>
+        <td style="text-align: center;">数字输入 15</td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">9</td>
+        <td style="text-align: center;">A16</td>
+        <td style="text-align: center;">数字输入 8</td>
+        <td style="text-align: center;">19</td>
+        <td style="text-align: center;">B16</td>
+        <td style="text-align: center;">数字输入 16</td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">10</td>
+        <td style="text-align: center;">
+            <font style="color:rgb(0, 230, 0);"><strong> COM_IN_A </strong></font>
+        </td>
+        <td style="text-align: center;">
+            COM 信号 (1~8)
+        </td>
+        <td style="text-align: center;">20</td>
+        <td style="text-align: center;">
+            <font style="color:rgb(112, 48, 160);"><strong> COM_IN_B </strong></font>
+        </td>
+        <td style="text-align: center;">
             COM 信号 (9~16)
         </td>
     </tr>
@@ -409,7 +407,7 @@
 每个端子块支持最多16个输出信号，并可以根据应用接受NPN或PNP类型的输出。<br>
 安装额外的BD682可以增加16个数字输出点。<br>
 
-![](../../_assets/28.用户DIO_板_连接器_DOUT.png)<br>
+![](../../_assets/28.사용자DIO_보드_커넥터_DOUT.png)<br>
 < Figure 1. 用户 DIO (BD681) 数字输出连接器>
 
 {% hint style="info" %}
@@ -451,9 +449,7 @@
         <td style="text-align: center;">
             <font style="color:rgb(0, 112, 192);"><strong> A1 </strong></font>
         </td>
-        <td style="text-align: center;">数字输出 1</td><
-<table>
-    <tr>
+        <td style="text-align: center;">数字输出 1</td>
         <td style="text-align: center;">12</td>
         <td style="text-align: center;">
             <font style="color:rgb(255, 0, 0);"><strong> B1 </strong></font>
@@ -504,44 +500,41 @@
         <td style="text-align: center;">8</td>
         <td style="text-align: center;">A7</td>
         <td style="text-align: center;">数字输出 7</td>
+        <td style="text-align: center;">18</td>
+        <td style="text-align: center;">B7</td>
+        <td style="text-align: center;">数字输出 15</td>
     </tr>
-</table>
-```html
-<td style="text-align: center;">18</td>
-<td style="text-align: center;">B7</td>
-<td style="text-align: center;">数字输出 15</td>
-</tr>
-<tr>
-<td style="text-align: center;">9</td>
-<td style="text-align: center;">A8</td>
-<td style="text-align: center;">数字输出 8</td>
-<td style="text-align: center;">19</td>
-<td style="text-align: center;">B8</td>
-<td style="text-align: center;">数字输出 16</td>
-</tr>
-<tr>
-<td style="text-align: center;">10</td>
-<td style="text-align: center;">
-<font style="color:rgb(0, 230, 0);"><strong> COM_OUT_A </strong></font>
-</td>
-<td style="text-align: center;">
-COM 信号 (1~8)
-</td>
-<td style="text-align: center;">20</td>
-<td style="text-align: center;">
-<font style="color:rgb(112, 48, 160);"><strong> COM_OUT_B </strong></font>
-</td>
-<td style="text-align: center;">
-COM 信号 (9~16)
-</td>
-</tr>
+    <tr>
+        <td style="text-align: center;">9</td>
+        <td style="text-align: center;">A8</td>
+        <td style="text-align: center;">数字输出 8</td>
+        <td style="text-align: center;">19</td>
+        <td style="text-align: center;">B8</td>
+        <td style="text-align: center;">数字输出 16</td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">10</td>
+        <td style="text-align: center;">
+            <font style="color:rgb(0, 230, 0);"><strong> COM_OUT_A </strong></font>
+        </td>
+        <td style="text-align: center;">
+            COM 信号 (1~8)
+        </td>
+        <td style="text-align: center;">20</td>
+        <td style="text-align: center;">
+            <font style="color:rgb(112, 48, 160);"><strong> COM_OUT_B </strong></font>
+        </td>
+        <td style="text-align: center;">
+            COM 信号 (9~16)
+        </td>
+    </tr>
 </tbody>
 </table>
 <br>
 
 安装额外的扩展 DIO (BD682) 时，针脚映射如下所示。<br>
 
-![](../../_assets/32.扩展DIO_板_连接器_DOUT.png)<br>
+![](../../_assets/32.확장DIO_보드_커넥터_DOUT.png)<br>
 < Figure 2. 扩展 DIO (BD682) 数字输出连接器>
 
 {% hint style="info" %}
@@ -553,8 +546,11 @@ COM 信号 (9~16)
 {% endhint %}
 
 < Table 2. 扩展 DIO (BD682) 数字输出连接器>
-```
-<<<SOURCE_MARKDOWN_START>>>        <th style="width: 50px; text-align: center;">引脚编号</th>
+
+<table>
+<thead>
+    <tr>
+        <th style="width: 50px; text-align: center;">引脚编号</th>
         <th style="width: 50px; text-align: center;">信号</th>
         <th style="width: 120px; text-align: center;">描述</th>        
         <th style="width: 50px; text-align: center;">引脚编号</th>
@@ -603,59 +599,57 @@ COM 信号 (9~16)
         <td style="text-align: center;">4</td>
         <td style="text-align: center;">A11</td>
         <td style="text-align: center;">数字输出 3</td>
-        <td style="text-align: center;">14</td><<<SOURCE_MARKDOWN_END>>>
-```
-<td style="text-align: center;">B11</td>
-<td style="text-align: center;">数字输出 11</td>
-</tr>
-<tr>
-<td style="text-align: center;">5</td>
-<td style="text-align: center;">A12</td>
-<td style="text-align: center;">数字输出 4</td>
-<td style="text-align: center;">15</td>
-<td style="text-align: center;">B12</td>
-<td style="text-align: center;">数字输出 12</td>
-</tr>
-<tr>
-<td style="text-align: center;">6</td>
-<td style="text-align: center;">A13</td>
-<td style="text-align: center;">数字输出 5</td>
-<td style="text-align: center;">16</td>
-<td style="text-align: center;">B13</td>
-<td style="text-align: center;">数字输出 13</td>
-</tr>
-<tr>
-<td style="text-align: center;">7</td>
-<td style="text-align: center;">A14</td>
-<td style="text-align: center;">数字输出 6</td>
-<td style="text-align: center;">17</td>
-<td style="text-align: center;">B14</td>
-<td style="text-align: center;">数字输出 14</td>
-</tr>
-<tr>
-<td style="text-align: center;">8</td>
-<td style="text-align: center;">A15</td>
-<td style="text-align: center;">数字输出 7</td>
-<td style="text-align: center;">18</td>
-<td style="text-align: center;">B15</td>
-<td style="text-align: center;">数字输出 15</td>
-</tr>
-<tr>
-<td style="text-align: center;">9</td>
-<td style="text-align: center;">A16</td>
-<td style="text-align: center;">数字输出 8</td>
-<td style="text-align: center;">19</td>
-<td style="text-align: center;">B16</td>
-<td style="text-align: center;">数字输出 16</td>
-</tr>
-<tr>
-<td style="text-align: center;">10</td>
-<td style="text-align: center;">
-<font style="color:rgb(0, 230, 0);"><strong> COM_OUT_A </strong></font>
-</td>
-<td style="text-align: center;">
-COM 信号 (1~8)
-```
+        <td style="text-align: center;">14</td>
+        <td style="text-align: center;">B11</td>
+        <td style="text-align: center;">数字输出 11</td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">5</td>
+        <td style="text-align: center;">A12</td>
+        <td style="text-align: center;">数字输出 4</td>
+        <td style="text-align: center;">15</td>
+        <td style="text-align: center;">B12</td>
+        <td style="text-align: center;">数字输出 12</td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">6</td>
+        <td style="text-align: center;">A13</td>
+        <td style="text-align: center;">数字输出 5</td>
+        <td style="text-align: center;">16</td>
+        <td style="text-align: center;">B13</td>
+        <td style="text-align: center;">数字输出 13</td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">7</td>
+        <td style="text-align: center;">A14</td>
+        <td style="text-align: center;">数字输出 6</td>
+        <td style="text-align: center;">17</td>
+        <td style="text-align: center;">B14</td>
+        <td style="text-align: center;">数字输出 14</td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">8</td>
+        <td style="text-align: center;">A15</td>
+        <td style="text-align: center;">数字输出 7</td>
+        <td style="text-align: center;">18</td>
+        <td style="text-align: center;">B15</td>
+        <td style="text-align: center;">数字输出 15</td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">9</td>
+        <td style="text-align: center;">A16</td>
+        <td style="text-align: center;">数字输出 8</td>
+        <td style="text-align: center;">19</td>
+        <td style="text-align: center;">B16</td>
+        <td style="text-align: center;">数字输出 16</td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">10</td>
+        <td style="text-align: center;">
+            <font style="color:rgb(0, 230, 0);"><strong> COM_OUT_A </strong></font>
+        </td>
+        <td style="text-align: center;">
+            COM 信号 (1~8)
         </td>
         <td style="text-align: center;">20</td>
         <td style="text-align: center;">
@@ -707,7 +701,7 @@ COM 信号 (1~8)
 下图和表格说明了用于输送机同步的编码器输入和限位开关的端子块的引脚配置。<br>
 该系统总共由两个输入通道组成，每个通道可以通过选择两种编码器类型之一（开集电极或线路驱动）进行连接。<br>
 
-![](../../_assets/33.扩展DIO_板_连接器_Conveyor.png)<br>
+![](../../_assets/33.확장DIO_보드_커넥터_Conveyor.png)<br>
 < 图 1. 扩展 DIO (BD682) 输送机接口连接器>
 
 < 表 1. 扩展 DIO (BD682) 输送机接口连接器>
@@ -852,30 +846,30 @@ COM 信号 (1~8)
             开放集电极类型编码器<br>
             B 信号输入
         </td>
-<td style="text-align: center;">19</td>
-<td style="text-align: center;">B1</td>
-<td style="text-align: center;">
-    通道 1<br>
-    开放集电极类型编码器<br>
-    B 信号输入
-</td>
-</tr>
-<tr>
-    <td style="text-align: center;">10</td>
-    <td style="text-align: center;">OCLS2</td>
-    <td style="text-align: center;">
-        通道 2<br>
-        开放集电极类型编码器<br>
-        限位开关
-    </td>
-    <td style="text-align: center;">20</td>
-    <td style="text-align: center;">OCLS1</td>
-    <td style="text-align: center;">
-        通道 1<br>
-        开放集电极类型编码器<br>
-        限位开关
-    </td>
-</tr>
+        <td style="text-align: center;">19</td>
+        <td style="text-align: center;">B1</td>
+        <td style="text-align: center;">
+            通道 1<br>
+            开放集电极类型编码器<br>
+            B 信号输入
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">10</td>
+        <td style="text-align: center;">OCLS2</td>
+        <td style="text-align: center;">
+            通道 2<br>
+            开放集电极类型编码器<br>
+            限位开关
+        </td>
+        <td style="text-align: center;">20</td>
+        <td style="text-align: center;">OCLS1</td>
+        <td style="text-align: center;">
+            通道 1<br>
+            开放集电极类型编码器<br>
+            限位开关
+        </td>
+    </tr>
 </tbody>
 </table>
 <br>
@@ -975,11 +969,11 @@ COM 信号 (1~8)
 
 BD681 板的开关位置如下图所示。<br>
 
-![](../_assets/01.用户DIO_板_开关_位置.png)<br>
+![](../_assets/01.사용자DIO_보드_스위치_위치.png)<br>
 < Figure 1. 用户 DIO 板开关位置>
 <br>
 
-![](../_assets/03.用户DIO_板_开关_ON_OFF.png)<br>
+![](../_assets/03.사용자DIO_보드_스위치_ON_OFF.png)<br>
 < Figure 2. 用户 DIO 板开关 ON/OFF>
 
 <br>
@@ -1695,7 +1689,7 @@ FB块设置可以在以下菜单中配置。
 ![](../_assets/13.fb1_사용자DIO할당_en.png)<br>
 < 图 2. 分配给FB1的用户DIO示例><br><br>
 
-有关更多详细信息，请参见“[机器人控制器操作手册 - (FB块分配)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/en-tp630/7-system/3-control-parameter/2-io-signal-setting/9-dio-block-assign)”。
+有关更多详细信息，请参见“[机器人控制器操作手册 - (FB块分配)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/zh-tp630/7-system/3-control-parameter/2-io-signal-setting/9-dio-block-assign?cont_model=Hi7)”。
 
 可以在[6: FB块分配]和[用户DIO板设置]菜单中检查FB块是否已分配给用户DIO。
 
@@ -1729,7 +1723,7 @@ FB块设置可以在以下菜单中配置。
 ![](../_assets/17.래더로직_FB_입출력_연결.png)<br>
 < Figure 1. 梯形逻辑中 FB1 的逻辑/物理 I/O 连接示例><br>
 
-有关嵌入式 PLC 的更多详细信息，请参阅 "[机器人控制器功能手册 - 嵌入式 PLC](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/en/README?cont_model=Hi7)"
+有关嵌入式 PLC 的更多详细信息，请参阅 "[机器人控制器功能手册 - 嵌入式 PLC](https://hrbook-hrc.web.app/#/view/doc-hi6-embedded-plc/zh/README?cont_model=Hi7)"
 [__SOURCE](3-Configuration/5-Sensor-Sync-Configuration.md)
 # 3.5. 传感器同步配置
 
@@ -1859,13 +1853,13 @@ FB块设置可以在以下菜单中配置。
 
 <mark style="color:green;">**- 与控制器输入/输出信号的联动**</mark>
 
-有关控制器 I/O 信号与板 I/O 之间联动的详细信息，请参考 "[机器人控制器操作手册 - (输入/输出信号设置)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/en-tp630/7-system/3-control-parameter/2-io-signal-setting/README)"。
+有关控制器 I/O 信号与板 I/O 之间联动的详细信息，请参考 "[机器人控制器操作手册 - (输入/输出信号设置)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/zh-tp630/7-system/3-control-parameter/2-io-signal-setting/README?cont_model=Hi7)"。
 
 <br>
 
 <mark style="color:green;">**- 使用 TP 进行板输入/输出控制**</mark>
 
-有关控制板输出和检查来自 TP 的输入的信息，请参考 "[机器人控制器操作手册 - (公共输出)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/en-tp630/6-monitoring/2-io/4-user-output)" 和 "[机器人控制器操作手册 - (公共输入)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/en-tp630/6-monitoring/2-io/3-user-input)"。
+有关控制板输出和检查来自 TP 的输入的信息，请参考 "[机器人控制器操作手册 - (公共输出)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/zh-tp630/6-monitoring/2-io/4-user-output?cont_model=Hi7)" 和 "[机器人控制器操作手册 - (公共输入)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/zh-tp630/6-monitoring/2-io/3-user-input?cont_model=Hi7)"。
 
 <br>
 
@@ -1880,7 +1874,7 @@ FB块设置可以在以下菜单中配置。
 
 <mark style="color:green;">**- 使用作业进行板输入/输出控制**</mark>
 
-有关在作业中链接板输入和输出的信息，请参考 "[机器人控制器功能手册 - 机器人语言 HRScript (FB 对象: 数字 I/O)](https://hrbook-hrc.web.app/#/view/doc-hrscript/en/6-external-comm/1-fb-io/README?cont_model=Hi7)"。
+有关在作业中链接板输入和输出的信息，请参考 "[机器人控制器功能手册 - 机器人语言 HRScript (FB 对象: 数字 I/O)](https://hrbook-hrc.web.app/#/view/doc-hrscript/zh/6-external-comm/1-fb-io/README?cont_model=Hi7)"。
 
 <br><br>
 此外，用户 DIO 提供了一种功能，可以在发生瞬时 EtherCAT 通信错误时配置数字输出状态（例如，由于通信错误而过渡到 Pre-OP 或 Safe-OP 状态）。
