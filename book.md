@@ -7,7 +7,7 @@
 [__SOURCE](0-about-this-manual/precautions.md)
 # Precautions
 
-{% include url="https://hrcontentsrelay-bmgae5hdbzapc4bc.koreacentral-01.azurewebsites.net/api/proxy?path=doc-common-pages/en/precautions.md" %}
+{% include file="en/precautions.md" %}
 
 [__SOURCE](1-overview.md)
 # 1. Overview
@@ -1719,7 +1719,7 @@ Select the FB block you want to assign and configure it as "User DIO".
 ![](../_assets/13.fb1_사용자DIO할당_en.png)<br>
 < Figure 2. Example of User DIO Assigned to FB1><br><br>
 
-For more details, refer to "[Robot Controller Operation Manual - (FB Block Allocation)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/en-tp630/7-system/3-control-parameter/2-io-signal-setting/9-dio-block-assign)".
+For more details, refer to "[Robot Controller Operation Manual - (FB Block Allocation)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/en-tp630/7-system/3-control-parameter/2-io-signal-setting/9-dio-block-assign?cont_model=Hi7)".
 
 Whether an FB block has been assigned to the User DIO can be checked in the [6: FB block allocation] and [UserDIO Board Setting] menus.
 
@@ -1889,13 +1889,13 @@ If the cables are properly connected to the connectors of BD681 and BD682, refer
 
 <mark style="color:green;">**- Linkage with Controller Input/Output Signals**</mark>
 
-For details on the linkage between the controller I/O signals and the board I/O, please refer to "[Robot Controller Operation Manual - (Input/Output Signal Setting)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/en-tp630/7-system/3-control-parameter/2-io-signal-setting/README)".
+For details on the linkage between the controller I/O signals and the board I/O, please refer to "[Robot Controller Operation Manual - (Input/Output Signal Setting)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/en-tp630/7-system/3-control-parameter/2-io-signal-setting/README?cont_model=Hi7)".
 
 <br>
 
 <mark style="color:green;">**- Board Input/Output Control Using TP**</mark>
 
-For controlling board outputs and checking inputs from the TP, refer to "[Robot Controller Operation Manual - (Public Output)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/en-tp630/6-monitoring/2-io/4-user-output)" and "[Robot Controller Operation Manual - (Public Input)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/en-tp630/6-monitoring/2-io/3-user-input)".
+For controlling board outputs and checking inputs from the TP, refer to "[Robot Controller Operation Manual - (Public Output)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/en-tp630/6-monitoring/2-io/4-user-output?cont_model=Hi7)" and "[Robot Controller Operation Manual - (Public Input)](https://hrbook-hrc.web.app/#/view/doc-hi6-operation/en-tp630/6-monitoring/2-io/3-user-input?cont_model=Hi7)".
 
 <br>
 
