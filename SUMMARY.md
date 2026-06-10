@@ -11,6 +11,7 @@
     * [2.1.1. 디지털 입력](2-HW/1-HW-Inform/1-Digital-Input.md)
     * [2.1.2. 디지털 출력](2-HW/1-HW-Inform/2-Digital-Output.md)
     * [2.1.3. 컨베이어 동기화 구성](2-HW/1-HW-Inform/3-Conveyor-Interface.md)
+    * [2.1.4. 보드 설치 슬롯](2-HW/1-HW-Inform/4-Board-Install-Slot.md)
   * [2.2. 보드 스위치](2-HW/2-Board-Switch.md)
   * [2.3. 보드 상태 LED](2-HW/3-Board-LED.md)
 
