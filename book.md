@@ -980,8 +980,25 @@ The system consists of two input channels in total, and each channel can be conn
 </table>
 <br>
 
+[__SOURCE](2-HW/1-HW-Inform/4-Board-Install-Slot.md)
+# 2.1.4. Board Installation Slots
+
+The BD681 and BD682 boards must be installed in the correct slots in the robot controller. <br>
+The following figure shows the slot positions in the controller. <br>
+
+When using two BD681 boards, one BD681 board must be installed next to the BD680 board.
+
+![](../../_assets/39.Board_install_slot.png)<br>
+< Figure 1. Board Installation Slots>
+
+
 [__SOURCE](2-HW/2-Board-Switch.md)
 # 2.2. Board Switch
+
+{% hint style="info" %}
+If the BD681 SW version is 1.2.0 or earlier, the switch settings must be configured appropriately. 
+If the SW version is 1.3.0 or later, no separate switch setting is required.
+{% endhint %}
 
 The switch positions of the BD681 board are shown in the figure below.<br>
 
@@ -1504,11 +1521,15 @@ In order to check correctly in [User DIO Board Setting], BD681 must be connected
 <br>
 
 
-When using two User DIO boards, if both User DIO board switches are set to OFF, the system will output the error <strong>"E55005 : User DIO Board switch setting error detected."</strong> <br>
+When using two User DIO boards, if both User DIO board switches are set to OFF, the system will output the error <strong>"E55005 : User DIO Board mode setting error detected."</strong> <br>
 To resolve this error, set the switch of the standalone User DIO board to ON.
 
 {% hint style="warning" %}
-If error "E55005 : User DIO Board switch setting error detected." occurs, the User DIO board and Extension DIO board cannot be used properly. You must correct the board switch settings before using them.
+If error "E55005 : User DIO Board mode setting error detected." occurs, the User DIO board and Extension DIO board cannot be used properly. You must correct the board switch settings before using them.
+{% endhint %}
+
+{% hint style="info" %}
+If the BD681 SW version is 1.3.0 or later, no separate switch setting is required.
 {% endhint %}
 
 <br>

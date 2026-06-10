@@ -1,5 +1,10 @@
 ﻿# 2.2. Board Switch
 
+{% hint style="info" %}
+If the BD681 SW version is 1.2.0 or earlier, the switch settings must be configured appropriately. 
+If the SW version is 1.3.0 or later, no separate switch setting is required.
+{% endhint %}
+
 The switch positions of the BD681 board are shown in the figure below.<br>
 
 ![](../_assets/01.사용자DIO_보드_스위치_위치.png)<br>
