@@ -3,10 +3,19 @@
 # Hi7 로봇제어기 기능설명서 - 사용자DIO, 확장DIO
 
 
+[__SOURCE](0-about-this-manual/README.md)
+# 이 설명서에 대하여
+
+
 [__SOURCE](0-about-this-manual/precautions.md)
 # 사전 주의사항
 
 {% include file="ko/precautions.md" %}
+
+[__SOURCE](0-about-this-manual/safety-notice.md)
+# 안전 주의 사항
+
+{% include file="ko/safety-notice.md" %}
 
 [__SOURCE](1-overview.md)
 # 1. 개요
