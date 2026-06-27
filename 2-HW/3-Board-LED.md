@@ -1,54 +1,53 @@
-﻿# 2.3. Board Status LED
+﻿# 2.3. 板状态 LED
 
-
-BD681 is equipped with an LED that indicates the board status.<br>
-By checking the LED operation status, you can verify whether the board is functioning normally.
+BD681 配备了一个 LED，指示板状态。<br>
+通过检查 LED 的操作状态，您可以验证板是否正常工作。
 
 ![](../_assets/34.보드_LED.png)<br>
-< Figure 1. Board Status LED>
+< Figure 1. 板状态 LED>
 
 <br>
 
 ![](../_assets/35.보드_LED_상세.png)<br>
-< Figure 2. Board Status LED Details>
+< Figure 2. 板状态 LED 详细信息>
 
 <br>
 
-< Table 1. Board Status LED Details>
+< Table 1. 板状态 LED 详细信息>
 
 <table>
 <thead>
     <tr>
         <th style="width: 20px; text-align: center;">No.</th>
-        <th style="width: 80px; text-align: center;">LED Color</th>
-        <th style="width: 110px; text-align: center;">LED Name</th>
-        <th style="width: 180px; text-align: center;">Note</th>
+        <th style="width: 80px; text-align: center;">LED 颜色</th>
+        <th style="width: 110px; text-align: center;">LED 名称</th>
+        <th style="width: 180px; text-align: center;">备注</th>
     </tr>
 </thead>
 <tbody>
     <tr>
         <td style="text-align: center;"><strong>1</strong></td>
-        <td style="text-align: center;">Green</td>
+        <td style="text-align: center;">绿色</td>
         <td style="text-align: center;">IO_LED</td>
-        <td style="text-align: center;">MCU (CPU 1) Status</td>
+        <td style="text-align: center;">MCU (CPU 1) 状态</td>
     </tr>
     <tr>
         <td style="text-align: center;"><strong>2</strong></td>
-        <td style="text-align: center;">Green</td>
+        <td style="text-align: center;">绿色</td>
         <td style="text-align: center;">MOD_LED</td>
-        <td style="text-align: center;">MCU (CM) Status</td>
+        <td style="text-align: center;">MCU (CM) 状态</td>
     </tr>
     <tr>
         <td style="text-align: center;"><strong>3</strong></td>
-        <td style="text-align: center;">Green</td>
+        <td style="text-align: center;">绿色</td>
         <td style="text-align: center;">EC_LED_RUN</td>
-        <td style="text-align: center;">EtherCAT Operating Status</td>
+        <td style="text-align: center;">EtherCAT 操作状态</td>
     </tr>
     <tr>
         <td style="text-align: center;"><strong>4</strong></td>
-        <td style="text-align: center;">Red</td>
+        <td style="text-align: center;">红色</td>
         <td style="text-align: center;">EC_LED_ERR</td>
-        <td style="text-align: center;">EtherCAT Error Status</td>
+        <td style="text-align: center;">EtherCAT 错误状态</td>
     </tr>
 </tbody>
 </table>
@@ -56,42 +55,42 @@ By checking the LED operation status, you can verify whether the board is functi
 
 <br>
 
-< Table 2. LED Indication by EtherCAT Status>
+< Table 2. LED 根据 EtherCAT 状态的指示>
 
 <table>
 <thead>
     <tr>
-        <th style="width: 110px; text-align: center;">LED Name</th>
-        <th style="width: 160px; text-align: center;">LED Status</th>
-        <th style="width: 160px; text-align: center;">EtherCAT Status</th>
+        <th style="width: 110px; text-align: center;">LED 名称</th>
+        <th style="width: 160px; text-align: center;">LED 状态</th>
+        <th style="width: 160px; text-align: center;">EtherCAT 状态</th>
     </tr>
 </thead>
 <tbody>
     <tr>
         <td rowspan="4" style="text-align: center;">EC_LED_RUN</td>
-        <td style="text-align: center;">OFF</td>
-        <td style="text-align: center;">INIT</td>
+        <td style="text-align: center;">关闭</td>
+        <td style="text-align: center;">初始化</td>
     </tr>
     <tr>
-        <td style="text-align: center;">Flashing</td>
-        <td style="text-align: center;">Pre-OP</td>
+        <td style="text-align: center;">闪烁</td>
+        <td style="text-align: center;">预操作</td>
     </tr>
     <tr>
-        <td style="text-align: center;">Single Flashing</td>
-        <td style="text-align: center;">Safe-OP</td>
+        <td style="text-align: center;">单闪烁</td>
+        <td style="text-align: center;">安全操作</td>
     </tr>
     <tr>
-        <td style="text-align: center;">ON</td>
-        <td style="text-align: center;">OP</td>
+        <td style="text-align: center;">开启</td>
+        <td style="text-align: center;">操作</td>
     </tr>
         <tr>
         <td rowspan="2" style="text-align: center;">EC_LED_ERR</td>
-        <td style="text-align: center;">OFF</td>
-        <td style="text-align: center;">No Error</td>
+        <td style="text-align: center;">关闭</td>
+        <td style="text-align: center;">无错误</td>
     </tr>
     <tr>
-        <td style="text-align: center;">Flashing</td>
-        <td style="text-align: center;">Error</td>
+        <td style="text-align: center;">闪烁</td>
+        <td style="text-align: center;">错误</td>
     </tr>
 </tbody>
 </table>
@@ -99,14 +98,14 @@ By checking the LED operation status, you can verify whether the board is functi
 
 <br>
 
-< Table 3. LED Indication by MCU Operating Status>
+< Table 3. LED 根据 MCU 操作状态的指示>
 
 <table>
 <thead>
     <tr>
-        <th style="width: 110px; text-align: center;">LED Name</th>
-        <th style="width: 160px; text-align: center;">LED Status</th>
-        <th style="width: 160px; text-align: center;">MCU Operating Status</th>
+        <th style="width: 110px; text-align: center;">LED 名称</th>
+        <th style="width: 160px; text-align: center;">LED 状态</th>
+        <th style="width: 160px; text-align: center;">MCU 操作状态</th>
     </tr>
 </thead>
 <tbody>
@@ -116,42 +115,38 @@ By checking the LED operation status, you can verify whether the board is functi
             MOD_LED
         </td>
         <td style="text-align: center;">
-            Flashing at<br>
-            2-second intervals
+            每 2 秒闪烁一次
         </td>
         <td style="text-align: center;">
-            waiting for <br>
-            EtherCAT connection
-        </td>
-    </tr>
-    <tr>
-        <td style="text-align: center;">
-            Flashing at<br>
-            0.25-second intervals            
-        </td>
-        <td style="text-align: center;">
-            EtherCAT connection Ok,<br>
-            Waiting for Initial Settings            
+            正在等待 <br>
+            EtherCAT 连接
         </td>
     </tr>
     <tr>
         <td style="text-align: center;">
-            Flashing at<br>
-            0.75-second intervals
+            每 0.25 秒闪烁一次            
         </td>
         <td style="text-align: center;">
-            EtherCAT connection Ok,<br>
-            Initial Settings Ok
+            EtherCAT 连接正常,<br>
+            正在等待初始设置            
         </td>
     </tr>
     <tr>
         <td style="text-align: center;">
-            Flashing at<br>
-            0.1-second intervals
+            每 0.75 秒闪烁一次
         </td>
         <td style="text-align: center;">
-            EtherCAT Status error,<br>
-            Initial Settings Ok
+            EtherCAT 连接正常,<br>
+            初始设置正常
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">
+            每 0.1 秒闪烁一次
+        </td>
+        <td style="text-align: center;">
+            EtherCAT 状态错误,<br>
+            初始设置正常
         </td>
     </tr>
 </tbody>
@@ -159,5 +154,5 @@ By checking the LED operation status, you can verify whether the board is functi
 <br>
 
 {% hint style="info" %}
-If the IO_LED and MOD_LED do not flash (whether they are off or remain steadily on), it indicates that the MCU is not operating normally.
+如果 IO_LED 和 MOD_LED 不闪烁（无论是关闭还是持续开启），则表示 MCU 运作不正常。
 {% endhint %}

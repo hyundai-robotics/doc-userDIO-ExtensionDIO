@@ -1,3 +1,1 @@
-﻿# Hi7 Robot Controller Function Manual - User DIO, Extension DIO
-
-
+# Hi7机器人控制器功能手册 - 用户DIO，扩展DIO

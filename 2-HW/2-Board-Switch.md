@@ -1,49 +1,49 @@
-﻿# 2.2. Board Switch
+# 2.2. 板开关
 
 {% hint style="info" %}
-If the BD681 SW version is 1.2.0 or earlier, the switch settings must be configured appropriately. 
-If the SW version is 1.3.0 or later, no separate switch setting is required.
+如果 BD681 SW 版本为 1.2.0 或更早版本，则必须适当配置开关设置。 
+如果 SW 版本为 1.3.0 或更高版本，则无需单独设置开关。
 {% endhint %}
 
-The switch positions of the BD681 board are shown in the figure below.<br>
+BD681 板的开关位置如下面的图所示。<br>
 
 ![](../_assets/01.사용자DIO_보드_스위치_위치.png)<br>
-< Figure 1. User DIO Board switch positions>
+< Figure 1. 用户 DIO 板开关位置>
 <br>
 
 ![](../_assets/03.사용자DIO_보드_스위치_ON_OFF.png)<br>
-< Figure 2. User DIO Board switch ON/OFF>
+< Figure 2. 用户 DIO 板开关 ON/OFF>
 
 <br>
 
-< Table 1. Board Switch Settings>
+< Table 1. 板开关设置>
 
 <table>
 <thead>
     <tr>
-        <th style="width: 20px; text-align: center;">No.</th>
+        <th style="width: 20px; text-align: center;">编号</th>
         <th style="width: 100px; text-align: center;">
-            BD681 Switch <br>
-            ON/OFF
+            BD681 开关 <br>
+            开/关
         </th>
-        <th style="width: 400px; text-align: center;">Note</th>
+        <th style="width: 400px; text-align: center;">说明</th>
     </tr>
 </thead>
 <tbody>
     <tr>
         <td style="text-align: center;"><strong>1</strong></td>
-        <td style="text-align: center;">OFF</td>
-        <td> - Extension DIO (BD682) Interface Mode<br>
-             - Use in Basic Option Configuration (BD681 + BD682)<br>
+        <td style="text-align: center;">关</td>
+        <td> - 扩展 DIO (BD682) 接口模式<br>
+             - 用于基本选项配置 (BD681 + BD682)<br>
         </td>
     </tr>
     <tr>
         <td style="text-align: center;"><strong>2</strong></td>
-        <td style="text-align: center;">ON</td>
-        <td> - User DIO (BD681) Standalone Mode <br>
-             - Extension DIO (BD682) Integration Not Supported<br>
-             - Used When Adding BD681 to the Basic Option Configuration<br> 
-             - Required for the Second Added BD681 <br>
+        <td style="text-align: center;">开</td>
+        <td> - 用户 DIO (BD681) 独立模式 <br>
+             - 不支持扩展 DIO (BD682) 集成<br>
+             - 添加 BD681 到基本选项配置时使用<br> 
+             - 第二个添加的 BD681 是必需的 <br>
         </td>
     </tr>
 </tbody>
@@ -51,24 +51,24 @@ The switch positions of the BD681 board are shown in the figure below.<br>
 
 
 {% hint style="warning" %}
-When removing the board from the controller to check the switches, always turn off the controller power and make sure the board power is off before removal.
+从控制器中移除主板以检查开关时，请始终关闭控制器电源，并确保在拆卸前主板电源已关闭。
 {% endhint %}
 
-< Table 2. Supported User DIO Mode Combinations>
+< Table 2. 支持的用户 DIO 模式组合>
 
 <table>
 <thead>
     <tr>
-        <th style="width: 20px; text-align: center;">No.</th>
+        <th style="width: 20px; text-align: center;">编号</th>
         <th style="width: 250px; text-align: center;">
-            User DIO (BD681) /<br> Extension DIO (BD682) Quantity
+            用户 DIO (BD681) /<br> 扩展 DIO (BD682) 数量
         </th>
         <th style="width: 150px; text-align: center;">
-            BD681 Switch<br>
-            ON/OFF
+            BD681 开关<br>
+            开/关
         </th>
         <th style="width: 110px; text-align: center;">
-            Availability
+            可用性
         </th>
     </tr>
 </thead>
@@ -79,9 +79,9 @@ When removing the board from the controller to check the switches, always turn o
             BD681 : 1 EA
         </td>
         <td style="text-align: center;">
-            ON
+            开
         </td>
-        <td style="text-align: center;">O (Available)</td>
+        <td style="text-align: center;">O (可用)</td>
     </tr>
     <tr>
         <td style="text-align: center;"><strong>2</strong></td>
@@ -89,10 +89,10 @@ When removing the board from the controller to check the switches, always turn o
             BD681 : 1 EA
         </td>
         <td style="text-align: center;">
-            OFF
+            关
         </td>        
         <td style="text-align: center;">
-        <font style="color:rgb(255, 0, 0);">X (Unavailable)</font>
+        <font style="color:rgb(255, 0, 0);">X (不可用)</font>
         </td>
     </tr>
     <tr>
@@ -102,9 +102,9 @@ When removing the board from the controller to check the switches, always turn o
             BD682 : 1 EA
         </td>
         <td style="text-align: center;">
-            OFF
+            关
         </td>
-        <td style="text-align: center;">O (Available)</td>
+        <td style="text-align: center;">O (可用)</td>
     </tr>
     <tr>
         <td style="text-align: center;"><strong>4</strong></td>
@@ -113,10 +113,10 @@ When removing the board from the controller to check the switches, always turn o
             BD682 : 1 EA
         </td>
         <td style="text-align: center;">
-            ON
+            开
         </td>        
         <td style="text-align: center;">
-        <font style="color:rgb(255, 0, 0);">X (Unavailable)</font>
+        <font style="color:rgb(255, 0, 0);">X (不可用)</font>
         </td>
     </tr>
     <tr>
@@ -125,10 +125,10 @@ When removing the board from the controller to check the switches, always turn o
             BD681 : 2 EA
         </td>
         <td style="text-align: center;">
-            #1 BD681 Switch ON<br>
-            #2 BD681 Switch ON
+            #1 BD681 开关开<br>
+            #2 BD681 开关开
         </td>
-        <td style="text-align: center;">O (Available)</td>
+        <td style="text-align: center;">O (可用)</td>
     </tr>
     <tr>
         <td style="text-align: center;"><strong>6</strong></td>
@@ -136,11 +136,11 @@ When removing the board from the controller to check the switches, always turn o
             BD681 : 2 EA
         </td>
         <td style="text-align: center;">
-            #1 BD681 Switch OFF<br>
-            #2 BD681 Switch ON
+            #1 BD681 开关关<br>
+            #2 BD681 开关开
         </td>        
         <td style="text-align: center;">
-        <font style="color:rgb(255, 0, 0);">X (Unavailable)</font>
+        <font style="color:rgb(255, 0, 0);">X (不可用)</font>
         </td>
     </tr>
     <tr>
@@ -149,11 +149,11 @@ When removing the board from the controller to check the switches, always turn o
             BD681 : 2 EA
         </td>
         <td style="text-align: center;">
-            #1 BD681 Switch ON<br>
-            #2 BD681 Switch OFF
+            #1 BD681 开关开<br>
+            #2 BD681 开关关
         </td>        
         <td style="text-align: center;">
-        <font style="color:rgb(255, 0, 0);">X (Unavailable)</font>
+        <font style="color:rgb(255, 0, 0);">X (不可用)</font>
         </td>
     </tr>
     <tr>
@@ -162,11 +162,11 @@ When removing the board from the controller to check the switches, always turn o
             BD681 : 2 EA
         </td>
         <td style="text-align: center;">
-            #1 BD681 Switch OFF<br>
-            #2 BD681 Switch OFF
+            #1 BD681 开关关<br>
+            #2 BD681 开关关
         </td>        
         <td style="text-align: center;">
-        <font style="color:rgb(255, 0, 0);">X (Unavailable)</font>
+        <font style="color:rgb(255, 0, 0);">X (不可用)</font>
         </td>
     </tr>
     <tr>
@@ -176,10 +176,10 @@ When removing the board from the controller to check the switches, always turn o
             BD682 : 1 EA
         </td>
         <td style="text-align: center;">
-            #1 BD681 Switch OFF<br>
-            #2 BD681 Switch ON
+            #1 BD681 开关关<br>
+            #2 BD681 开关开
         </td>
-        <td style="text-align: center;">O (Available)</td>
+        <td style="text-align: center;">O (可用)</td>
     </tr>
     <tr>
         <td style="text-align: center;"><strong>10</strong></td>
@@ -188,11 +188,11 @@ When removing the board from the controller to check the switches, always turn o
             BD682 : 1 EA
         </td>
         <td style="text-align: center;">
-            #1 BD681 Switch OFF<br>
-            #2 BD681 Switch OFF
+            #1 BD681 开关关<br>
+            #2 BD681 开关关
         </td>        
         <td style="text-align: center;">
-        <font style="color:rgb(255, 0, 0);">X (Unavailable)</font>
+        <font style="color:rgb(255, 0, 0);">X (不可用)</font>
         </td>
     </tr>
     <tr>
@@ -202,10 +202,10 @@ When removing the board from the controller to check the switches, always turn o
             BD682 : 1 EA
         </td>
         <td style="text-align: center;">
-            #1 BD681 Switch ON<br>
-            #2 BD681 Switch OFF
+            #1 BD681 开关开<br>
+            #2 BD681 开关关
         </td>
-        <td style="text-align: center;">O (Available)</td>
+        <td style="text-align: center;">O (可用)</td>
     </tr>
     <tr>
         <td style="text-align: center;"><strong>12</strong></td>
@@ -214,14 +214,13 @@ When removing the board from the controller to check the switches, always turn o
             BD682 : 1 EA
         </td>
         <td style="text-align: center;">
-            #1 BD681 Switch ON<br>
-            #2 BD681 Switch ON
+            #1 BD681 开关开<br>
+            #2 BD681 开关开
         </td>        
         <td style="text-align: center;">
-        <font style="color:rgb(255, 0, 0);">X (Unavailable)</font>
+        <font style="color:rgb(255, 0, 0);">X (不可用)</font>
         </td>
     </tr>
 </tbody>
 </table>
 <br>
-

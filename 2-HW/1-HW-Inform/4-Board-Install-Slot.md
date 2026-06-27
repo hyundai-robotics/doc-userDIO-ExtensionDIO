@@ -1,10 +1,9 @@
-﻿# 2.1.4. Board Installation Slots
+# 2.1.4. 板安装插槽
 
-The BD681 and BD682 boards must be installed in the correct slots in the robot controller. <br>
-The following figure shows the slot positions in the controller. <br>
+BD681和BD682电路板必须安装在机器人控制器的正确插槽中。 <br>
+下图显示了控制器中的插槽位置。 <br>
 
-When using two BD681 boards, one BD681 board must be installed next to the BD680 board.
+当使用两个BD681电路板时，一个BD681电路板必须安装在BD680电路板旁边。
 
 ![](../../_assets/39.Board_install_slot.png)<br>
-< Figure 1. Board Installation Slots>
-
+< Figure 1. 板安装插槽>
